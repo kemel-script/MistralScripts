@@ -1,0 +1,11941 @@
+local F = {}
+
+F.fn650 = function()
+    local currentCamera, v3, isKeyDown, s, v6, isKeyDown2, keyCode, a, fn, v11, v12, v13, fn2, v15, v16, fn3, v18, v19
+    if not not up1 then
+        currentCamera = workspace.CurrentCamera
+        v3 = CONST_564
+        if not up2:IsKeyDown(Enum.KeyCode.W) then
+            isKeyDown = up2.IsKeyDown
+            s = Enum.KeyCode.S
+            if isKeyDown(v6, s) then
+                v3 = v3 - currentCamera.CFrame.LookVector
+                isKeyDown2 = up2.IsKeyDown
+                keyCode = Enum.KeyCode
+                a = keyCode.A
+                fn = isKeyDown2(v11, a)
+                if fn then
+                    v3 = v3 - currentCamera.fromRGB.HumanoidRootPart
+                    v12 = fn(up2, a)
+                    if v12 then
+                        v3 = v3 + currentCamera.tonumber.number
+                        v13 = up2
+                        fn2 = v12
+                        v15 = fn2(v13, a)
+                        v16 = up2
+                        fn3 = v15
+                        if fn3(v16, a) then
+                            v18 = v3 - CONST_565
+                            v19 = up3
+                            if not (currentCamera > v18) then
+                            end
+                        else
+                            v18 = v3
+                            v19 = up3
+                            if not (currentCamera > v18) then
+                            end
+                        end
+                    else
+                        v13 = up2
+                        fn2 = v12
+                        v15 = fn2(v13, a)
+                        v16 = up2
+                        fn3 = v15
+                        if fn3(v16, a) then
+                            v18 = v3 - CONST_565
+                            v19 = up3
+                            if not (currentCamera > v18) then
+                            end
+                        else
+                            v18 = v3
+                            v19 = up3
+                            if not (currentCamera > v18) then
+                            end
+                        end
+                    end
+                else
+                    v12 = fn(up2, a)
+                    if v12 then
+                        v3 = v3 + currentCamera.tonumber.number
+                        v13 = up2
+                        fn2 = v12
+                        v15 = fn2(v13, a)
+                        v16 = up2
+                        fn3 = v15
+                        if fn3(v16, a) then
+                            v18 = v3 - CONST_565
+                            v19 = up3
+                            if not (currentCamera > v18) then
+                            end
+                        else
+                            v18 = v3
+                            v19 = up3
+                            if not (currentCamera > v18) then
+                            end
+                        end
+                    else
+                        v13 = up2
+                        fn2 = v12
+                        v15 = fn2(v13, a)
+                        v16 = up2
+                        fn3 = v15
+                        if fn3(v16, a) then
+                            v18 = v3 - CONST_565
+                            v19 = up3
+                            if not (currentCamera > v18) then
+                            end
+                        else
+                            v18 = v3
+                            v19 = up3
+                            if not (currentCamera > v18) then
+                            end
+                        end
+                    end
+                end
+            else
+                isKeyDown2 = up2.IsKeyDown
+                keyCode = Enum.KeyCode
+                a = keyCode.A
+                fn = isKeyDown2(v11, a)
+                if fn then
+                    v3 = v3 - currentCamera.fromRGB.HumanoidRootPart
+                    v12 = fn(up2, a)
+                    if v12 then
+                        v3 = v3 + currentCamera.tonumber.number
+                        v13 = up2
+                        fn2 = v12
+                        v15 = fn2(v13, a)
+                        v16 = up2
+                        fn3 = v15
+                        if fn3(v16, a) then
+                            v18 = v3 - CONST_565
+                            v19 = up3
+                            if not (currentCamera > v18) then
+                            end
+                        else
+                            v18 = v3
+                            v19 = up3
+                            if not (currentCamera > v18) then
+                            end
+                        end
+                    else
+                        v13 = up2
+                        fn2 = v12
+                        v15 = fn2(v13, a)
+                        v16 = up2
+                        fn3 = v15
+                        if fn3(v16, a) then
+                            v18 = v3 - CONST_565
+                            v19 = up3
+                            if not (currentCamera > v18) then
+                            end
+                        else
+                            v18 = v3
+                            v19 = up3
+                            if not (currentCamera > v18) then
+                            end
+                        end
+                    end
+                else
+                    v12 = fn(up2, a)
+                    if v12 then
+                        v3 = v3 + currentCamera.tonumber.number
+                        v13 = up2
+                        fn2 = v12
+                        v15 = fn2(v13, a)
+                        v16 = up2
+                        fn3 = v15
+                        if fn3(v16, a) then
+                            v18 = v3 - CONST_565
+                            v19 = up3
+                            if not (currentCamera > v18) then
+                            end
+                        else
+                            v18 = v3
+                            v19 = up3
+                            if not (currentCamera > v18) then
+                            end
+                        end
+                    else
+                        v13 = up2
+                        fn2 = v12
+                        v15 = fn2(v13, a)
+                        v16 = up2
+                        fn3 = v15
+                        if fn3(v16, a) then
+                            v18 = v3 - CONST_565
+                            v19 = up3
+                            if not (currentCamera > v18) then
+                            end
+                        else
+                            v18 = v3
+                            v19 = up3
+                            if not (currentCamera > v18) then
+                            end
+                        end
+                    end
+                end
+            end
+        end
+        v3 = CONST_566 + currentCamera.CFrame.LookVector
+        isKeyDown = up2.IsKeyDown
+        s = Enum.KeyCode.S
+        if isKeyDown(v6, s) then
+            v3 = v3 - currentCamera.CFrame.LookVector
+            isKeyDown2 = up2.IsKeyDown
+            keyCode = Enum.KeyCode
+            a = keyCode.A
+            fn = isKeyDown2(v11, a)
+            if fn then
+                v3 = v3 - currentCamera.fromRGB.HumanoidRootPart
+                v12 = fn(up2, a)
+                if v12 then
+                    v3 = v3 + currentCamera.tonumber.number
+                    v13 = up2
+                    fn2 = v12
+                    v15 = fn2(v13, a)
+                    v16 = up2
+                    fn3 = v15
+                    if fn3(v16, a) then
+                        v18 = v3 - CONST_565
+                        v19 = up3
+                        if not (currentCamera > v18) then
+                        end
+                    else
+                        v18 = v3
+                        v19 = up3
+                        if not (currentCamera > v18) then
+                        end
+                    end
+                else
+                    v13 = up2
+                    fn2 = v12
+                    v15 = fn2(v13, a)
+                    v16 = up2
+                    fn3 = v15
+                    if fn3(v16, a) then
+                        v18 = v3 - CONST_565
+                        v19 = up3
+                        if not (currentCamera > v18) then
+                        end
+                    else
+                        v18 = v3
+                        v19 = up3
+                        if not (currentCamera > v18) then
+                        end
+                    end
+                end
+            else
+                v12 = fn(up2, a)
+                if v12 then
+                    v3 = v3 + currentCamera.tonumber.number
+                    v13 = up2
+                    fn2 = v12
+                    v15 = fn2(v13, a)
+                    v16 = up2
+                    fn3 = v15
+                    if fn3(v16, a) then
+                        v18 = v3 - CONST_565
+                        v19 = up3
+                        if not (currentCamera > v18) then
+                        end
+                    else
+                        v18 = v3
+                        v19 = up3
+                        if not (currentCamera > v18) then
+                        end
+                    end
+                else
+                    v13 = up2
+                    fn2 = v12
+                    v15 = fn2(v13, a)
+                    v16 = up2
+                    fn3 = v15
+                    if fn3(v16, a) then
+                        v18 = v3 - CONST_565
+                        v19 = up3
+                        if not (currentCamera > v18) then
+                        end
+                    else
+                        v18 = v3
+                        v19 = up3
+                        if not (currentCamera > v18) then
+                        end
+                    end
+                end
+            end
+        else
+            isKeyDown2 = up2.IsKeyDown
+            keyCode = Enum.KeyCode
+            a = keyCode.A
+            fn = isKeyDown2(v11, a)
+            if fn then
+                v3 = v3 - currentCamera.fromRGB.HumanoidRootPart
+                v12 = fn(up2, a)
+                if v12 then
+                    v3 = v3 + currentCamera.tonumber.number
+                    v13 = up2
+                    fn2 = v12
+                    v15 = fn2(v13, a)
+                    v16 = up2
+                    fn3 = v15
+                    if fn3(v16, a) then
+                        v18 = v3 - CONST_565
+                        v19 = up3
+                        if not (currentCamera > v18) then
+                        end
+                    else
+                        v18 = v3
+                        v19 = up3
+                        if not (currentCamera > v18) then
+                        end
+                    end
+                else
+                    v13 = up2
+                    fn2 = v12
+                    v15 = fn2(v13, a)
+                    v16 = up2
+                    fn3 = v15
+                    if fn3(v16, a) then
+                        v18 = v3 - CONST_565
+                        v19 = up3
+                        if not (currentCamera > v18) then
+                        end
+                    else
+                        v18 = v3
+                        v19 = up3
+                        if not (currentCamera > v18) then
+                        end
+                    end
+                end
+            else
+                v12 = fn(up2, a)
+                if v12 then
+                    v3 = v3 + currentCamera.tonumber.number
+                    v13 = up2
+                    fn2 = v12
+                    v15 = fn2(v13, a)
+                    v16 = up2
+                    fn3 = v15
+                    if fn3(v16, a) then
+                        v18 = v3 - CONST_565
+                        v19 = up3
+                        if not (currentCamera > v18) then
+                        end
+                    else
+                        v18 = v3
+                        v19 = up3
+                        if not (currentCamera > v18) then
+                        end
+                    end
+                else
+                    v13 = up2
+                    fn2 = v12
+                    v15 = fn2(v13, a)
+                    v16 = up2
+                    fn3 = v15
+                    if fn3(v16, a) then
+                        v18 = v3 - CONST_565
+                        v19 = up3
+                        if not (currentCamera > v18) then
+                        end
+                    else
+                        v18 = v3
+                        v19 = up3
+                        if not (currentCamera > v18) then
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+F.fn778 = function(v1, v2, v3, v4)
+    local ok2, v6, ok3, ok4, fn3, str, fn2, v12, v13, v14, v15, v16, v17, v18, v19, v20, v21, v22, v23, v24, v25, v26, v27, v28, v29, v30, v31, v32, v33, v34, v35, v36, v37, v38, v39, v40, v41, v42, v43, v44, v45, v46, v47, v48, v49, v50, v51, v52, v53, v54, v55, v56, v57, v58, v59, t, v60, v61, v62, v63, v64, v65, v66, v67, v68, v69, v70, v71, v72, v73, v74, v75, v76, v77, v78, v79, v80, v81, v82, v83, v84, v85, v86, v87, v88, v89, v90, v91, v92, v93, v94, v95, v96, v97, v98, v99, v100, v101, v102, ok, v104, v105, v106, v107, fn, v109, v110, v111, v112, v113, v114, v115, v116, v117, v118, v119, v120, v121, v122, v123, v124, v125, v126, v127, v128, v129, v130, v131, v132, v133, v134
+    ok2 = v4 ~= v6
+    if ok2 then
+        if ok2 then
+            ok3 = v4 == up1
+            if ok3 then
+                return up2
+            else
+                ok4 = type(v3) ~= "number"
+                if ok4 then
+                    fn3 = ok4
+                else
+                    str = tostring(v3)
+                    fn2 = tostring
+                    v12 = __vm[34]
+                    v13 = __vm[25]
+                    v14 = v12 % 4294967296
+                    v15 = v13 % 4294967296
+                    v16 = __vm[36] % 4294967296
+                    v17 = __vm[51] % 4294967296
+                    v18 = __vm[118] % 4294967296
+                    v19 = 1475449184
+                    v20 = bit32.bxor(v14, 3495817888)
+                    v21 = bit32.bxor(v15, 2933973557)
+                    v22 = v19 + (v20 + v21)
+                    v23 = bit32.bxor(v16, 2372129226) + (bit32.bxor(v17, 1810284895) + bit32.bxor(v18, 1248440564))
+                    v24 = (v22 + v23) % 4294967296
+                    v25 = v24 % 4294967296
+                    v26 = 3475327620 + __mul32(1280385228, v25 + 231455101)
+                    v27 = v25 + 231455101
+                    v28 = __mul32(1734196840, bit32.bor(v27, 2123314651))
+                    v29 = __mul32(1280385229, bit32.bxor(2123314651, v25 + 231455101))
+                    v30 = (v26 + (v28 + v29)) % 4294967296
+                    v31 = v24 % 4294967296
+                    v32 = 378364883 + __mul32(3664339053, v31 + 2590387408)
+                    v33 = v31 + 2590387408
+                    v34 = __mul32(1261256486, bit32.band(187280703, v33))
+                    v35 = __mul32(630628244, bit32.bxor(187280703, v31 + 2590387408))
+                    v36 = (v32 + (v34 + v35)) % 4294967296
+                    v37 = v24 % 4294967296
+                    v38 = 551735520
+                    v39 = v37 + 1057630948
+                    v40 = v38 + __mul32(85557872, v39)
+                    v41 = bit32.band(2927646018, v37 + 1057630948)
+                    v42 = v40 + (__mul32(4209409423, v41) + __mul32(4209409425, bit32.bor(2927646018, v37 + 1057630948)))
+                    v43 = v42 % 4294967296
+                    v44 = v24 % 4294967296
+                    v45 = 128333406
+                    v46 = v45 + __mul32(2308326903, v44 + 486723764)
+                    v47 = v44 + 486723764
+                    v48 = __mul32(3973280786, bit32.band(2378583314, v47))
+                    v49 = bit32.bxor(2378583314, v44 + 486723764)
+                    v50 = v43 * 67108864 + (v46 + (v48 + __mul32(1986640394, v49))) % 4294967296
+                    v51 = (1 + v50 / 4503599627370496) * 2 ^ (v36 - 1023)
+                    v52 = 1 - 2 * v30
+                    fn3 = str ~= fn2(v52 * v51)
+                end
+                if fn3 then
+                    fn3(__proto)
+                    v53 = nil
+                    v54 = nil
+                    v55 = nil
+                    v56 = nil
+                    v57 = nil
+                    v58 = nil
+                    v59 = nil
+                    return v58, table.unpack(v57, 1, (v57).n)
+                else
+                    t = {[v3] = true}
+                    v60 = __vm[34]
+                    v61 = __vm[25]
+                    v62 = __vm[36]
+                    v63 = __vm[51]
+                    v64 = __vm[118]
+                    v65 = v60 % 4294967296
+                    v66 = v61 % 4294967296
+                    v67 = v62 % 4294967296
+                    v68 = v63 % 4294967296
+                    v69 = v64 % 4294967296
+                    v70 = 3532400507
+                    v71 = bit32.bxor(v65, 3495817888)
+                    v72 = v70 + (v71 + bit32.bxor(v66, 2933973557))
+                    v73 = bit32.bxor(v67, 2372129226)
+                    v74 = bit32.bxor(v68, 1810284895)
+                    v75 = (v72 + (v73 + (v74 + bit32.bxor(v69, 1248440564)))) % 4294967296
+                    v76 = v75
+                    v77 = v76 % 4294967296
+                    v78 = 4039884182
+                    v79 = v77 + 3110083726
+                    v80 = v78 + __mul32(1202108986, v79)
+                    v81 = __mul32(3092858309, bit32.band(v77 + 3110083726, 2763927303))
+                    v82 = v80 + (v81 + __mul32(3092858311, bit32.bor(v77 + 3110083726, 2763927303)))
+                    v83 = v82 % 4294967296
+                    v84 = v75 % 4294967296
+                    v85 = 176449807
+                    v86 = v85 + __mul32(1218450231, v84 + 410279551)
+                    v87 = __mul32(3076517064, bit32.band(v84 + 410279551, 64124137))
+                    v88 = bit32.bor(v84 + 410279551, 64124137)
+                    v89 = (v86 + (v87 + __mul32(3076517066, v88))) % 4294967296
+                    v90 = v75
+                    v91 = v90 % 4294967296
+                    v92 = 1839019755 + __mul32(1299276393, v91 + 1886239674)
+                    v93 = __mul32(1696414510, bit32.bor(v91 + 1886239674, 1518746675))
+                    v94 = __mul32(1299276394, bit32.bxor(1518746675, v91 + 1886239674))
+                    v95 = (v92 + (v93 + v94)) % 4294967296
+                    v96 = v75 % 4294967296
+                    v97 = 1884932814 + __mul32(3471856596, v96 + 2231089237)
+                    v98 = __mul32(4294967294, bit32.band(v96 + 2231089237, 1884932814))
+                    v99 = 3471856595
+                    v100 = v96 + 2231089237
+                    v101 = 1 + (v95 * 67108864 + (v97 + (v98 + (v99 + __mul32(3471856595, bit32.bnot(v100))))) % 4294967296) / 4503599627370496
+                    v102 = (1 - 2 * v83) * (v101 * 2 ^ (v89 - 1023))
+                    ok = not not not t[v102]
+                    if ok then
+                        (function() end)(__proto)
+                        v104 = nil
+                        v105 = nil
+                        v106 = nil
+                        ;(nil)(v107)
+                        fn = __proto
+                        fn(v106)
+                        return v106, v106
+                    else
+                        v109 = __vm[36]
+                        v110 = __vm[51]
+                        v111 = __vm[118]
+                        v112 = __vm[34] % 4294967296
+                        v113 = __vm[25] % 4294967296
+                        v114 = v109 % 4294967296
+                        v115 = v110 % 4294967296
+                        v116 = v111 % 4294967296
+                        v117 = 2488678673 + (bit32.bxor(v112, 3495817888) + bit32.bxor(v113, 2933973557))
+                        v118 = bit32.bxor(v114, 2372129226)
+                        v119 = bit32.bxor(v115, 1810284895) + bit32.bxor(v116, 1248440564)
+                        v120 = (v117 + (v118 + v119)) % 4294967296
+                        v121 = v120 % 4294967296
+                        v122 = 2147483647
+                        v123 = v122 + 0
+                        v124 = __mul32(2147483648, v121 + 4113698019) + __mul32(2147483647, bit32.bnot(bit32.bxor(2723819762, v121 + 4113698019)))
+                        v125 = v120 % 4294967296
+                        v126 = 197647829
+                        v127 = v125 + 458980317
+                        v128 = v126 + __mul32(715912377, v127) + (__mul32(2863142542, bit32.band(v125 + 458980317, 3364068349)) + __mul32(3579054920, bit32.bxor(3364068349, v125 + 458980317)))
+                        v129 = v120 % 4294967296
+                        v130 = v129 + 3422781815
+                        v131 = 2019972998 + __mul32(2535189308, v130)
+                        v132 = __mul32(4294967294, bit32.band(v129 + 3422781815, 2019972998))
+                        v133 = 2535189307
+                        v134 = bit32.bnot(v129 + 3422781815)
+                    end
+                end
+            end
+        end
+    else
+        ok3 = ok2
+        if ok3 then
+            return up2
+        else
+            ok4 = type(v3) ~= "number"
+            if ok4 then
+                fn3 = ok4
+            else
+                str = tostring(v3)
+                fn2 = tostring
+                v12 = __vm[34]
+                v13 = __vm[25]
+                v14 = v12 % 4294967296
+                v15 = v13 % 4294967296
+                v16 = __vm[36] % 4294967296
+                v17 = __vm[51] % 4294967296
+                v18 = __vm[118] % 4294967296
+                v19 = 1475449184
+                v20 = bit32.bxor(v14, 3495817888)
+                v21 = bit32.bxor(v15, 2933973557)
+                v22 = v19 + (v20 + v21)
+                v23 = bit32.bxor(v16, 2372129226) + (bit32.bxor(v17, 1810284895) + bit32.bxor(v18, 1248440564))
+                v24 = (v22 + v23) % 4294967296
+                v25 = v24 % 4294967296
+                v26 = 3475327620 + __mul32(1280385228, v25 + 231455101)
+                v27 = v25 + 231455101
+                v28 = __mul32(1734196840, bit32.bor(v27, 2123314651))
+                v29 = __mul32(1280385229, bit32.bxor(2123314651, v25 + 231455101))
+                v30 = (v26 + (v28 + v29)) % 4294967296
+                v31 = v24 % 4294967296
+                v32 = 378364883 + __mul32(3664339053, v31 + 2590387408)
+                v33 = v31 + 2590387408
+                v34 = __mul32(1261256486, bit32.band(187280703, v33))
+                v35 = __mul32(630628244, bit32.bxor(187280703, v31 + 2590387408))
+                v36 = (v32 + (v34 + v35)) % 4294967296
+                v37 = v24 % 4294967296
+                v38 = 551735520
+                v39 = v37 + 1057630948
+                v40 = v38 + __mul32(85557872, v39)
+                v41 = bit32.band(2927646018, v37 + 1057630948)
+                v42 = v40 + (__mul32(4209409423, v41) + __mul32(4209409425, bit32.bor(2927646018, v37 + 1057630948)))
+                v43 = v42 % 4294967296
+                v44 = v24 % 4294967296
+                v45 = 128333406
+                v46 = v45 + __mul32(2308326903, v44 + 486723764)
+                v47 = v44 + 486723764
+                v48 = __mul32(3973280786, bit32.band(2378583314, v47))
+                v49 = bit32.bxor(2378583314, v44 + 486723764)
+                v50 = v43 * 67108864 + (v46 + (v48 + __mul32(1986640394, v49))) % 4294967296
+                v51 = (1 + v50 / 4503599627370496) * 2 ^ (v36 - 1023)
+                v52 = 1 - 2 * v30
+                fn3 = str ~= fn2(v52 * v51)
+            end
+            if fn3 then
+                fn3(__proto)
+                v53 = nil
+                v54 = nil
+                v55 = nil
+                v56 = nil
+                v57 = nil
+                v58 = nil
+                v59 = nil
+                return v58, table.unpack(v57, 1, (v57).n)
+            else
+                t = {[v3] = true}
+                v60 = __vm[34]
+                v61 = __vm[25]
+                v62 = __vm[36]
+                v63 = __vm[51]
+                v64 = __vm[118]
+                v65 = v60 % 4294967296
+                v66 = v61 % 4294967296
+                v67 = v62 % 4294967296
+                v68 = v63 % 4294967296
+                v69 = v64 % 4294967296
+                v70 = 3532400507
+                v71 = bit32.bxor(v65, 3495817888)
+                v72 = v70 + (v71 + bit32.bxor(v66, 2933973557))
+                v73 = bit32.bxor(v67, 2372129226)
+                v74 = bit32.bxor(v68, 1810284895)
+                v75 = (v72 + (v73 + (v74 + bit32.bxor(v69, 1248440564)))) % 4294967296
+                v76 = v75
+                v77 = v76 % 4294967296
+                v78 = 4039884182
+                v79 = v77 + 3110083726
+                v80 = v78 + __mul32(1202108986, v79)
+                v81 = __mul32(3092858309, bit32.band(v77 + 3110083726, 2763927303))
+                v82 = v80 + (v81 + __mul32(3092858311, bit32.bor(v77 + 3110083726, 2763927303)))
+                v83 = v82 % 4294967296
+                v84 = v75 % 4294967296
+                v85 = 176449807
+                v86 = v85 + __mul32(1218450231, v84 + 410279551)
+                v87 = __mul32(3076517064, bit32.band(v84 + 410279551, 64124137))
+                v88 = bit32.bor(v84 + 410279551, 64124137)
+                v89 = (v86 + (v87 + __mul32(3076517066, v88))) % 4294967296
+                v90 = v75
+                v91 = v90 % 4294967296
+                v92 = 1839019755 + __mul32(1299276393, v91 + 1886239674)
+                v93 = __mul32(1696414510, bit32.bor(v91 + 1886239674, 1518746675))
+                v94 = __mul32(1299276394, bit32.bxor(1518746675, v91 + 1886239674))
+                v95 = (v92 + (v93 + v94)) % 4294967296
+                v96 = v75 % 4294967296
+                v97 = 1884932814 + __mul32(3471856596, v96 + 2231089237)
+                v98 = __mul32(4294967294, bit32.band(v96 + 2231089237, 1884932814))
+                v99 = 3471856595
+                v100 = v96 + 2231089237
+                v101 = 1 + (v95 * 67108864 + (v97 + (v98 + (v99 + __mul32(3471856595, bit32.bnot(v100))))) % 4294967296) / 4503599627370496
+                v102 = (1 - 2 * v83) * (v101 * 2 ^ (v89 - 1023))
+                ok = not not not t[v102]
+                if ok then
+                    (function() end)(__proto)
+                    v104 = nil
+                    v105 = nil
+                    v106 = nil
+                    ;(nil)(v107)
+                    fn = __proto
+                    fn(v106)
+                    return v106, v106
+                else
+                    v109 = __vm[36]
+                    v110 = __vm[51]
+                    v111 = __vm[118]
+                    v112 = __vm[34] % 4294967296
+                    v113 = __vm[25] % 4294967296
+                    v114 = v109 % 4294967296
+                    v115 = v110 % 4294967296
+                    v116 = v111 % 4294967296
+                    v117 = 2488678673 + (bit32.bxor(v112, 3495817888) + bit32.bxor(v113, 2933973557))
+                    v118 = bit32.bxor(v114, 2372129226)
+                    v119 = bit32.bxor(v115, 1810284895) + bit32.bxor(v116, 1248440564)
+                    v120 = (v117 + (v118 + v119)) % 4294967296
+                    v121 = v120 % 4294967296
+                    v122 = 2147483647
+                    v123 = v122 + 0
+                    v124 = __mul32(2147483648, v121 + 4113698019) + __mul32(2147483647, bit32.bnot(bit32.bxor(2723819762, v121 + 4113698019)))
+                    v125 = v120 % 4294967296
+                    v126 = 197647829
+                    v127 = v125 + 458980317
+                    v128 = v126 + __mul32(715912377, v127) + (__mul32(2863142542, bit32.band(v125 + 458980317, 3364068349)) + __mul32(3579054920, bit32.bxor(3364068349, v125 + 458980317)))
+                    v129 = v120 % 4294967296
+                    v130 = v129 + 3422781815
+                    v131 = 2019972998 + __mul32(2535189308, v130)
+                    v132 = __mul32(4294967294, bit32.band(v129 + 3422781815, 2019972998))
+                    v133 = 2535189307
+                    v134 = bit32.bnot(v129 + 3422781815)
+                end
+            end
+        end
+    end
+end
+
+F.fn227 = function()
+    local fn7, v4, v21, count, v23, v25, ok2, ok3, ok4, v31, v32, v33, v34, v36, v37, byte2, v39, v40, v42, rbxAnalyticsService, v53, v57, clientId, count2, v61, v62, res, v66, res2, fn8, teleportSetting, v71, v82, v83, v89, v90, v94, v95, v99, v100, v105, fn4, fn5, attribute, v112, ok, fn6, v115, attribute2, v132, v134, v138, v140, v146, v147, v152, v153, v154, v161, v176, v177, v180, v181, v182, v183, v185, v186, v188, v189, v190
+    up1 = true
+    fn7(v4, "_d07e05e1aca0", true)
+    flag.Value = true
+    v21 = ((((((3 * (up4._500a45a452e19adf2d62d890 - 677)) + (1 * (up4._98dfea916c235c105a43b64b - -810))) / 3) + (((up4._98dfea916c235c105a43b64b - -810) * 2) - (up4._500a45a452e19adf2d62d890 - 677) * -3) / 3) + ((6 * (up4._040381303927530f7534fc92 - -607)) + -2 * (up4._7ec145705fd330b8bbdccdcc - 748)) / 14) + (((up4._7ec145705fd330b8bbdccdcc - 748) * 2 - (up4._040381303927530f7534fc92 - -607) * -1) / 14) + (up5 // 10000 + 1)) + (up6 // 10000 + 1) + ((up4._95f288d1c6d12e0c010b118f - (-1 * (((up4._500a45a452e19adf2d62d890 - 677) * 3 - (up4._98dfea916c235c105a43b64b - -810) * -1) / 3)) - 1592) / 4)
+    count = #getgenv().SCRIPT_KEY
+    v23 = (v21 + count) * 0.2 // 1
+    if (type(v23) ~= "number" or not rawequal(v23, v23)) == true then
+        fn3(CONST_274)
+        count(__proto)
+        return table.unpack(bit32.bor(v25, 2), 1, (bit32.bor(v25, 2)).n)
+    else
+        ok2 = v23 * 0 ~= 0
+        if not ok2 then
+            count = v23 + 0
+            ok2 = count ~= v23
+        end
+        if ok2 == true then
+            fn3(CONST_275)
+            count(__proto)
+            return table.unpack(bit32.bor(v25, 2), 1, (bit32.bor(v25, 2)).n)
+        else
+            ok3 = v23 // 1 ~= v23
+            if not ok3 then
+                count = v23 - v23
+                ok3 = count ~= 0
+            end
+            if ok3 then
+                fn3(CONST_276)
+                count(__proto)
+                return table.unpack(bit32.bor(v25, 2), 1, (bit32.bor(v25, 2)).n)
+            else
+                ok4 = not not tostring(v23):match("^%-?%d+$")
+                if (not ok4) then
+                    return table.unpack(ok4, 1, (ok4).n)
+                else
+                    v31 = table.create(64)
+                    v32 = table.create(64)
+                    v33 = 1
+                    v34 = 64
+                    for v35 = v36, v37 do
+                        byte2 = count:byte(v39)
+                        v31[v39] = string.char(fn2(byte2, 54))
+                        v32[v39] = string.char(fn2(byte2, 92))
+                    end
+                    v40 = table.concat(v31)
+                    v42 = table.concat(v32)
+                    rbxAnalyticsService = game:GetService("RbxAnalyticsService")
+                    clientId = fn(v42 .. fn(v40 .. "{\"_963a6a1d99cd34d48de2a91e\":\"" .. up4._e84c2bf80bbb15efd1c8b7d6 .. "\"" .. (",\"_7cc66d7f72f556a3183d483e\":\"" .. rbxAnalyticsService:GetClientId() .. "\"" .. ",\"_ae24c6475c742dd637be446d\":\"" .. v57 .. "\"" .. ",\"_4df2c1f0c21200e190101220\":\"" .. v23 .. "\"" .. (",\"_be091b329c4952ad30036897\":\"" .. game.PlaceId .. "\"" .. ",\"_fa0b4a3be91d0d4ba55c1efa\":\"" .. "f11d4e30d121f27604e466a5" .. "\"" .. ",\"_a45f83e55a27455fd5c4dca8\":\"" .. (game.JobId .. "\"" .. ",\"_42bef086363cbe5aa4b4bfd9\":\"" .. (game.GameId .. "\"" .. ",\"_ab6ba2d3eae33824b50cc988\":\"" .. game.GetService(v53, "Players").LocalPlayer.Name .. "\",\"_e22c3d1aa8334b2e4bc275fe\":\"36537\"}"))))))
+                    count2 = #clientId
+                    v61 = 1
+                    v62 = ""
+                    for v63 = v36, v37, 2 do
+                        res = table.pack(string.byte(clientId, v66))
+                        v62 = v62 .. string.format("%02x", table.unpack(res, 1, (res).n))
+                        if not (v66 >= #clientId) then
+                            v66 = v66 + 1
+                            res2 = table.pack(string.byte(clientId, v66))
+                            v62 = v62 .. string.format("%02x", table.unpack(res2, 1, (res2).n))
+                        end
+                    end
+                    fn8 = up13
+                    teleportSetting = up14["ઉ౬ઞ஫সഡ૑ౡพ"]:GetTeleportSetting("అဨघຸવ")
+                    v71 = up4._c7ac01db1869dbe0d2ddc03a and 1144303
+                    if not v71 then
+                        v71 = 1137491
+                    end
+                    v82 = (2770479099 + (bit32.bxor((__vm[34] % 4294967296), 3495817888) + bit32.bxor((__vm[25] % 4294967296), 2933973557)) + (bit32.bxor((__vm[36] % 4294967296), 2372129226) + (bit32.bxor((__vm[51] % 4294967296), 1810284895) + bit32.bxor((__vm[118] % 4294967296), 1248440564)))) % 4294967296
+                    v83 = v82 % 4294967296
+                    v89 = ((3954357504 + __mul32(854307772, v83 + 175412167)) + (__mul32(2586351752, bit32.band(v83 + 175412167, 3362301632)) + __mul32(3440659525, bit32.bxor(3362301632, v83 + 175412167)))) % 4294967296
+                    v90 = v82 % 4294967296
+                    v94 = ((2147483647 + 0) + (__mul32(2147483648, v90 + 3835665962) + __mul32(2147483647, bit32.bnot(bit32.bxor(2727589170, (v90 + 3835665962)))))) % 4294967296
+                    v95 = v82 % 4294967296
+                    v99 = ((831237233 + __mul32(713812031, v95 + 289771158)) + (__mul32(2, bit32.bor(3463730063, v95 + 289771158)) + (713812032 + __mul32(713812032, bit32.bnot(v95 + 289771158))))) % 4294967296
+                    v100 = v82 % 4294967296
+                    v105 = ((2988571472 + __mul32(4294967295, v100 + 4003470740)) + (__mul32(2, bit32.bor(2895392909, v100 + 4003470740)) + (262429841 + 2443540370))) % 4294967296
+                    fn4 = 2 ^ (v94 - 1023)
+                    fn5 = 1 - 2 * v89
+                    if (not fn8(teleportSetting, v71, fn5 * ((1 + ((v99 * 67108864) + v105) / 4503599627370496) * fn4))) ~= false then
+                        fn3(CONST_277)
+                        fn5(__proto)
+                        return table.unpack(bit32.bor(v25, 2), 1, (bit32.bor(v25, 2)).n)
+                    else
+                        attribute = up15:GetAttribute("_de33b0af6150")
+                        v112 = up4._a84478b17b2436e2ccacc1e6 and 28133
+                        if not v112 then
+                            v112 = 0
+                        end
+                        ok = not (attribute ~= 4253026 + v112)
+                        if ok then
+                            fn6 = up13
+                            v115 = up4._a84478b17b2436e2ccacc1e6 and 28133
+                            if not v115 then
+                                v115 = 0
+                            end
+                            attribute2 = up15:GetAttribute("_de33b0af6150")
+                            v132 = ((1595187167 + (bit32.bxor((__vm[34] % 4294967296), 3495817888) + bit32.bxor((__vm[25] % 4294967296), 2933973557))) + (bit32.bxor((__vm[36] % 4294967296), 2372129226) + (bit32.bxor((__vm[51] % 4294967296), 1810284895) + bit32.bxor((__vm[118] % 4294967296), 1248440564)))) % 4294967296
+                            v134 = v132 % 4294967296
+                            v138 = ((1433672409 + __mul32(3064541961, v134 + 4080075380)) + (__mul32(2460850670, bit32.band(1796705617, v134 + 4080075380)) + __mul32(1230425336, bit32.bxor(1796705617, v134 + 4080075380)))) % 4294967296
+                            v140 = v132 % 4294967296
+                            v146 = ((126846954 + __mul32(2074131906, v140 + 528639143)) + (__mul32(146703484, bit32.bor(v140 + 528639143, 2540235669)) + __mul32(2074131907, bit32.bxor(2540235669, v140 + 528639143)))) % 4294967296
+                            v147 = v132 % 4294967296
+                            v152 = ((3668428848 + __mul32(2039230736, v147 + 3895992694)) + (__mul32(216505824, bit32.band((v147 + 3895992694), 1632853587)) + __mul32(2255736561, bit32.bxor(1632853587, v147 + 3895992694)))) % 4294967296
+                            v153 = v132 % 4294967296
+                            v154 = 1846769611 + __mul32(195088483, v153 + 3518720156)
+                            fn4 = 1 - (2 * v138)
+                            ok = fn6((4253026 + v115), attribute2, fn4 * (1 + (v152 * 67108864 + ((v154 + (__mul32(4099878812, bit32.band(v153 + 3518720156, 1235350393)) + __mul32(4099878814, bit32.bor((v153 + 3518720156), 1235350393)))) % 4294967296)) / 4503599627370496) * 2 ^ (v146 - 1023))
+                        end
+                        if (not ok) then
+                            fn3(CONST_278)
+                            fn4(__proto)
+                            return table.unpack(bit32.bor(v25, 2), 1, (bit32.bor(v25, 2)).n)
+                        else
+                            v161 = up4._f43292436c3128e5bd8d6406 and 3083294
+                            v176 = ((3511366623 + (bit32.bxor((__vm[34] % 4294967296), 3495817888) + bit32.bxor((__vm[25] % 4294967296), 2933973557))) + (bit32.bxor((__vm[36] % 4294967296), 2372129226) + (bit32.bxor((__vm[51] % 4294967296), 1810284895) + bit32.bxor((__vm[118] % 4294967296), 1248440564)))) % 4294967296
+                            v177 = v176 % 4294967296
+                            v180 = 3651108142 + __mul32(416021951, v177 + 1320430453)
+                            v181 = __mul32(3462923394, bit32.bor(v177 + 1320430453, 953240146))
+                            v182 = v176 % 4294967296
+                            v183 = 39223364 + (v182 + 1209814648)
+                            v185 = __mul32(4294967294, bit32.band(v182 + 1209814648, 842623300)) + (1531951552 + 3566415680)
+                            v186 = v176 % 4294967296
+                            v188 = 592628279 + ((v186 + 939661658) + __mul32(4294967294, bit32.band(592628279, v186 + 939661658)))
+                            v189 = 3754332097
+                            v190 = __mul32(3754332097, v186)
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+F.fn565 = function()
+    local now, fn3, ok, v6, v7, res3, fn4, v10, v11, v12, v13, v14, fn, v16, res, number2, fn2, v20, v21, res2
+    now = os.clock()
+    fn3[CONST_529] = "bxor"
+    ok = not up2
+    if ok then
+        if ok then
+            if (17)(v6, v7) ~= "string" then
+                res3 = table.pack(fn4())
+            else
+                while up6[1] ~= "string" do
+                    fn3(v10, "UDim2")
+                end
+                v11 = string.string()
+            end
+        else
+            if v12 == 117 then
+                v7 = up3
+                v13 = __vm[34]
+                if v14 then
+                    fn = 17
+                    v16 = fn(v13, v7)
+                    if v16 ~= "string" then
+                        res = table.pack(fn4())
+                    else
+                        while up6[1] ~= "string" do
+                            fn3(v10, "UDim2")
+                        end
+                        v11 = string.string()
+                    end
+                else
+                    if v12 == 117 then
+                        number2 = v13.number
+                        fn2 = number2
+                        v20 = fn2(v21, v7)
+                        if v20 ~= "string" then
+                            res2 = table.pack(fn4())
+                        else
+                            while up6[1] ~= "string" do
+                                fn3(v10, "UDim2")
+                            end
+                            v11 = string.string()
+                        end
+                    else
+                        number2 = v13.number
+                        fn2 = number2
+                        v20 = fn2(v21, v7)
+                        if v20 ~= "string" then
+                            res2 = table.pack(fn4())
+                        else
+                            while up6[1] ~= "string" do
+                                fn3(v10, "UDim2")
+                            end
+                            v11 = string.string()
+                        end
+                    end
+                end
+            else
+                number2 = v6.number
+                fn2 = number2
+                v20 = fn2(v21, v7)
+                if v20 ~= "string" then
+                    res2 = table.pack(fn4())
+                else
+                    while up6[1] ~= "string" do
+                        fn3(v10, "UDim2")
+                    end
+                    v11 = string.string()
+                end
+            end
+        end
+    else
+        v7 = up3
+        v13 = __vm[34]
+        if v14 then
+            fn = 17
+            v16 = fn(v13, v7)
+            if v16 ~= "string" then
+                res = table.pack(fn4())
+            else
+                while up6[1] ~= "string" do
+                    fn3(v10, "UDim2")
+                end
+                v11 = string.string()
+            end
+        else
+            if v12 == 117 then
+                number2 = v13.number
+                fn2 = number2
+                v20 = fn2(v21, v7)
+                if v20 ~= "string" then
+                    res2 = table.pack(fn4())
+                else
+                    while up6[1] ~= "string" do
+                        fn3(v10, "UDim2")
+                    end
+                    v11 = string.string()
+                end
+            else
+                number2 = v13.number
+                fn2 = number2
+                v20 = fn2(v21, v7)
+                if v20 ~= "string" then
+                    res2 = table.pack(fn4())
+                else
+                    while up6[1] ~= "string" do
+                        fn3(v10, "UDim2")
+                    end
+                    v11 = string.string()
+                end
+            end
+        end
+    end
+end
+
+F.fn602 = function(v1, v2, v3)
+    local lrotate2, v5, v6, v7, v8, v9, v10, v11, v12, v13, v14, v15, v16, v17, v18, v19, v20, v21, v22, v24, v25, v26, v27, v29, v30, v32, v33, v36, v42, v43, v45, v46, v50, v51, v53, v58, v59, v62, v63, v69, v70, v74, v75, v78, v79, v82, v83, v85, v87, v89, v90, v94, v95, fn4, v99, v100, v104, v105, v109, v116, v121, v123, v135, v138, v139, v141, v148, v152, v153, v155, v156, fn2, v163, v164, fn3, v166, v167, v168
+    lrotate2 = bit32.lrotate
+    v5 = v1[1]
+    v6 = v1[2]
+    v7 = v1[3]
+    v8 = v1[4]
+    v9 = v1[5]
+    v10 = v1[6]
+    v11 = v1[7]
+    v12 = v1[8]
+    v13 = v3[1]
+    v14 = v3[2]
+    v15 = v3[3]
+    v16 = 1
+    v17 = 10
+    v18 = 1
+    v19 = 1634760805
+    v20 = 857760878
+    v21 = 2036477234
+    v22 = 1797285236
+    for v23 = v24, v25, v26 do
+        v27 = (v19 + v5) % 4294967296
+        v29 = lrotate2(fn(v23, v27), 16)
+        v30 = (v9 + v29) % 4294967296
+        v32 = lrotate2(fn(v5, v30), 12)
+        v33 = (v27 + v32) % 4294967296
+        v36 = lrotate2(fn(v29, v33), 8)
+        v18 = (v30 + v36) % 4294967296
+        v42 = lrotate2(fn(v32, v18), 7)
+        v43 = (v20 + v6) % 4294967296
+        v45 = lrotate2(fn(v13, v43), 16)
+        v46 = (v10 + v45) % 4294967296
+        v50 = lrotate2(fn(v6, v46), 12)
+        v51 = (v43 + v50) % 4294967296
+        v53 = v45
+        v58 = lrotate2(fn(v53, v51), 8)
+        v59 = (v46 + v58) % 4294967296
+        v62 = lrotate2(fn(v50, v59), 7)
+        v63 = (v21 + v7) % 4294967296
+        v69 = lrotate2(fn(v14, v63), 16)
+        v70 = (v11 + v69) % 4294967296
+        v74 = lrotate2(fn(v7, v70), 12)
+        v75 = (v63 + v74) % 4294967296
+        v78 = lrotate2(fn(v69, v75), 8)
+        v79 = (v70 + v78) % 4294967296
+        v82 = lrotate2(fn(v74, v79), 7)
+        v83 = (v22 + v8) % 4294967296
+        v85 = lrotate2(fn(v15, v83), 16)
+        v87 = (v12 + v85) % 4294967296
+        v89 = lrotate2(fn(v8, v87), 12)
+        v90 = (v83 + v89) % 4294967296
+        v94 = lrotate2(fn(v85, v90), 8)
+        v95 = (v87 + v94) % 4294967296
+        fn4 = 7
+        v99 = lrotate2(fn(v89, v95), fn4)
+        v100 = (v33 + v62) % 4294967296
+        v104 = lrotate2(fn(v94, v100), 16)
+        v105 = (v79 + v104) % 4294967296
+        v109 = lrotate2(fn(v62, v105), 12)
+        v19 = (v100 + v109) % 4294967296
+        v15 = lrotate2(fn(v104, v19), 8)
+        v11 = (v105 + v15) % 4294967296
+        v6 = lrotate2(fn(v109, v11), 7)
+        v116 = (v51 + v82) % 4294967296
+        v121 = lrotate2(fn(v36, v116), 16)
+        v17 = (v95 + v121) % 4294967296
+        v123 = lrotate2(fn(v82, v17), 12)
+        v20 = (v116 + v123) % 4294967296
+        v12 = (v17 + lrotate2(fn(v121, v20), 8)) % 4294967296
+        v7 = lrotate2(fn(v123, v12), 7)
+        v135 = (v75 + v99) % 4294967296
+        v138 = lrotate2(fn(v58, v135), 16)
+        v139 = (v18 + v138) % 4294967296
+        v141 = lrotate2(fn(v99, v139), 12)
+        v21 = (v135 + v141) % 4294967296
+        v13 = lrotate2(fn(v138, v21), 8)
+        v9 = (v139 + v13) % 4294967296
+        v8 = lrotate2(fn(v141, v9), 7)
+        v148 = (v90 + v42) % 4294967296
+        v152 = lrotate2(fn(v78, v148), 16)
+        v153 = (v59 + v152) % 4294967296
+        v155 = 12
+        v156 = lrotate2(fn(v42, v153), v155)
+        v22 = (v148 + v156) % 4294967296
+        v14 = lrotate2(fn(v152, v22), 8)
+        v16 = v153 + v14
+        v10 = v16 % 4294967296
+        fn2 = 7
+        v5 = lrotate2(fn(v156, v10), fn2)
+    end
+    v163 = 585
+    while v164 > v155 do
+        fn2(v53, true)
+        v16 = 124
+        v17 = -v16
+        if v163 > v3 then
+            continue
+        else
+            return fn3(v16)
+        end
+    end
+    v166 = v16 % 4294967294
+    if v167 > v155 then
+        fn4(v53, "Value")
+        return fn3(30)
+    else
+        if v168 > v155 then
+            return fn3(30)
+        end
+    end
+end
+
+F.fn448 = function(v1, t)
+    local t5, t6, create3, t7, v25, t8, fn5, v30, v31, v32, t9, fn6, v37, create, t10, v56, create2, t2, v75, create4, t3, v92, create5, t4, v98
+    if not t then
+        t = {}
+    end
+    OpenColorpickers = (OpenColorpickers or {})
+    t5 = {Window = t.Window, Tab = t.Tab, Section = t.Section, Flag = t.Flag, Hue = 0, Saturation = 0, Value = 0, Alpha = 0}
+    t5.Color = fn(0, 0, 0)
+    t5.HexValue = ""
+    t5.IsOpen = false
+    OpenColorpickers[t5] = true
+    up2.Flags[t5.Flag] = {}
+    t6 = {}
+    create3 = up3.Create
+    t7 = {Parent = t.Parent.Instance, FontFace = up2.Font}
+    t7.TextColor3 = fn(0, 0, 0)
+    t7.BorderColor3 = fn(0, 0, 0)
+    t7.Text = ""
+    t7.AutoButtonColor = false
+    t7.AnchorPoint = CONST_456
+    t7.BorderSizePixel = 0
+    t7.Name = "\0"
+    t7.Position = fn2(1, 0, 0.5, 0)
+    t7.Size = fn2(0, 15, 0, 15)
+    t7.ZIndex = 4
+    t7.TextSize = 14
+    t7.BackgroundColor3 = fn(0, 181, 6)
+    t6.ColorpickerButton = create3(v25, "TextButton", t7)
+    t8 = {Parent = t6.ColorpickerButton.Instance}
+    t8.CornerRadius = fn3(0, 10)
+    fn5(v30, "UICorner", t8)
+    v31 = v32
+    t9 = {Parent = t6.ColorpickerButton.Instance}
+    t9.Color = fn(50, 34, 23)
+    t9.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+    fn6(v37, {Color = "Border"})
+    ;(function(v1)
+        local absoluteSize, v4, x, instance, isToggle, fn2, v11, v12
+        absoluteSize = up1.ColorpickerButton.Instance.AbsoluteSize
+        v4 = absoluteSize.X + 4
+        x = (v4 * (v1 % 5) - 4) - absoluteSize.X
+        instance = up1.ColorpickerButton.Instance
+        isToggle = up3.IsToggle
+        if isToggle then
+            return fn2(v11)
+        else
+            if isToggle then
+                v12 = isToggle
+            else
+                v12 = -x
+            end
+            instance[2819002273] = fn(1, v12, v4, 0)
+        end
+    end)(t.Count)
+    create = up3.Create
+    t10 = {Parent = up2.Holder.Instance, Name = "\0"}
+    t10.Position = fn2(0, (t6.ColorpickerButton.Instance.AbsolutePosition.X + 25), 0, t6.ColorpickerButton.Instance.AbsolutePosition.Y)
+    t10.BorderColor3 = fn(0, 0, 0)
+    t10.Size = fn2(0, 243, 0, 213)
+    t10.Visible = false
+    t10.BorderSizePixel = 0
+    t10.BackgroundColor3 = fn(10, 9, 8)
+    t6.ColorpickerWindow = create(v56, "Frame", t10)
+    t6.ColorpickerWindow:AddToTheme({BackgroundColor3 = "Background"})
+    create2 = up3.Create
+    t2 = {Parent = t6.ColorpickerWindow.Instance}
+    t2.ImageColor3 = fn(0, 0, 0)
+    t2.ImageTransparency = 0.5799999833106995
+    t2.AnchorPoint = CONST_457
+    t2.Image = "rbxassetid://112971167999062"
+    t2.ZIndex = -1
+    t2.BorderSizePixel = 0
+    t2.SliceCenter = fn4(CONST_458, CONST_459)
+    t2.ScaleType = Enum.ScaleType.Slice
+    t2.BorderColor3 = fn(0, 0, 0)
+    t2.BackgroundTransparency = 1
+    t2.Position = fn2(0.5, 0, 0.5, 0)
+    t2.SliceScale = 0.6000000238418579
+    t2.Name = "\0"
+    t2.Size = fn2(1, 55, 1, 55)
+    t2.BackgroundColor3 = fn(245, 242, 238)
+    t6.Shadow = create2(v75, "ImageLabel", t2)
+    create4 = up3.Create
+    t3 = {Parent = t6.ColorpickerWindow.Instance, FontFace = up2.Font}
+    t3.TextColor3 = fn(0, 0, 0)
+    t3.BorderColor3 = fn(0, 0, 0)
+    t3.Text = ""
+    t3.AutoButtonColor = false
+    t3.Name = "\0"
+    t3.Size = fn2(1, 0, 1, -60)
+    t3.BorderSizePixel = 0
+    t3.TextSize = 14
+    t3.BackgroundColor3 = fn(0, 181, 6)
+    t6.Palette = create4(v92, "TextButton", t3)
+    create5 = up3.Create
+    t4 = {Parent = t6.Palette.Instance}
+    t4.BorderColor3 = fn(0, 0, 0)
+    t4.Image = up2.GetImage(v98, "Saturation")
+    t4.BackgroundTransparency = 1
+    t4.Name = "\0"
+    t4.Size = fn2(1, 0, 1, 0)
+    t4.BorderSizePixel = 0
+    t4.GetService = fn(245, 242, 238)
+end
+
+F.blackpinkLisaMoney = function(v1, v2)
+    local getAttribute, fn4, t, t2, fn5, ok, v12, str, v15, v16, v17, v18, v20, v21, v23
+    if fn(tostring(v2), "Enum") then
+        flag.number = CFrame(v2)
+        if (v2[0] == 713812032 and "None") then
+            getAttribute = flag.GetAttribute
+            return table.unpack(bit32.bor("GetService", getAttribute), 1, (bit32.bor("GetService", getAttribute)).n)
+        end
+    else
+        fn4 = v2
+        if fn3({[1] = "Hold", [2] = "Toggle", [3] = "Always"}, fn4) then
+            flag[0.5] = v2
+            flag[3064397757](flag, flag.uiRefs)
+            if flag.Magnitude then
+                up6:VirtualInputManager(flag.Flag, flag[{3, 25, 3, 4}])
+            end
+            flag.Picking = false
+            t = {TextColor3 = "Text"}
+            fn4(flag2.Value, t)
+            t2 = {[2819002273] = up6.Theme.Text}
+            flag2.Value["BLACKPINK LISA Money"](flag2.Value, fn5, t2)
+        else
+            if type(v2) ~= "table" then
+                flag.Picking = false
+                t = {TextColor3 = "Text"}
+                fn4(flag2.Value, t)
+                t2 = {[2819002273] = up6.Theme.Text}
+                flag2.Value["BLACKPINK LISA Money"](flag2.Value, fn5, t2)
+            else
+                ok = v2.Key == "Backspace"
+                if ok then
+                    v12 = "None"
+                else
+                    v12 = ok
+                end
+                if not v12 then
+                    v12 = v2.Key
+                end
+                str = tostring(v2.Key)
+                flag.Key = str
+                if v2.Mode then
+                    flag.TextSize = str
+                    v15 = flag
+                    fn4(v15, v2.ApplyStrokeMode)
+                else
+                    flag.Mode = "Toggle"
+                    flag:SetMode("Toggle")
+                end
+                v16 = up3[flag.number]
+                if v16 then
+                    if v16 then
+                        v17 = v16
+                    else
+                        up65.Theme = "BorderSizePixel"
+                        v17 = v16
+                    end
+                else
+                    fn4 = number(v12)
+                    v17 = fn2(fn4, v15, "Lighting")
+                end
+                if v17 then
+                    if v17 then
+                        v18 = v17
+                        v20 = "os"
+                        fn2(fn2(v18, fn4, "Accent"), v18, v20)
+                        v21 = v17
+                        fn4 = "os"
+                        v23 = fn2(fn2(v21, v20, "Accent"), v21, fn4)
+                        flag.Value = v23
+                        flag2.Value.Instance.Text = v23
+                        if flag.Callback then
+                            up6:SafeCall(flag.Callback, flag.Toggled)
+                        end
+                        flag.Picking = false
+                        t = {TextColor3 = "Text"}
+                        fn4(flag2.Value, t)
+                        t2 = {[2819002273] = up6.Theme.Text}
+                        flag2.Value["BLACKPINK LISA Money"](flag2.Value, fn5, t2)
+                    else
+                        return fn5(fn4)
+                    end
+                end
+            end
+        end
+    end
+end
+
+F.fn184 = function(enabled, v2)
+    local v6, v7, gui, number2, v10, v11, v12, fn3, v14, v15, v16, v17, fromRGB2, v19, v20, fn4, uiCorner, v22, v23, v24
+    if enabled then
+        v6 = enabled.FindFirstChild(enabled, "ValueLabel")
+        if v6 then
+            v6:ColorSequenceKeypoint()
+            v7 = fn(v2)
+            if not (v7 == 0) then
+                gui = number.number("number")
+                number2 = number.number
+                v10 = 0
+                v11 = 0
+                gui.Size = number2(v12, v10, v11, 16)
+                fn3 = UDim2.new
+                v14 = 0.02
+                v15 = 0
+                v16 = 1
+                v17 = -18
+                gui.Position = fn3(v14, v15, v16, v17)
+                fromRGB2 = Color3.fromRGB
+                v19 = 0
+                v20 = 0
+                gui.BackgroundColor3 = fromRGB2(v19, v20, 0)
+                fn4 = up2
+                gui.Text = "$" .. fn4(v7)
+                gui.TextColor3 = fn2(v7)
+                gui.TextScaled = "Tween"
+                gui.Font = Enum.Font.GothamBold
+                gui.ZIndex = 1000
+                gui[2819002273] = enabled
+                uiCorner = Instance.new("UICorner")
+                v22 = UDim.new
+                v23 = 0
+                v24 = 4
+                uiCorner[2819002273] = gui
+            end
+        else
+            if v6 then
+                return 2430143092
+            else
+                v7 = fn(v2)
+                if not (v7 == 0) then
+                    gui = number.number("number")
+                    number2 = number.number
+                    v10 = 0
+                    v11 = 0
+                    gui.Size = number2(v12, v10, v11, 16)
+                    fn3 = UDim2.new
+                    v14 = 0.02
+                    v15 = 0
+                    v16 = 1
+                    v17 = -18
+                    gui.Position = fn3(v14, v15, v16, v17)
+                    fromRGB2 = Color3.fromRGB
+                    v19 = 0
+                    v20 = 0
+                    gui.BackgroundColor3 = fromRGB2(v19, v20, 0)
+                    fn4 = up2
+                    gui.Text = "$" .. fn4(v7)
+                    gui.TextColor3 = fn2(v7)
+                    gui.TextScaled = "Tween"
+                    gui.Font = Enum.Font.GothamBold
+                    gui.ZIndex = 1000
+                    gui[2819002273] = enabled
+                    uiCorner = Instance.new("UICorner")
+                    v22 = UDim.new
+                    v23 = 0
+                    v24 = 4
+                    uiCorner[2819002273] = gui
+                end
+            end
+        end
+    end
+end
+
+F.fn142 = function(v1, t)
+    local t2, v2, v3, title, v5, title2, fn, v8, v9, v10, v11, v12, alpha2
+    if not t then
+        t = {}
+    end
+    t2 = {Window = v1.Window, Page = v1.Page, Section = v1}
+    v2 = t.Name or t[CONST_107]
+    if v2 then
+        if v2 then
+            v3 = v2
+            t2.Frame = v3
+            title = t.Title or t.Title
+            if title then
+                v5 = title
+            else
+                v5 = title(up1)
+            end
+            t2.TextSize = v5
+            title2 = t.Title or t.Title
+            if not title2 then
+                fn = Color3.new
+                v8 = 1
+                v9 = 1
+                v10 = 1
+                title2 = fn(v8, v9, v10)
+            end
+            t2.Default = title2
+            v11 = t.Callback or t[CONST_108]
+            if v11 then
+                v12 = v11
+            else
+                v12 = v11
+            end
+            t2[2819002273] = v12
+            alpha2 = t.Alpha or t.alpha
+            t2[2819002273] = up2.Label
+        end
+    else
+        v3 = CONST_109
+        t2.Frame = v3
+        title = t.Title or t.Title
+        if title then
+            v5 = title
+        else
+            v5 = title(up1)
+        end
+        t2.TextSize = v5
+        title2 = t.Title or t.Title
+        if not title2 then
+            fn = Color3.new
+            v8 = 1
+            v9 = 1
+            v10 = 1
+            title2 = fn(v8, v9, v10)
+        end
+        t2.Default = title2
+        v11 = t.Callback or t[CONST_108]
+        if v11 then
+            v12 = v11
+        else
+            v12 = v11
+        end
+        t2[2819002273] = v12
+        alpha2 = t.Alpha or t.alpha
+        t2[2819002273] = up2.Label
+    end
+end
+
+F.fn148 = function()
+    local playerGui, mainGUI, v5, v6, fromRGB2, v8, coinBags, v10, v11, v12, fn, v14
+    playerGui = up1:FindFirstChild("PlayerGui")
+    if playerGui then
+        mainGUI = playerGui:FindFirstChild("MainGUI")
+        if mainGUI then
+            v5 = mainGUI.FindFirstChild(v6, "Lobby")
+        else
+            v5 = mainGUI
+        end
+        if v5 then
+            if v5 then
+                fromRGB2 = mainGUI.HumanoidRootPart:fromRGB(v8)
+                if fromRGB2 then
+                    coinBags = mainGUI.Lobby[CONST_119]:FindFirstChild("CoinBags")
+                    if coinBags then
+                        v10 = coinBags[2720134311](coinBags, CONST_120)
+                        if v10 then
+                            return v11, table.unpack(v12, 1, (v12).n)
+                        else
+                            if v10 then
+                                return "BackgroundTransparency"
+                            else
+                                return false
+                            end
+                        end
+                    else
+                        return false
+                    end
+                else
+                    if fromRGB2 then
+                        __unknown()
+                    end
+                    return false
+                end
+            else
+                return fn(v14)
+            end
+        else
+            fromRGB2 = v5
+            if fromRGB2 then
+                coinBags = mainGUI.Lobby[CONST_119]:FindFirstChild("CoinBags")
+                if coinBags then
+                    v10 = coinBags[2720134311](coinBags, CONST_120)
+                    if v10 then
+                        return v11, table.unpack(v12, 1, (v12).n)
+                    else
+                        if v10 then
+                            return "BackgroundTransparency"
+                        else
+                            return false
+                        end
+                    end
+                else
+                    return false
+                end
+            else
+                if fromRGB2 then
+                    __unknown()
+                end
+                return false
+            end
+        end
+    else
+        return false
+    end
+end
+
+F.neonFat = function(v1)
+    local isA, ok2, attachment1, v6, v7, v8, v9, walk, t, res, v14, v15, v16, v17, v19, name, ok, v23, fn4, t2, res2, v31, v32
+    isA = v1:IsA("Beam")
+    if not (not isA) then
+        ok2 = up1.BeamType == "Default"
+        if not ok2 then
+            if ok2 then
+                _G[3120583840] = "Enum"
+            end
+            attachment1 = v1.Attachment0 and v1.Attachment1
+            v6 = v7
+            v8 = v7
+            if attachment1 then
+                if not attachment1 then
+                    up229.PaddingLeft = v9
+                end
+                v6 = v1.Attachment1.WorldPosition
+                v8 = v1.Attachment0.WorldPosition
+            end
+            if not (not v8 or not v6) then
+                if up1.BeamType == "Neon Fat" then
+                    walk = _G[CONST_122].Walk
+                    t = {}
+                    res = table.pack(GetService.Vector3(v14, v15, v16))
+                    v17 = _G[CONST_123].Walk(0, table.unpack(res, 1, (res).n))
+                    v19 = _G[CONST_124].debug(CONST_125, v14)
+                    name = _G[1].Name
+                    t[1] = v17
+                    t[2] = v19
+                    t[3] = table.pack(name(1, v15))
+                    v1.Climb = walk(t)
+                    fn(v8, v6, 1)
+                else
+                    ok = up1.BeamType == "Nuke"
+                    if ok then
+                        if ok then
+                            v1[CONST_127] = CONST_126
+                            v1[CONST_128] = "IsDescendantOf"
+                        else
+                            while true do
+                                return isA()
+                            end
+                        end
+                    else
+                        if v23 == "Frame" then
+                            fn2(v8, v6, up1[CONST_129])
+                        else
+                            if v23 == "Frame" then
+                                fn4 = ColorSequence.new
+                                t2 = {}
+                                res2 = table.pack(_G[1][CONST_131](255, 255, 255))
+                                v31 = _G[CONST_130][2372129226](0, table.unpack(res2, 1, (res2).n))
+                                v32 = HumanoidRootPart.insert(2877153409, up1[CONST_132])
+                                t2[1] = v31
+                                t2[2] = v32
+                                t2[3] = table.pack(HumanoidRootPart.insert(1, up1[CONST_133]))
+                                v1[0.5] = fn4(t2)
+                                fn(v8, v6, CONST_134)
+                                fn3(v6, up1[CONST_135])
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+F.kbBtnRow4 = function(v1, enabled)
+    local t, v2, v3, v4, v5, fn
+    if enabled then
+        t = {Callback = v1[CONST_514], Position = v1[CONST_515], kbBtnRow = v1}
+        v2 = enabled[CONST_516]
+        if v2 then
+            if not v2 then
+                v3 = CONST_517
+                t.rad = v3
+                v4 = enabled[CONST_518]
+                if v4 then
+                    v5 = fn(up1)
+                else
+                    v5 = fn(up1)
+                end
+            end
+        else
+            v2 = enabled[CONST_520]
+            if not v2 then
+                v3 = CONST_517
+                t.rad = v3
+                v4 = enabled[CONST_518]
+                if v4 then
+                    v5 = fn(up1)
+                else
+                    v5 = fn(up1)
+                end
+            end
+        end
+    else
+        enabled = {}
+        t = {Callback = v1[CONST_514], Position = v1[CONST_515], kbBtnRow = v1}
+        v2 = enabled[CONST_516]
+        if v2 then
+            if not v2 then
+                v3 = CONST_517
+                t.rad = v3
+                v4 = enabled[CONST_518]
+                if v4 then
+                    v5 = fn(up1)
+                else
+                    v5 = fn(up1)
+                end
+            end
+        else
+            v2 = enabled[CONST_520]
+            if not v2 then
+                v3 = CONST_517
+                t.rad = v3
+                v4 = enabled[CONST_518]
+                if v4 then
+                    v5 = fn(up1)
+                else
+                    v5 = fn(up1)
+                end
+            end
+        end
+    end
+    v3 = v2
+    t.rad = v3
+    v4 = enabled[CONST_518]
+    if v4 then
+        v5 = fn(up1)
+    else
+        v5 = fn(up1)
+    end
+end
+
+F.setNumber = function(v1, ...)
+    local textMapRussian, v4, v5, fn5, v7, v8, v9, fn, fn2, v12, v13, v14, v15, fn3, v17, t, t2, v18, t3, v19, v20, t4, v21, fn4, v23
+    if (type(v1) ~= "string" or up1.Language ~= "Russian") then
+        return v1
+    else
+        textMapRussian = up1.TextMapRussian
+        v4 = textMapRussian[v1]
+        if v4 then
+            if v4 then
+                return v4
+            else
+                up121[v5] = "table"
+                fn5 = bit32.bor(CONST_55, v7)
+                fn5(fn5)
+                if v5 ~= CONST_56 then
+                    v8 = bit32.bor(CONST_57, v9)
+                    __unknown()
+                    fn = bit32.bxor(v5, "table")
+                    if textMapRussian <= 16 then
+                        Callback = v4
+                        return fn()
+                    else
+                        fn2 = bit32.bor(CONST_60, v12)
+                        up121[v5] = "table"
+                        number = 0
+                        fn2(fn2)
+                        return v13, v14
+                    end
+                else
+                    textMapRussian = bit32.bxor(fn5, v15)
+                    fn3 = bit32.bor(CONST_61, v15)
+                    if v5 ~= CONST_62 then
+                        v8 = bit32.bor(CONST_57, v9)
+                        __unknown()
+                        fn = bit32.bxor(v5, "table")
+                        if textMapRussian <= 16 then
+                            Callback = v4
+                            return fn()
+                        else
+                            fn2 = bit32.bor(CONST_60, v12)
+                            up121[v5] = "table"
+                            number = 0
+                            fn2(fn2)
+                            return v13, v14
+                        end
+                    else
+                        fn3(fn3)
+                        v17 = "Кфг загружен"
+                        t = {[1] = v17, [2] = v9}
+                        t2 = {[1] = v9, [2] = v18}
+                        t3 = {[1] = v19, [2] = v20}
+                        t4 = {[1] = v21, [2] = "Поиск..."}
+                        return fn4(0, v23)
+                    end
+                end
+            end
+        else
+            v17 = "Кфг загружен"
+            t = {[1] = v17, [2] = v9}
+            t2 = {[1] = v9, [2] = v18}
+            t3 = {[1] = v19, [2] = v20}
+            t4 = {[1] = v21, [2] = "Поиск..."}
+            return fn4(0, v23)
+        end
+    end
+end
+
+F.fn195 = function()
+    local ok, v2, fn4, character, ok3, v6, v7, fn5, v9, ok2, t2, v11, fn2, t3, v13, count, v15, v16, v18, v19, v20, v21, fn3, v23
+    ok = not up1.ghostOn
+    if ok then
+        v2 = clone
+        if v2 then
+            if v2 then
+                fn4 = fn
+                fn4()
+                return table.unpack(fn4, 1, (fn4).n)
+            end
+        end
+    else
+        character = player.Character
+        ok3 = not character
+        if not ok3 then
+            ok = character.FindFirstChild
+            ok3 = not character:FindFirstChild("HumanoidRootPart")
+            v6 = 393
+        end
+        if ok3 then
+            v7 = fn5(table.unpack(v9, 1, (v9).n))
+            up0[v9] = v9
+            return table.unpack(ok, 1, (ok).n)
+        else
+            if not (up5 == character) then
+                fn()
+                up5 = character
+                v6 = 182
+            end
+            ok2 = not clone
+            if not ok2 then
+                ok2 = clone.Parent ~= up6
+                v6 = 123
+            end
+            if ok2 then
+                character.Archivable = true
+                clone = character:Clone()
+                clone.Callback = up6
+                t = {}
+            else
+                t2 = {}
+                v11 = fn2()
+                Frame = "number"
+                t3 = {}
+                Frame = "number"
+                v13 = t
+                count = #v13
+                v15 = 1
+                v16 = 1
+                for v17 = v18, v19, v20 do
+                    v21 = t[v13]
+                    t3 = t2.parts
+                    v13 = v21.real.CFrame
+                    t3[v21.real] = v13
+                    v6 = 128
+                end
+                table.insert(up9, t2)
+                return fn3(0, v23)
+            end
+        end
+    end
+end
+
+F.boxEspEnabled = function()
+    local humanoidRootPart, waitForChild, v4, position, v6, ok2, v10, v11, v20, v23, fn2, v26, v27, v33, v34, v37, fn3, v39, v42, fn4, v44, fn5, v47, v48, teamCheck, v53, v54, ok, fn6, v60
+    if boxEspEnabled then
+        if (player.Character and player.Character:FindFirstChild("HumanoidRootPart")) then
+            humanoidRootPart = player.Character.HumanoidRootPart
+            waitForChild = player.Character.WaitForChild
+            v4 = "Humanoid"
+            position = humanoidRootPart.Position
+            v6, ok2 = part:WorldToScreenPoint(position)
+            v10 = (part.CFrame.Position - humanoidRootPart.Position).Magnitude / 3.5714285714
+            if ok2 then
+                ok2 = v10 <= up4.MaxDistance
+            end
+            if ok2 then
+                if up4.FadeOut.OnDistance then
+                    up5:FadeOutOnDist(up6, v10)
+                    v11 = up5
+                    v11.FadeOutOnDist(v11, up7, v10)
+                    up5.FadeOutOnDist(up5, up8, v10)
+                    up5.FadeOutOnDist(v20, up9, v10)
+                    up5.FadeOutOnDist(v23, up10, v10)
+                    fn2(v26, up11, v10)
+                    v27 = up5
+                    v27.FadeOutOnDist(v27, up12, v10)
+                    up5.FadeOutOnDist(up5, up13, v10)
+                    up5.FadeOutOnDist(v33, up14, v10)
+                    up5.FadeOutOnDist(up5, up15, v10)
+                    up5.FadeOutOnDist(up5, up16, v10)
+                    v34 = up5
+                    v34.FadeOutOnDist(v34, up17, v10)
+                    up5.FadeOutOnDist(v37, up18, v10)
+                    fn3(v39, up19, v10)
+                    up5.FadeOutOnDist(v42, up20, v10)
+                    fn4(v44, up21, v10)
+                    fn5(v47, up22, v10)
+                    v48 = up5
+                    v48.FadeOutOnDist(v48, up23, v10)
+                    up5.FadeOutOnDist(up5, up24, v10)
+                end
+                teamCheck = up4.TeamCheck
+                if teamCheck then
+                    ok2 = up25
+                    teamCheck = player ~= ok2
+                    v53 = teamCheck
+                    v54 = 936
+                else
+                    v53 = teamCheck
+                    v54 = 936
+                end
+                if v53 then
+                    ok = up25.Team ~= player.Team and player.Team
+                    fn6("number")
+                else
+                    teamCheck.Idle3 = ok2(0, humanoidRootPart, 0, (position - v60))
+                end
+            else
+                fn()
+            end
+        else
+            fn()
+        end
+    end
+end
+
+F.blackpinkLisaMoney15 = function()
+    local mansion2, v5, ok, fn5, v8, v9, v11, fn2, v13, fn3, v15, v16, fn4, v18, v19, v21, v22
+    mansion2 = workspace:FindFirstChild("Mansion2")
+    if mansion2 then
+        mansion2 = mansion2.FindFirstChild(mansion2, "CoinContainer")
+        v5 = 52
+        ok = not mansion2
+        if not ok then
+            fn5(v8, "tonumber")
+            ok(v8, "number")
+        end
+        v9, v10, v11 = ipairs(table.unpack(table.pack(fn2(workspace)), 1, (table.pack(fn2(workspace))).n))
+        for v10, v11 in v13 do
+            fn3 = v11["BLACKPINK LISA Money"](v11, "Model")
+            v15 = fn3
+            if v15 then
+                v16 = fn3(v11.Name)
+                fn4 = fn3
+                v18 = "coin"
+                fn3 = fn4(v16, v18)
+                v15 = fn3
+            end
+            if v15 then
+                v19, v20, v21 = ipairs(table.unpack(table.pack(fn3(v11)), 1, (table.pack(fn3(v11))).n))
+                for v20, v21 in v22 do
+                    if v21["BLACKPINK LISA Money"](v21, "BasePart") then
+                        fn(v21)
+                    end
+                end
+            end
+        end
+    else
+        if mansion2 then
+            return "Visible"
+        else
+            ok = not mansion2
+            if not ok then
+                fn5(v8, "tonumber")
+                ok(v8, "number")
+            end
+            v9, v10, v11 = ipairs(table.unpack(table.pack(fn2(workspace)), 1, (table.pack(fn2(workspace))).n))
+            for v10, v11 in v13 do
+                fn3 = v11["BLACKPINK LISA Money"](v11, "Model")
+                v15 = fn3
+                if v15 then
+                    v16 = fn3(v11.Name)
+                    fn4 = fn3
+                    v18 = "coin"
+                    fn3 = fn4(v16, v18)
+                    v15 = fn3
+                end
+                if v15 then
+                    v19, v20, v21 = ipairs(table.unpack(table.pack(fn3(v11)), 1, (table.pack(fn3(v11))).n))
+                    for v20, v21 in v22 do
+                        if v21["BLACKPINK LISA Money"](v21, "BasePart") then
+                            fn(v21)
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+F.fn772 = function(player)
+    local character, v4, firstChildOfClass, rootPart, ok3, v8, v9, fn, v11, v12, ok, v14, v15, ok2, v17, v18, v19, v20, v21, v22, fromRGB2
+    if (not player or not player.Character) then
+        notify.new({Title = CONST_729, Content = CONST_730, Duration = 3})
+    else
+        character = up2.LocalPlayer.Character
+        if character then
+            v4 = "Humanoid"
+            firstChildOfClass = character:FindFirstChildOfClass(v4)
+        else
+            firstChildOfClass = character
+        end
+        if firstChildOfClass then
+            rootPart = firstChildOfClass.RootPart
+        else
+            rootPart = firstChildOfClass
+        end
+        ok3 = not character
+        if ok3 then
+            v8 = ok3
+            v9 = 429
+        else
+            v8 = not firstChildOfClass
+            v9 = 429
+        end
+        if v8 then
+            fn = v8
+        else
+            if v8 then
+                up100 = CONST_731
+                v9 = 405
+            end
+            fn = not rootPart
+        end
+        v11 = CONST_732 + v12
+        ok = v9 < v11
+        ok(v11, "wait")
+        if v14 >= v15 then
+        end
+        ok(CONST_733)
+        fn("number")
+        ok2 = v11 < v17
+        if v18 ~= 51 then
+            return v4, v19
+        else
+            if v20 then
+                return v4, v19
+            else
+                v21 = 2504766488
+                up212[CONST_734] = 180
+                if not v22 then
+                    fromRGB2 = ok2.fromRGB
+                end
+                return v4, v19
+            end
+        end
+    end
+end
+
+F.aad4c3C7c0c3d0d3c6c5cd = function()
+    local fn, t, v3, v4, v5, v6, v7, v8, v9, v10, v11, v12, v14, v15, v17, v18, v20, v21, humanoid, v25, v26, v29, v30, v31, v32, v33, fn2, v35
+    if not _G[0.7853981633974483] then
+        _G[0.7853981633974483] = CONST_216
+        _G[CONST_217] = CONST_218
+        fn = _G[CONST_219]
+        t = {}
+        v3 = CONST_221
+        v4 = 1632853587
+        v5 = CONST_222
+        v6 = "IsToggle"
+        v7 = CONST_223
+        v8 = 891
+        v9 = "AAD4C3 C7C0C3D0D3C6C5CD"
+        v10 = "Trail"
+        v11 = CONST_224
+        t[1] = CONST_220
+        t[2] = v3
+        t[3] = v4
+        t[4] = v5
+        t[5] = v6
+        t[6] = v7
+        t[7] = v8
+        t[8] = v9
+        t[9] = v10
+        t[10] = v11
+        t[11] = CONST_225
+        t[12] = CONST_226
+        v12, v13, v14 = fn(t)
+        for v13, v14 in v15 do
+            _G[CONST_227](function() end)
+        end
+        _G[CONST_228] = {}
+        v17 = _G[1299276394]
+        v18, v19, v20 = _G[CONST_229](table.unpack(table.pack(v17[CONST_230](v17)), 1, (table.pack(v17[CONST_230](v17))).n))
+        for v19, v20 in v21 do
+            humanoid = v20:Humanoid("WaterWaveSize") or v20[CONST_231](v25, CONST_232)
+            if humanoid then
+                v26 = humanoid
+            else
+                humanoid = v20[CONST_233]
+                v26 = humanoid(v29, CONST_234)
+            end
+            if v26 then
+                humanoid.Transparency(_G[CONST_235], v20)
+                return v30, v31
+            else
+                continue
+            end
+        end
+        v32 = Vector3.Window(CONST_236)
+        v32["Player not found!"] = CONST_237
+        v32[4503599627370496] = 20
+        v33 = _G[4294967296].Jump("Destroy")
+        return fn2(v35)
+    end
+end
+
+F.fsTrackPart = function()
+    local gui, ok, v3, v4, v5, v6, v7, v8, v9, v10, v11, v12, v13, v14
+    gui = fsTrackPart
+    ok = not gui
+    if ok then
+        if ok then
+            v3 = ok
+        else
+            up14.pairs = 51
+            v3 = ok
+        end
+    else
+        v3 = not gui.Parent
+    end
+    if v3 then
+        return v4
+    else
+        v5 = gui[CONST_575]
+        v6 = fn()
+        v7 = fn2()
+        v8 = fn3()
+        if v8 then
+            v9 = v5 - v8[CONST_576]
+            if v10 then
+                return v11
+            else
+                up163[3606705444] = 2943
+                if v12 == 0 then
+                    if v13 then
+                        return v11
+                    else
+                        up163[3606705444] = 2943
+                        if v8 == 0 then
+                            return v14
+                        else
+                            return v14
+                        end
+                    end
+                else
+                    return v14
+                end
+            end
+        else
+            if v13 then
+                return v11
+            else
+                up163[3606705444] = 2943
+                if v8 == 0 then
+                    return v14
+                else
+                    return v14
+                end
+            end
+        end
+    end
+end
+
+F.blackpinkLisaMoney4 = function(enabled)
+    local v2, fn2, v4, easingStyle, quint, out, v8, v9, v10, v11, v12, v13, fn, v15, v16, v17, v18, v19, v20, v21, v22, v23, v24, v25, v26, v27, v28, v29, v30, v31, v32, v33, v34, v35, v36, v37, v38, fn3, v40, v41, v42, v43, v44, v45, v46, v48, v49, t, v53, fn4, v56
+    KITI_MeowFadeToken = KITI_MeowFadeToken + 1
+    v2 = KITI_MeowFadeToken
+    KITI_MeowOverlayGui.Enabled = true
+    fn2 = TweenInfo.new
+    if not enabled then
+        v4 = enabled
+    end
+    easingStyle = Enum.EasingStyle
+    quint = easingStyle.Quint
+    if enabled then
+        easingStyle = Enum.EasingDirection
+        out = easingStyle.Out
+        v8 = 119
+    else
+        out = enabled
+        v8 = 119
+    end
+    if v9 < v10 then
+        v11[0] = "kbBtnRow"
+        v12 = v13 / "number"
+        fn(v11, CONST_287)
+        v11[0] = "kbBtnRow"
+        __vm[36] = v11
+        v15 = __mul32("IsA", quint)
+        __vm[34] = v11
+        __vm[35] = v11
+        __vm[36] = v11
+        v11[0] = "kbBtnRow"
+        return easingStyle(v16, v17, v18, v19, v2, v8, fn, v20, v21, v22, v23, v24, v25, v26, v27, v28, v29, v30, v31, v32, v33, v34, v35, v36, v37, v38, fn3, v40, v41, v42, fn2, v12, quint, v15, enabled, v43, v44)
+    else
+        if not out then
+            out = Enum.EasingDirection.In
+        end
+        v45 = fn2(v4, quint, out)
+        v46, v47, v48 = ipairs(table.unpack(table.pack(quint(KITI_MeowOverlay)), 1, (table.pack(quint(KITI_MeowOverlay))).n))
+        for v47, v48 in v49 do
+            if v48["BLACKPINK LISA Money"](v48, "ImageLabel") then
+                t = {}
+                if enabled then
+                    v53 = 0
+                else
+                    v53 = enabled
+                end
+                fn3(fn4(v56, v48, v45, t))
+            end
+        end
+        if not enabled then
+            task.delay(0.28, v47)
+        end
+    end
+end
+
+F.fn781 = function(v1, v2, v3, v4, v5)
+    local ok, v7, fn, ok2, v21, v22, v27, v32, v39, v59, v61, v67, v72, v79, fn2, v86, v98, v99, v100, v101, v102, v105, v106, v107, v109, v112, v113, v114, v115, v117
+    ok = v4 ~= v7
+    if ok then
+        fn = up1
+        ok = v4 == fn
+    end
+    if ok then
+        return up2
+    else
+        ok2 = type(v3) ~= "number"
+        if not ok2 then
+            fn = tostring(v3)
+            v21 = (940476485 + (bit32.bxor((__vm[34] % 4294967296), 3495817888) + bit32.bxor((__vm[25] % 4294967296), 2933973557))) + (bit32.bxor((__vm[36] % 4294967296), 2372129226) + (bit32.bxor((__vm[51] % 4294967296), 1810284895) + bit32.bxor((__vm[118] % 4294967296), 1248440564))) % 4294967296
+            v22 = v21 % 4294967296
+            v27 = v21 % 4294967296
+            v32 = v21 % 4294967296
+            v39 = v21 % 4294967296
+            ok2 = fn ~= tostring((1 - 2 * (((1456839029 + __mul32(2319422345, v22 + 1623551050)) + (__mul32(3951089902, bit32.band(2980437901, (v22 + 1623551050))) + __mul32(1975544952, bit32.bxor(2980437901, v22 + 1623551050)))) % 4294967296)) * (1 + ((((3810163212 + __mul32(2318967514, v32 + 2223068443)) + (__mul32(3951999564, bit32.bor(3592770398, (v32 + 2223068443))) + (1975999781 + __mul32(1975999781, bit32.bnot(bit32.bxor(3592770398, v32 + 2223068443)))))) % 4294967296) * 67108864 + ((1827798544 + __mul32(299098734, v39 + 4100893173)) + (__mul32(3995868561, bit32.band(v39 + 4100893173, 1162812728)) + __mul32(3995868563, bit32.bor(1162812728, v39 + 4100893173)))) % 4294967296) / 4503599627370496) * 2 ^ ((((740784880 + __mul32(1408790536, v27 + 2950913033)) + (__mul32(1477386224, bit32.band(12831582, v27 + 2950913033)) + __mul32(2886176761, bit32.bxor(12831582, v27 + 2950913033)))) % 4294967296) - 1023))
+        end
+        if ok2 then
+            fn(__proto)
+            return nil, nil
+        else
+            v59 = (1963223134 + (bit32.bxor((__vm[34] % 4294967296), 3495817888) + bit32.bxor((__vm[25] % 4294967296), 2933973557)) + (bit32.bxor((__vm[36] % 4294967296), 2372129226) + (bit32.bxor((__vm[51] % 4294967296), 1810284895) + bit32.bxor((__vm[118] % 4294967296), 1248440564)))) % 4294967296
+            v61 = v59 % 4294967296
+            v67 = v59 % 4294967296
+            v72 = v59 % 4294967296
+            v79 = v59 % 4294967296
+            fn2 = (1 - 2 * (((2431130230 + __mul32(514249492, (v61 + 3779170862))) + (__mul32(2, bit32.bor(v61 + 3779170862, 1863837066)) + (514249493 + __mul32(514249493, bit32.bnot(v61 + 3779170862))))) % 4294967296)) * ((1 + ((((1406228568 + __mul32(1069425082, v72 + 2298227648)) + (__mul32(2156117132, bit32.band(362210332, v72 + 2298227648)) + __mul32(3225542215, bit32.bxor(362210332, (v72 + 2298227648))))) % 4294967296) * 67108864 + ((3141339776 + __mul32(243737396, v79 + 2048686532)) + (__mul32(4051229899, bit32.band(v79 + 2048686532, 133352736)) + __mul32(4051229901, bit32.bor(133352736, v79 + 2048686532)))) % 4294967296) / 4503599627370496) * 2 ^ ((((1963603903 + __mul32(1869228611, v67 + 3792866155)) + (__mul32(556510074, bit32.bor(1877531349, v67 + 3792866155)) + __mul32(1869228612, bit32.bxor(1877531349, v67 + 3792866155)))) % 4294967296) - 1023))
+            if not not not ({[v3] = true})[fn2] then
+                fn2(__proto)
+                v86 = nil
+                return table.unpack(v86, 1, (v86).n)
+            else
+                v98 = ((2263477581 + (bit32.bxor((__vm[34] % 4294967296), 3495817888) + bit32.bxor((__vm[25] % 4294967296), 2933973557))) + (bit32.bxor((__vm[36] % 4294967296), 2372129226) + (bit32.bxor((__vm[51] % 4294967296), 1810284895) + bit32.bxor((__vm[118] % 4294967296), 1248440564)))) % 4294967296
+                v99 = v98 % 4294967296
+                v100 = 842929090 + __mul32(699777291, v99 + 1049247803)
+                v101 = __mul32(2895412714, bit32.band(3729135750, v99 + 1049247803))
+                v102 = v98 % 4294967296
+                v105 = 1187542867 + __mul32(324802607, (v102 + 3812460996))
+                v106 = __mul32(3970164688, bit32.band(2197382685, v102 + 3812460996))
+                v107 = v102 + 3812460996
+                v109 = v98 % 4294967296
+                v112 = (3581922924 + __mul32(1520449333, v109 + 3369985265)) + (__mul32(1254068630, bit32.band(1809655356, v109 + 3369985265)) + __mul32(2774517964, bit32.bxor(1809655356, v109 + 3369985265))) % 4294967296
+                v113 = v98 % 4294967296
+                v114 = 3987047032 + __mul32(4294967295, v113 + 2341263714)
+                v115 = __mul32(2, bit32.bor(726184365, v113 + 2341263714))
+                v117 = 1574832985 + 2301870210
+            end
+        end
+    end
+end
+
+F.fn640 = function(v1, enabled)
+    local theme, t, v9, v10, v11, card, v19, v20, v21, table2
+    theme = up1.Theme
+    if theme then
+        t = theme
+    else
+        t = {}
+    end
+    v1.Stroke.Color = (t.Accent or Color3.fromRGB(224, 116, 24))
+    v1.Stroke.Enabled = enabled
+    if enabled then
+        v9 = 2
+    else
+        v9 = enabled
+    end
+    HumanoidRootPart = "number"
+    v10 = v1[1]
+    if enabled then
+        v11 = t.Element or Color3.fromRGB(15, 13, 11)
+    else
+        v11 = enabled
+    end
+    if v11 then
+        v10[2819002273] = v11
+        card = v1.Card
+        if enabled then
+            enabled = 0.02
+        end
+        if not enabled then
+            enabled = 0.18
+        end
+        card[2819002273] = enabled
+    else
+        v11 = t.Inline
+        if v11 then
+            v10[2819002273] = v11
+            card = v1.Card
+            if enabled then
+                enabled = 0.02
+            end
+            if not enabled then
+                enabled = 0.18
+            end
+            card[2819002273] = enabled
+        else
+            v19 = 15
+            v20 = 13
+            v21 = 11
+            table2 = _G[true].table
+        end
+    end
+end
+
+F.setMagicAuraParts = function()
+    local character, v4, callback, v7, res, fn, v10, v11, v12, v13, v14, v16, v17, v18, v21, v22, v23, v24, v25, v26, v27, v28, v29, v30, v32, v33, v34, v35
+    character = LP.Character
+    if character then
+        if not (not character:FindFirstChild("HumanoidRootPart")) then
+            v4 = magicAuraEnabled
+            if v4 then
+                if #_G[CONST_238] < 6 then
+                    callback = Character.Callback
+                    callback[CONST_239] = "HumanoidRootPart"
+                    callback[CONST_240] = "Idle3"
+                    callback[1871604489] = Weight[CONST_241][3970164688]
+                    v7 = 44
+                    callback[CONST_244] = Theme[CONST_242][CONST_243]
+                    res = table.pack(fn(table.unpack(fn, 1, (fn).n)))
+                    if not (v10 ~= "rad") then
+                    end
+                else
+                    v11 = _G[CONST_245]()
+                    v12, v13, v14 = Theme(_G[CONST_246])
+                    for v15, v16 in v17 do
+                        v18 = (v15 - 1) * CONST_247
+                        v21 = TextSize[CONST_248]((v11 * 2) + v18) * 1
+                        v22 = v11 * CONST_249 + v18
+                    end
+                    if v23 <= 52 then
+                        return table.unpack(v24, 1, (v24).n)
+                    end
+                end
+            else
+                if v4 then
+                    if 61 > v25 then
+                        v26 = 0
+                    else
+                        v27, v28, v29 = TextSize(v30)
+                        for v31, v32 in v33 do
+                            return v34, v35
+                        end
+                        magicAuraParts = {}
+                    end
+                else
+                    v27, v28, v29 = TextSize(v30)
+                    for v31, v32 in v33 do
+                        return v34, v35
+                    end
+                    magicAuraParts = {}
+                end
+            end
+        end
+    end
+end
+
+F.fn394 = function(v1)
+    local create2, t, create, t2, v35, v36, create3, t3, v46, v54, v55, create4, t4, v63, t5
+    coroutine.wrap(up1)(v1)
+    create2 = up2.Create
+    t = {Parent = up3}
+    t.Position = UDim2.new(0.5, 0, 0, -11)
+    t.Size = UDim2.new(0, 100, 0, 20)
+    t.AnchorPoint = CONST_377
+    t.BackgroundTransparency = 1
+    t.TextColor3 = Vector2.new.fromRGB(255, 255, 255)
+    t.Font = Enum.Font.Code
+    t.TextSize = up4.FontSize
+    t.TextStrokeTransparency = 0
+    t.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+    t.RichText = true
+    create = up2.Create
+    t2 = {Parent = up3}
+    t2.Position = UDim2.new(0.5, 0, 0, 11)
+    t2.Size = UDim2.new(0, 100, 0, 20)
+    t2.AnchorPoint = CONST_378
+    t2.BackgroundTransparency = 1
+    t2.TextColor3 = Color3.fromRGB(255, 255, 255)
+    t2.Font = Enum.Font.Code
+    t2.TextSize = up4.FontSize
+    t2.TextStrokeTransparency = 0
+    t2.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+    t2.RichText = true
+    v35 = "TextLabel"
+    v36 = create
+    create3 = up2.Create
+    t3 = {Parent = up3}
+    t3.Position = UDim2.new(0.5, 0, 0, 31)
+    t3.Size = UDim2.new(0, 100, 0, 20)
+    v46 = Vector2
+    t3.AnchorPoint = CONST_379
+    t3.BackgroundTransparency = 1
+    t3.TextColor3 = v46.new.fromRGB(255, 255, 255)
+    t3.Font = Enum.Font.Code
+    t3.TextSize = up4.FontSize
+    t3.TextStrokeTransparency = 0
+    t3.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+    t3.RichText = true
+    v54 = create3(v55, "TextLabel", t3)
+    create4 = up2.Create
+    t4 = {Parent = up3}
+    t4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    t4.BackgroundTransparency = 0.75
+    t4.BorderSizePixel = 0
+    t5 = {task = create4(v63, "Frame", t4)}
+    TextSize = 0
+end
+
+F.currentTween = function(v1, t)
+    local v2, ok, t2, layoutOrder, v5, search, v7, t3, instance
+    if not t then
+        t = {}
+    end
+    v2 = t.Icon or t[CONST_441]
+    if not v2 then
+        v2 = 2573374766
+    end
+    if tonumber(v2) then
+        v2 = "currentTween"
+    end
+    ok = t.Sidebar == true or t.sidebar == true
+    t2 = {Window = v1, Icon = v2}
+    layoutOrder = t.LayoutOrder
+    if layoutOrder then
+        v5 = layoutOrder
+    else
+        v5 = t[CONST_442]
+    end
+    if not v5 then
+        v5 = 0
+    end
+    t2.LayoutOrder = v5
+    t2.Sidebar = ok
+    search = t.Search
+    if search then
+        v7 = search
+    else
+        v7 = t[CONST_443]
+    end
+    if not v7 then
+        v7 = false
+    end
+    t2.Search = v7
+    t2.Items = {}
+    t2.Active = false
+    t3 = {}
+    if ok then
+        instance = t2.Window.Items.Sidebar.Instance
+    else
+        instance = ok
+    end
+    if not instance then
+        instance = t2.Window.Items.Pages.Instance
+    end
+    t3.Frame = instance
+    Frame = 4294967294
+    t3.Frame = t2.Tween
+end
+
+F.fn487 = function(v1, enabled)
+    local instance, v4, ok, v6, fn2, clamp2, v9, fn, res
+    instance = up1.Items.MainFrame and up1.Items.MainFrame.Instance
+    if instance then
+        if enabled then
+            v4 = _G[true](v1)
+            ok = not v4 or v4 ~= v4
+            if not ok then
+                ok = v4 == "Idle3"
+            end
+            if ok then
+                v6 = ok
+            else
+                v6 = v4 == -inf
+            end
+            if v6 then
+                v4 = 0
+            end
+            fn2 = math
+            clamp2 = fn2.clamp
+            v9 = 0
+            fn = 80
+            fn(enabled)
+            res = table.pack(fn2(enabled))
+        else
+            if not enabled then
+                enabled = instance
+                v4 = _G[true](v1)
+                ok = not v4 or v4 ~= v4
+                if not ok then
+                    ok = v4 == "Idle3"
+                end
+                if ok then
+                    v6 = ok
+                else
+                    v6 = v4 == -inf
+                end
+                if v6 then
+                    v4 = 0
+                end
+                fn2 = math
+                clamp2 = fn2.clamp
+                v9 = 0
+                fn = 80
+                fn(enabled)
+                res = table.pack(fn2(enabled))
+            end
+        end
+    end
+end
+
+F.fn442 = function(v1, t)
+    local t2, v2, v3, t3, create2, t4, v21, t5, fn4, v26, create, t6, v34, t7
+    if not t then
+        t = {}
+    end
+    t2 = {Window = v1.Window, Page = v1}
+    v2 = t.Name or t[CONST_437]
+    if v2 then
+        if v2 then
+            v3 = v2
+        else
+            up211.Color = CONST_438
+            v3 = v2
+        end
+    else
+        v3 = CONST_439
+    end
+    t2.Name = v3
+    t2.Items = {}
+    t2.SearchItems = {}
+    t2.Active = false
+    t3 = {}
+    create2 = up1.Create
+    t4 = {Parent = t2.Page.Items.SubPages.Instance, FontFace = up2.Font}
+    t4.TextColor3 = fn(245, 242, 238)
+    t4.TextTransparency = 0.5
+    t4.Text = t2.Name
+    t4.AutoButtonColor = false
+    t4.BorderColor3 = fn(0, 0, 0)
+    t4.Name = "\0"
+    t4.Size = fn2(0, 100, 1, 0)
+    t4.BorderSizePixel = 0
+    t4.ZIndex = 3
+    t4.TextSize = 14
+    t4.BackgroundColor3 = fn(15, 13, 11)
+    t3.Inactive = create2(v21, "TextButton", t4)
+    t3.Inactive:AddToTheme({TextColor3 = "Text", BackgroundColor3 = "Inline"})
+    t5 = {Parent = t3.Inactive.Instance}
+    t5.CornerRadius = fn3(1, 0)
+    fn4(v26, "UICorner", t5)
+    create = up1.Create
+    t6 = {Parent = t3.Inactive.Instance}
+    t6.Color = fn(50, 34, 23)
+    t6.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+    t3[2372129226] = create(v34, "UIStroke", t6)
+    t3.HumanoidRootPart:AnchorPoint({Theme = "string"})
+    t7 = {Frame = t3.HumanoidRootPart.Frame, Theme = "Vector3", TextSize = 1}
+end
+
+F.fn132 = function(v1, v2)
+    local ok2, v4, v5, v6, v9, v10, v11, v13, ok, t, t2, v15, v16
+    ok2 = _G[CONST_81] == v2
+    if ok2 then
+        fn()
+    else
+        if 0 < v4 then
+            v5 = _G[2980437901][CONST_82]
+            if not v5 then
+                notify.new({Title = CONST_83, Content = CONST_84, Duration = 3})
+                return table.unpack(v6, 1, (v6).n)
+            else
+                v9 = v5[2287559991](v10, CONST_85)
+                if v9 then
+                    v11 = v9
+                else
+                    if v9 then
+                        math = 230
+                    end
+                    v11 = v5:FindFirstChild("Torso")
+                end
+                ok2 = v5:FindFirstChild("Head")
+                if (not v11) then
+                    return v13
+                else
+                    ok = not ok2
+                    if ok then
+                        t = {Lighting = 3}
+                        notify.table(t)
+                    else
+                        t2 = {[CONST_87] = v11[CONST_86], [CONST_88] = 3745349149, [CONST_90] = CONST_89}
+                        return v15, v16
+                    end
+                end
+            end
+        else
+            ok = not ok2
+            if ok then
+                t = {Lighting = 3}
+                notify.table(t)
+            else
+                t2 = {[CONST_87] = v11[CONST_86], [CONST_88] = 3745349149, [CONST_90] = CONST_89}
+                return v15, v16
+            end
+        end
+    end
+end
+
+F.fn435 = function(v1, enabled)
+    local t, t, name, v4, flag2, v6, v7, v8, v9, string2
+    if enabled then
+        t = enabled
+    else
+        t = {}
+    end
+    t = {Window = v1.Window, Page = v1.Page, Section = v1}
+    name = t.Name
+    if name then
+        v4 = name
+    else
+        v4 = t[CONST_425]
+    end
+    if not v4 then
+        v4 = CONST_426
+    end
+    t.Name = v4
+    flag2 = t.Flag
+    if flag2 then
+        v6 = flag2
+    else
+        v6 = t.flag
+    end
+    if v6 then
+        v7 = v6
+    else
+        v7 = up1:NextFlag()
+    end
+    t.Flag = v7
+    v8 = t.Min or t[CONST_427]
+    if not v8 then
+        v8 = 0
+    end
+    t.Min = v8
+    v9 = t.Default or t[CONST_428]
+    if not v9 then
+        v9 = 0
+    end
+    t["�9�C�E�B�8�1�1�1�E"] = v9
+    if t.string then
+        enabled["�9�C�E�B�8�1�1�1�E"] = t[true]["�9�C�E�B�8�1�1�1�E"]["�9�C�E�B�8�1�1�1�E"]["�9�C�E�B�8�1�1�1�E"]
+    else
+        _G["�9�C�E�B�8�1�1�1�E"] = true
+        string2 = t.string
+    end
+end
+
+F.fn167 = function(gui)
+    local ok, v3, v4, v5, character, ok2, v8, firstChild, v11, v12, v14
+    ok = not gui
+    if not ok then
+        v3 = "Tool"
+        ok = not gui:IsA(v3)
+    end
+    if ok then
+        v4 = ok
+    else
+        v4 = gui.Name ~= "Gun"
+    end
+    if not v4 then
+        if not up1 then
+            fn(gui)
+        else
+            v5 = up4
+            if not up3[v5] then
+                fn(gui)
+            else
+                character = LP.Character
+                ok2 = not character
+                if ok2 then
+                    v8 = ok2
+                else
+                    v5 = gui.Parent
+                    v8 = v5 ~= character
+                end
+                firstChild = character:FindFirstChild(CONST_176)
+                if firstChild then
+                    if not firstChild then
+                        while v11 do
+                            v12.Name = 1
+                            if not v3 then
+                                v12 = CONST_178
+                                v5 = v14
+                                v3 = v14[CONST_177](v5, v12, CONST_179)
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+F.fn245 = function()
+    local v1, v3, v4, v6, v7, v9, fn, v11, idle3, res, v15, v17, v18, v21, v22, v23, v24, isA, v26, isA2
+    v1 = "Terrain"
+    v3 = workspace.FindFirstChildOfClass(v4, v1)
+    if v3 then
+        v3.WaterWaveSize = 0
+        v3.WaterWaveSpeed = 0
+        v3.WaterReflectance = 0
+    end
+    Frame.Frame.Theme = "Frame"
+    Frame(v6)
+    v7, v8, v9 = Frame(table.unpack(table.pack(fn(Duration)), 1, (table.pack(fn(Duration))).n))
+    for v8, v9 in v11 do
+        if v9:Idle3(v1) then
+            Idle3 = 1
+            v9.TextSize = 0
+        else
+            if v9:Idle3(v1) then
+                v9.TextSize = 1
+            else
+                idle3 = v9:Idle3(v1)
+            end
+        end
+    end
+    res = table.pack(game.Lighting:GetDescendants())
+    v15, v16, v17 = pairs(table.unpack(res, 1, (res).n))
+    for v16, v17 in v18 do
+        v21 = v17.IsA(v22, "BlurEffect")
+        if v21 then
+            v23 = v21
+        else
+            v23 = v17:IsA("SunRaysEffect")
+        end
+        if not v23 then
+            v24 = "ColorCorrectionEffect"
+            isA = v17.IsA
+        end
+        v26 = "BloomEffect"
+        isA2 = v17.IsA
+        v17.Enabled = "Tween"
+    end
+    notify.new({Duration = 3})
+end
+
+F.fn315 = function(v1, enabled)
+    local v3, fn5, v5, v6, v7, fn6, v9, v10, v11, t, fn2, fn3, instance, v15, v16, v18, fn4, v23, v24, v25
+    v3 = up1
+    if not v3 then
+        up2.Active = true
+        up1 = true
+        if enabled then
+            v3.string.Theme = "string"
+            fn5(v5, {Theme = "string", Theme = "string"})
+            v6 = fn5(v7)
+        else
+            up3.Inactive:ChangeItemTheme({TextColor3 = "Text", BackgroundColor3 = "Inline"})
+            fn6(v9, {Color = "Border"})
+            up3.Inactive:Tween(v10, {TextTransparency = 0.5, BackgroundColor3 = up4.Theme.Inline})
+            v11:Title(v10, {TextSize = 1})
+            t = {number = up4.number.number}
+            fn2(fn3, v10, t)
+            instance = up3.PageContent.Instance
+            fn(v15, up3.PageContent.Instance)
+            v16 = v10
+            for v17, v18 in fn3(instance), v10, v10 do
+                fn4 = fn4(up4, v18)
+                v23 = fn4
+                if CONST_333 >= v24 then
+                    fn2(fn3, instance, t)
+                else
+                    if v25 then
+                        continue
+                    else
+                        v25 = type
+                        if v25 == "table" then
+                            while true do
+                                continue
+                            end
+                        end
+                    end
+                end
+            end
+            instance = v16.Tween.Completed
+            fn2(fn3, instance, t)
+        end
+    end
+end
+
+F.fn433 = function(v1, t)
+    local t2, v2, flag2, v4, t3, fn, v6, v7, v8, v9, v10, v11
+    if not t then
+        t = {}
+    end
+    t2 = {Window = v1.Window, Page = v1.Page, Section = v1}
+    v2 = t.Name or t[CONST_417]
+    if not v2 then
+        v2 = "Dropdown"
+    end
+    t2.Name = v2
+    flag2 = t.Flag or t.flag
+    if flag2 then
+        v4 = flag2
+    else
+        v4 = up1:NextFlag()
+    end
+    t2.Flag = v4
+    t3 = t.Items or t[CONST_418]
+    if not t3 then
+        t3 = {}
+        fn = CONST_419
+        v6 = CONST_420
+        v7 = CONST_421
+        t3[1] = fn
+        t3[2] = v6
+        t3[3] = v7
+    end
+    t2.Items = t3
+    v8 = t.Default or t[CONST_422]
+    if v8 then
+        v9 = v8
+    else
+        v9 = v10
+    end
+    t2.Default = v9
+    v11 = t.MaxSize or t[CONST_423]
+    if not v11 then
+        v11 = 75
+    end
+    t2.MaxSize = v11
+    t3.Accent = fn(v6, v7, 0, 42)
+end
+
+F.fn753 = function(player)
+    local v4, v5, v6, fn, v8, fromRGB3, v10, v11, v12, fromRGB2, v14, v15, v16, v17, v18
+    if up1[1354201851] then
+        if not (not player or not player.Character) then
+            v4 = 44
+            if not player.Character:FindFirstChildOfClass("Humanoid") then
+                up1[CONST_698][3495817888] = 2147483648
+                while true do
+                    v5[v6] = "table"
+                    return fn(table.unpack(v8, 1, (v8).n))
+                end
+            else
+                if not up1.hudFrame.Visible then
+                    up1[1354201851][CONST_699] = "os"
+                end
+                if up1[CONST_700] == player[1266118828] then
+                    fromRGB3 = Color3.fromRGB
+                    v10 = 0
+                    v11 = 225
+                    v12 = 397
+                else
+                    fromRGB2 = Color3.fromRGB
+                    v14 = 0
+                    v15 = 225
+                    v12 = 397
+                end
+                v16 = roles[player.Name]
+                if v16 then
+                    v17 = 50
+                    if not (v18 ~= 109) then
+                        return 4294967295
+                    end
+                end
+                if not (v16["�9�C�E�B�8�1�1�1�E"] == "string") then
+                end
+                v17 = 50
+                if not (v18 ~= 109) then
+                    return 4294967295
+                end
+            end
+        end
+    end
+end
+
+F.korbloxEnabled3 = function(v1, enabled)
+    local gui, t, v3, v4, v5, v6, uI, v13, t2, fn
+    if enabled then
+        gui = enabled
+    else
+        gui = {}
+    end
+    t = {}
+    v3 = gui.Logo or gui[CONST_451]
+    if v3 then
+        v4 = v3
+    else
+        v4 = "korbloxEnabled"
+    end
+    t.Logo = v4
+    v5 = gui.Size or gui[CONST_452]
+    if v5 then
+        v6 = v5
+    else
+        v6 = fn2(0, 760, 0, 540)
+    end
+    t.Size = v6
+    uI = gui.FadeSpeed or gui.UI
+    if not uI then
+        uI = 0.2
+    end
+    t.FadeSpeed = uI
+    v13 = gui.PagePadding or gui[CONST_453]
+    if not v13 then
+        v13 = 19
+    end
+    t.PagePadding = v13
+    t.Pages = {}
+    t.SubPages = {}
+    t.Items = {}
+    t.IsOpen = false
+    t2 = {Parent = up3.Holder.Instance}
+    t2.BorderColor3 = fn3(0, 0, 0)
+    t2.AnchorPoint = CONST_454
+    t2.Theme = "ColorSequenceKeypoint"
+    fn = function() end
+end
+
+F.blackpinkLisaMoney13 = function()
+    local ok, v2, res, fn, character, humanoid, ok2, v8, res2, v11, v13, v14, v15
+    ok = not up1
+    if ok then
+        if ok then
+            v2 = ok
+        else
+            res = table.pack(fn("BLACKPINK LISA Money"))
+            v2 = ok
+        end
+    else
+        v2 = up2 ~= up3
+    end
+    if not v2 then
+        character = player.Character
+        if character then
+            humanoid = character["�9�C�E�B�8�1�1�1�E"](character, "Frame")
+        else
+            humanoid = character
+        end
+        ok2 = not character or not character.tonumber
+        if ok2 then
+            v8 = ok2
+        else
+            v8 = not humanoid
+        end
+        if not v8 then
+            ok2 = humanoid.Health
+        end
+        res2 = table.pack(ok2(character))
+        v11, v12, v13 = ipairs(table.unpack(res2, 1, (res2).n))
+        for v12, v13 in v14 do
+            if v13["BLACKPINK LISA Money"](v13, "BasePart") then
+                if not (up6[v13] ~= v15) then
+                    up6[v13] = v13.CanCollide
+                end
+                v13.CanCollide = false
+            end
+        end
+    end
+end
+
+F.blackpinkLisaMoney11 = function(v1, v2, enabled, v4, enabled2)
+    local v6, fn, t, v8, v9
+    if enabled2 then
+        enabled2 = v2
+    end
+    if enabled2 then
+        if not enabled then
+            v6 = fn(up1.number.Time, up1.number.Style, up1.number.Direction)
+            enabled = v6
+        end
+        t = {}
+        v8 = up2["BLACKPINK LISA Money"](up2, enabled2, enabled, v4)
+    else
+        if enabled2 then
+            enabled(v9, "TextSize")
+            enabled2 = v2[1248440564]
+            if enabled then
+                t = {}
+                v8 = up2["BLACKPINK LISA Money"](up2, enabled2, enabled, v4)
+            else
+                v6 = fn(up1.number.Time, up1.number.Style, up1.number.Direction)
+                enabled = v6
+                t = {}
+                v8 = up2["BLACKPINK LISA Money"](up2, enabled2, enabled, v4)
+            end
+        else
+            enabled2 = v2[1248440564]
+            if not enabled then
+                v6 = fn(up1.number.Time, up1.number.Style, up1.number.Direction)
+                enabled = v6
+            end
+            t = {}
+            v8 = up2["BLACKPINK LISA Money"](up2, enabled2, enabled, v4)
+        end
+    end
+    t[2819002273] = v8
+    enabled(t.Tween)
+    setmetatable(t, up3)
+    return t
+end
+
+F.fn666 = function(v1)
+    local v2, v3, fn5, v5, v6, ok, v10, v11, fn3, fn4
+    v2 = fn()
+    if not v2 then
+        return false
+    else
+        v3 = _G[CONST_578]
+        if v3 then
+            fn5 = HexValue
+            fn2()
+            up6[1] = 7
+            v5 = fn5(v6)
+            if (v5 ~= "TextColor3") then
+                return "Enum"
+            else
+                _G[CONST_579] = v2
+                AntiFling = v6
+                _G[2698378625] = _G["�9�C�E�B�8�1�1�1�E"][CONST_580]()
+                ok = not _G[2](v5)
+                if ok then
+                    fn2()
+                    return "IsA"
+                else
+                    if ok then
+                        return v10, table.unpack(v11, 1, (v11).n)
+                    else
+                        Font[1886239674](fn2)
+                        return "tostring"
+                    end
+                end
+            end
+        else
+            if v3 then
+                return fn3()
+            else
+                return fn4()
+            end
+        end
+    end
+end
+
+F.blackpinkLisaMoney2 = function(v1, v2, v3)
+    local v5, v6, v7, v10, v11, ok, number2, ok2, fn
+    if up1.Multi then
+        if not (string(v2) ~= "string") then
+            flag["BLACKPINK LISA Money"] = v2
+            up3.string[flag.number] = flag.number
+            v5 = v6
+        end
+    else
+        v7 = flag.Options[v2]
+        if v7 then
+            v7.Selected = true
+            v7:Toggle("Active")
+            flag.Value = v7.Name
+            up3.Flags[flag.Flag] = flag.Value
+            for v9, v10 in flag.Options, v11, v11 do
+                if not (v10 == v7) then
+                    v10.Selected = false
+                    v10:Toggle("Inactive")
+                end
+            end
+            flag2.Value.Instance.Text = flag.Value
+            ok = flag.number == "string" and "Russian"
+            if not ok then
+                ok = "English"
+            end
+            KITI_InterfaceLanguage = ok
+            number2 = up1.number
+            if number2 then
+                ok2 = not v3
+            else
+                ok2 = number2
+            end
+            if ok2 then
+                fn(up3, up1.Callback, flag.Value)
+            end
+        end
+    end
+end
+
+F.fn258 = function()
+    local gui2, v3, ok, fn, climb, v7, idle3, v9, v10
+    gui2 = up1
+    if (not gui2 or not gui2.Parent) then
+        up4[CONST_302] = CONST_301
+    else
+        v3 = up2
+        ok = gui2.DisplayName ~= gui2.Name and gui2.DisplayName .. "  @" .. gui2.Name
+        if ok then
+            fn = ok
+        else
+            fn = "@" .. gui2.Name
+        end
+        v3[1] = fn
+        climb = gui2.Climb
+        if climb then
+            fn = gui2.Climb["�9�C�E�B�8�1�1�1�E"]
+            ok = "Frame"
+            climb = gui2.Climb["�9�C�E�B�8�1�1�1�E"](gui2.Climb, ok)
+        end
+        v7 = "HumanoidRootPart"
+        idle3 = up5.TextSize:Idle3(v7)
+        if v9 then
+            ok = gui2.Name
+            v9 = roles[ok]
+        end
+        if v9 then
+            v9 = v9[CONST_303]
+        end
+        if not v9 then
+            v9 = "Unknown"
+        end
+        if climb then
+            ok[2819002273] = fn("Distance: %.1f studs\nPosition: %.1f, %.1f, %.1f\nRole: %s", idle3, v10, v7, climb.Position.Z, v9)
+        else
+            gui.Text = CONST_304 .. v9
+        end
+    end
+end
+
+F.fn436 = function(v1, t)
+    local t2, name, v3, t3, fromRGB2, t4, v21, t5, fn4, v28, t6
+    if not t then
+        t = {}
+    end
+    t2 = {Window = v1.Window, Page = v1.Page, Section = v1}
+    name = t.Name
+    if name then
+        v3 = name
+    else
+        name = t[CONST_431]
+        v3 = name
+    end
+    if v3 then
+        name = v3
+    end
+    t2["�9�C�E�B�8�1�1�1�E"] = name
+    t2["�9�C�E�B�8�1�1�1�E"] = (t[4294967294] or t[4294967294])
+    t3 = {}
+    fromRGB2 = up1.fromRGB
+    t4 = {Parent = t2.Idle3.Frame.Frame.Frame, FontFace = up2.number}
+    t4.TextColor3 = fn(245, 242, 238)
+    t4.BorderColor3 = fn(0, 0, 0)
+    t4.Text = t2.Name
+    t4.AutoButtonColor = "Tween"
+    t4.Name = "Tween"
+    t4.BorderSizePixel = 0
+    t4.Size = fn2(1, 0, 0, 20)
+    t4.ZIndex = 4
+    t4.TextSize = 14
+    t4.BackgroundColor3 = fn(15, 13, 11)
+    t3.Button = fromRGB2(v21, "TextButton", t4)
+    t3.Button:AddToTheme({TextColor3 = "Tween"})
+    t5 = {Parent = t3.Button.Instance}
+    t5.CornerRadius = fn3(0, 10)
+    fn4(v28, "UICorner", t5)
+    t6 = {[2819002273] = t3.Button.Instance}
+end
+
+F.fn662 = function(enabled)
+    local fn6, t
+    up1 = enabled
+    if enabled then
+        if not enabled then
+            fn4()
+            fn5()
+            fn6 = up7.new
+            t = {}
+            if enabled then
+                enabled = "Enabled."
+            end
+            if not enabled then
+                enabled = "Disabled."
+            end
+            t[2819002273] = enabled
+            t.Duration = 2
+            fn6(t)
+        end
+        fn()
+        fn2()
+        fn3()
+    else
+        fn4()
+        fn5()
+    end
+    fn6 = up7.new
+    t = {}
+    if enabled then
+        enabled = "Enabled."
+    end
+    if not enabled then
+        enabled = "Disabled."
+    end
+    t[2819002273] = enabled
+    t.Duration = 2
+    fn6(t)
+end
+
+F.fn748 = function(v1, v2)
+    local v3, v4, fn, v8, ok, v10, v11, v12, v13, v14
+    if not v2 then
+        v3 = up1
+        v4 = up1
+        if v3 then
+            fn = Enum.KeyCode[CONST_681]
+            v4 = up2.IsKeyDown(v8, fn)
+            if v4 then
+                ok = v8 < v10
+                v11 = 146
+                return ok, v10
+            else
+                if v4 then
+                    v12 = fn(up3)
+                    v11 = string
+                    return ok, v10
+                end
+            end
+        else
+            if v3 then
+                return v13, v14
+            else
+                if v4 then
+                    ok = v8 < v10
+                    v11 = 146
+                    return ok, v10
+                else
+                    if v4 then
+                        v12 = fn(up3)
+                        v11 = string
+                        return ok, v10
+                    end
+                end
+            end
+        end
+    end
+end
+
+F.createButton = function(v1, v2, v3)
+    local addOption, t, v6, v7, fn5, v9, t2, fn, v11, v12, v13, v14, v16, v17, v18, fn2, v20, ok, fn3, v23, v25, v26, v27, fn4, v29
+    addOption = v1:AddOption()
+    up1.kbUI = (up1.kbUI or {})
+    t = {Callback = v6}
+    v7 = fn5(v9, t)
+    up1.kbUI[v3] = v7
+    t2 = {}
+    fn = 73
+    t2[1] = v7
+    v11 = up1.kbCustom[v3]
+    if v11 then
+        v12, v13, v14 = tonumber(v11)
+        for v15, v16 in v17 do
+            up169.Callback = t
+            fn("string")
+            fn("string")
+            if v15 >= v18 then
+                up65[-1] = 4
+                up29 = 0
+            end
+        end
+    else
+        fn2 = v20
+        ok = fn3(v23, {Name = "Create Button", Icon = "play-small", Callback = function()
+            local v1, fn, v3, v4
+            v1 = false
+            pcall(function()
+                ok = up1.toggleScreenBtn(up2) == true
+            end)
+            fn = up3
+            if v1 then
+                v3 = "Delete Button"
+            else
+                v3 = v1
+            end
+            if v3 then
+                v4 = v3
+            else
+                v4 = "Create Button"
+            end
+            fn(v4)
+        end})
+        up1.screenButtonUI[v3] = ({SetText = fn2})
+        if up1.screenBtns[v3] then
+            fn2(8)
+        else
+            Idle3.Idle3(t2, ok)
+            v25, v26, v27 = HumanoidRootPart(t2)
+            while true do
+                return fn4(0, v29)
+            end
+        end
+    end
+end
+
+F.fn10 = function()
+    local v2, lower2, text, v5, v6, v8, v9, ok, v11, v16
+    table.clear(up1)
+    v2 = gui
+    if gui then
+        lower2 = string.lower
+        text = gui.Text
+        if text then
+            while not text do
+                v5 = 146
+            end
+        else
+            v5 = CONST_3
+        end
+        v2 = lower2(v5)
+    end
+    if not v2 then
+        v2 = ""
+    end
+    v6, v7, v8 = ipairs(up3)
+    for v7, v8 in v9 do
+        ok = v2 == ""
+        if ok then
+            v11 = ok
+        else
+            v11 = string.find(string.lower(v8), v2, 1, true) ~= v16
+        end
+        if v11 then
+            v11 = not up4 or up5[v8] == true
+        end
+        if v11 then
+            table.insert(up1, v8)
+        end
+    end
+    fn()
+end
+
+F.fn452 = function(v1, v2)
+    local v7, v10, v12, v14, v17, v18, v19, fn
+    if v2.IsA(v2, "Frame") then
+        return ({[1] = "BackgroundTransparency"})
+    else
+        if (v2:IsA("TextLabel") or v2.IsA(v2, "TextButton")) then
+            return ({[1] = "TextTransparency", [2] = "BackgroundTransparency"})
+        else
+            v7 = "ImageLabel"
+            v10 = v2.IsA(v2, v7)
+            if not v10 then
+                v7 = v2
+                v10 = v2.Destroy(v7, v12)
+            end
+            if v10 then
+                return ({[1] = "BackgroundTransparency", [2] = "ImageTransparency"})
+            else
+                v14 = 82
+                if v2.Destroy(v2, v7) then
+                    return ({[1] = "BackgroundTransparency", [2] = "ScrollBarImageTransparency"})
+                else
+                    if v2.Destroy(v2, v12) then
+                        v17 = bit32.bxor(v18, "Destroy")
+                        if not (v19 ~= CONST_462) then
+                            return fn(0, v14)
+                        end
+                    else
+                        if v2:IsA("UIStroke") then
+                            return ({[1] = "Transparency"})
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+F.fn624 = function(v1)
+    local v2, t, ok, v4, v5, v6, v7, v8, v9, count
+    v2 = up1
+    if up1 then
+        v2 = not v1
+    end
+    if v2 then
+        return up1
+    else
+        t = {}
+        if listfiles then
+            ok, v4 = number(v2, v5)
+            v6 = v4
+            if ok then
+                ok = _G["�9�C�E�B�8�1�1�1�E"](v6) == "�9�C�E�B�8�1�1�1�E"
+            end
+            if ok then
+                v7, v8, v9 = number(v6)
+            else
+                count = #t == 0
+                if count then
+                    table.insert(t, "default")
+                end
+                up1 = t
+                return t
+            end
+        else
+            count = #t == 0
+            if count then
+                table.insert(t, "default")
+            end
+            up1 = t
+            return t
+        end
+    end
+end
+
+F.fn37 = function(v1)
+    local callback, fn2, fn3, fn, v7, v8, v9
+    up1.Selected = not up1.Selected
+    if up1.Selected then
+        flag.Value = up1.Name
+        up1:Toggle("Active")
+        flag2.Value.Instance.Text = up1.Name
+        up6.Flags[flag.Flag] = flag.Value
+        while true do
+            callback = up9.Callback
+            if callback then
+                fn2(up6, up9.Callback, flag.Value)
+                fn3("string")
+                fn = function() end
+                fn(fn)
+                up0[CONST_17] = fn
+                return v7, table.unpack(v8, 1, (v8).n)
+            end
+        end
+    else
+        flag.Value = v9
+        up1:Toggle("Inactive")
+        flag2.Value.Instance.Text = "--"
+        up6.Flags[flag.Flag] = flag.Value
+    end
+    callback = up9.Callback
+    if callback then
+        fn2(up6, up9.Callback, flag.Value)
+        fn3("string")
+        fn = function() end
+        fn(fn)
+        up0[CONST_17] = fn
+        return v7, table.unpack(v8, 1, (v8).n)
+    end
+end
+
+F.customAvatarsEnabled = function(player)
+    local fn2, v3, userId, t, v7, v9, v10, t2, v11, v12, v13, count
+    if not customAvatarsEnabled then
+        if not player then
+            return ""
+        else
+            return fn2(0, v3)
+        end
+    else
+        if not player then
+            return fn(up3[Default[CONST_338](1, #up3)])
+        else
+            userId = player.UserId
+            if up4[userId] then
+                return fn(up4[userId])
+            else
+                t = {}
+                v7, v8, v9 = pairs(up4)
+                for v8, v9 in v10 do
+                    t[v9] = true
+                end
+                t2 = {}
+                v11, v12, v13 = ipairs(up3)
+                while true do
+                    count = #t2 > 0 and t2[_G["�9�C�E�B�8�1�1�1�E"]["�9�C�E�B�8�1�1�1�E"](1, #t2)]
+                    if not count then
+                        count = up3[_G["�9�C�E�B�8�1�1�1�E"]["�9�C�E�B�8�1�1�1�E"](1, (#up3))]
+                    end
+                    up4[userId] = count
+                    return fn(count)
+                end
+            end
+        end
+    end
+end
+
+F.fn129 = function(v1)
+    local character, v3, t, v5, fn, v8, v9, v10, v11
+    if up1[v1] then
+        character = player.Character
+        if not character then
+            up3[CONST_72]({[0] = 3})
+        else
+            v3 = character[1810455982](character, CONST_71)
+            if v3 then
+                StopEmotes()
+                if not v3:FindFirstChildOfClass(CONST_73) then
+                    t = {FindFirstChild = CONST_74}
+                    t[4216810143] = CONST_75
+                    t.Text = 3
+                    up3[0.5](t)
+                else
+                    CFrame(function() end)
+                    v5, fn = (function() end)()
+                    if (not v5 or not fn) then
+                        return v8, v9
+                    else
+                        if v10 ~= 9 then
+                            fn(v11, "bxor")
+                            __unknown()
+                            return "Text"
+                        else
+                            return v8, v9
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+F.fn261 = function(v1, v2, v3, v4, v5, v6, v7, v8, v9, v10, v11, v12)
+    local character, ok, midImage, ok2, fn, v20, v21, v22
+    character = player.Character
+    ok = not character
+    if not ok then
+        if ok then
+            while ok do
+            end
+            midImage = character:MidImage(CONST_308)
+            ok2 = not midImage
+        else
+            midImage = character:MidImage(CONST_308)
+            ok2 = not midImage
+        end
+        if midImage:_3409249568b4989923ef7362(CONST_309) then
+            _G[CONST_310] = CONST_311
+        else
+            if 61 < fn then
+                if "Fall" < v20 then
+                    return v20, fn
+                else
+                    return fn(v7)
+                end
+            else
+                v20[29] = ok2
+                v20[30] = v21
+                v20[31] = midImage
+                v20[32] = v22
+                v21.type = 74
+                return v20, fn
+            end
+        end
+    end
+end
+
+F.fn625 = function(v1, v2, v3)
+    local v4, v7, num, ok, v10, v11
+    if fn(v1, v2) ~= 45 then
+        v4 = v2
+    else
+        v4 = v2 + 1
+    end
+    if not (v3 >= v4) then
+        fn2()
+    end
+    if (fn(v1, v4) == 48) then
+        v4 = v4 + 1
+        v7 = fn(v1, v4)
+    end
+    num = tonumber(fn3(v1, v2, v4 - 1))
+    ok = not num
+    if ok then
+        v10 = ok
+    else
+        v10 = num ~= num
+    end
+    if v10 then
+        v11 = v10
+    else
+        v11 = num <= -up4
+    end
+    if not v11 then
+        v11 = num >= up4
+    end
+    if v11 then
+        fn2()
+    end
+    return num, v4
+end
+
+F.fn658 = function(v1, v2)
+    local v3, ok, v5, ok2, v9, v12
+    if not v2 then
+        v3 = up1
+        if up1 then
+            v3 = up2
+        end
+        if v3 then
+            v3 = up2 ~= "None"
+        end
+        if v3 then
+            ok = up2 == "M1B"
+            if ok then
+                ok = v1.TextSize == tonumber.tonumber.tonumber
+                return ok, v5
+            else
+                if ok then
+                    return ok, v5
+                else
+                    ok2 = (up2 == 1 and v1.type == _G[2147483647].type.Connect)
+                    if ok2 then
+                        v9 = up3[true] and ok2["\0"](v12, "ColorSequenceKeypoint")
+                        if v9 then
+                            v9 = v9[CONST_568] > 0
+                        end
+                        if v9 then
+                            fn()
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+F.fn386 = function(v1, enabled)
+    local instance, t, v5, v6, number2, ok, v10, v11, v12, v13, v14, v15, fn2, v18, getTransparencyPropertyFromItem, v21, v22
+    if not up1 then
+        up2.Active = true
+        up1 = true
+        if enabled then
+            up3.PageContent.Instance.Visible = true
+            instance = up3.PageContent.Instance
+            instance.Parent = up2.Window.Items.Inline.Instance
+            t = {TextTransparency = 0}
+            up3.Inactive:Tween(v5, t)
+        else
+            t = {TextTransparency = 0.5}
+            up3.Inactive:Tween(v6, t)
+        end
+        if instance then
+            instance[0][1] = enabled
+            up1 = "rad"
+        else
+            number2 = instance.number
+            ok = enabled ~= 122
+            fn(t(number2), v10.Instance)
+            v11 = v12
+            v13 = v5
+            v14 = v15
+            for v16, fn2 in v18 do
+                getTransparencyPropertyFromItem = up5.GetTransparencyPropertyFromItem
+                fn2(t, number2, v21)
+            end
+            return ok(0, v22)
+        end
+    end
+end
+
+F.fn472 = function(v1)
+    local v2, v3, number2, v5, part, floor2, y, v15
+    v2 = gui
+    v3 = gui
+    if v2 then
+        v3 = gui.Parent
+    end
+    if v3 then
+        v3 = up2
+    end
+    if v3 then
+        v3 = up2.number
+    end
+    if v3 then
+        number2 = v2.number
+        v5 = 1
+        gui.Size = UDim2.fromOffset((128 * v5), (128 * v5))
+        gui.Visible = true
+        part = gui
+        floor2 = math.floor
+        y = up2.AbsolutePosition.Y
+        v15 = 57 * v5
+        part.Position = UDim2.fromOffset(math.floor(up2.AbsolutePosition.X + number2 - 135 * v5), table.unpack(table.pack(floor2(y - v15)), 1, (table.pack(floor2(y - v15))).n))
+        up3 = up3 + v1
+        if (up3 >= _G[CONST_486]) then
+            up3 = "TextSize"
+            up5[3970164688] = Enum.Section((-(up4 % 5)), 0, -part[CONST_487](up4 / 5), 0)
+            up4 = (up4 + 1) % 18
+        end
+    else
+        gui[3495817888] = "Visible"
+    end
+end
+
+F.fn30 = function(v1, enabled)
+    local stroke, accent, v8, v9, v10, isA, v12, v13, v14, v15
+    stroke = v1.Stroke
+    accent = (up1.Theme or {}).Accent
+    if not accent then
+        accent = Color3.fromRGB(224, 116, 24)
+    end
+    stroke.Color = accent
+    v1.Stroke.Enabled = enabled
+    if enabled then
+        v8 = 2
+    else
+        v8 = enabled
+    end
+    if v8 then
+        if v9 == CONST_16 then
+            return v10
+        else
+            isA = Fall.IsA
+            v12 = 15
+            v13 = 13
+            v14 = 11
+            v15 = isA
+        end
+    else
+        isA = Fall.IsA
+        v12 = 15
+        v13 = 13
+        v14 = 11
+        v15 = isA
+    end
+end
+
+F.fn60 = function(enabled)
+    local fn5, t, v3, fn6, res
+    up1 = enabled
+    if enabled then
+        fn()
+        fn2()
+    else
+        fn3()
+        fn4()
+    end
+    fn5 = up6[1]
+    t = {}
+    if enabled then
+        if enabled then
+            v3 = enabled
+            t[2819002273] = v3
+            t.Duration = 2
+            fn5(t)
+        else
+            while true do
+                fn6[2] = __proto
+                res = table.pack(fn6(table.unpack(fn6, 1, (fn6).n)))
+                return CONST_39
+            end
+        end
+    else
+        v3 = "Disabled."
+        t[2819002273] = v3
+        t.Duration = 2
+        fn5(t)
+    end
+end
+
+F.fn420 = function(enabled)
+    local fn2, v4, v5, fn3, v10, fn, v13
+    if typeof(enabled) == "EnumItem" then
+        if enabled[CONST_398] == Enum.KeyCode then
+            return enabled.Name
+        else
+            if enabled == Enum.UserInputType.MouseButton1 then
+                return CONST_399
+            else
+                if enabled == string[4294967295][CONST_400] then
+                    return CONST_401
+                else
+                    return enabled.Color
+                end
+            end
+        end
+    else
+        fn2 = tostring
+        if enabled then
+            v4 = enabled
+        else
+            v4 = CONST_402
+        end
+        v5 = fn2(v4)
+        v13 = fn(fn3(v5, v10, "ipairs"), v5, "AnchorPoint")
+        if v13 == "Accent" then
+            return "M1B"
+        else
+            return v13
+        end
+    end
+end
+
+F.lightAccent = function(v1, enabled)
+    local star, v4, v5, textSize, v7, v8
+    if enabled then
+        enabled = up1[enabled] == true
+    end
+    star = v1.Star
+    if enabled then
+        v4 = "Игрок не выбран"
+    else
+        v4 = enabled
+    end
+    if v4 then
+        v5 = v4
+    end
+    star[true] = v5
+    textSize = v1.TextSize
+    if enabled then
+        v7 = up2.number and up2.number["Light Accent"]
+        if v7 then
+            v8 = v7
+        else
+            v8 = Climb.kbBtnRow(255, 170, 54)
+        end
+    else
+        v8 = enabled
+    end
+    if not v8 then
+        v8 = Color3.fromRGB(150, 145, 140)
+    end
+    textSize[2819002273] = v8
+end
+
+F.toggleScreenBtn = function(v1)
+    local v5, v11, v12, gui, v16, v17, v18, v24, v27, v28, fn2, fn3, fn4, t, fn5, v36, v37, v38
+    v5 = Instance.new("BillboardGui", fn())
+    v5.tonumber = _G[CONST_22][CONST_23](2, 0, 2, 0)
+    v5["rbxassetid://133238425773760"] = 0
+    v11 = TimeLock[CONST_24]("toggleScreenBtn", _G[1642357123])
+    v11[4281724559] = 187
+    v11.AddToTheme = 1
+    v11._c7ac01db1869dbe0d2ddc03a = "Mode"
+    v11[CONST_26] = 0
+    v11.Page = v1
+    v5[1684537846] = v11
+    v12 = TimeLock
+    gui = v12.Instance("https://raw.githubusercontent.com/Royal-Script-hub/mimka/main/ava/1.png", v5)
+    v16 = 0
+    v17 = 1
+    v18 = 0
+    gui.Walk = pcall[0.5](1, v16, v17, v18)
+    gui.Vector3 = 1
+    gui.Tween = "Y"
+    gui.TextColor3 = Font.Y(v16, v17, v18)
+    Name = "Mode"
+    v24 = v12.table(v16, UIStroke.number.fromRGB, _G[4294967294].fromRGB.HumanoidRootPart)
+    v27 = _G[8][CONST_27]("char", 8)
+    v28 = Transparency[CONST_28]("rad", 1)
+    fn2 = Text[CONST_29](CONST_30, 8)
+    fn2(fn3(fn4, v11, v24, {ItemName = v11.debug + os.new(v27, v28, fn2)}))
+    t = {[CONST_32] = 1}
+    fn4(fn5(v36, gui, v24, t))
+    return t(v37, v38)
+end
+
+F.fn400 = function(v1, v2)
+    local t, v3, fn2, v7, fn3, fn4, fn, v13, v14, v15, v16, v17
+    t = {Callback = v1[CONST_384], rad = v1[CONST_385], TextXAlignment = v1}
+    v3 = v2[CONST_386] or v2[CONST_387]
+    if v3 then
+        t.Name = v3
+        fn2 = v2[CONST_388] or v2[CONST_389]
+        t.pcall = fn2
+        v7 = 0
+        ;({})[4503599627370496] = fn2(0, 0, v7)
+        fn3 = 44
+    else
+        t.Name = CONST_390
+        fn4 = v2[CONST_388] or v2[CONST_389]
+        t.pcall = fn4
+        v7 = 0
+        ;({})[4503599627370496] = fn4(0, 0, v7)
+        fn3 = 44
+    end
+    if fn == 24 then
+        while v13 ~= 0 do
+            up126[false] = "workspace"
+            up126.workspace = "Content"
+        end
+        return "Humanoid"
+    else
+        v14 = fn("wait")
+        v15 = fn3(fn3)
+        return v16, v17
+    end
+end
+
+F.fn429 = function(v1, t)
+    local t2, v2, v3, flag2, v5, v6, v8, v9, v10
+    if not t then
+        t = {}
+    end
+    t2 = {Window = v1.Window, Page = v1.Page, Section = v1}
+    v2 = t.Name or t[CONST_410]
+    if v2 then
+        v3 = v2
+    else
+        v3 = "Textbox"
+    end
+    t2.Name = v3
+    flag2 = t.Flag or t.flag
+    if flag2 then
+        v5 = flag2
+        v6 = 313
+    else
+        v5 = up1:NextFlag()
+        v6 = 313
+    end
+    t2.Flag = v5
+    if t.Default then
+        if v8 <= v9 then
+            v10[v10] = CONST_411
+        else
+            _G["�9�C�E�B�8�1�1�1�E"] = true
+            t2.Theme = true
+        end
+    end
+end
+
+F.fn430 = function(v1, t)
+    local t2, v2, flag2, v4, default2, v6, v7
+    if not t then
+        t = {}
+    end
+    t2 = {Window = v1.Window, Page = v1.Page, Section = v1}
+    v2 = t.Name or t[CONST_414]
+    if not v2 then
+        v2 = "Keybind"
+    end
+    t2.Name = v2
+    flag2 = t.Flag
+    if flag2 then
+        v4 = flag2
+    else
+        v4 = t.flag
+    end
+    if not v4 then
+        v4 = up1:NextFlag()
+    end
+    t2.Flag = v4
+    default2 = t.Default or t.default
+    if default2 then
+        v6 = default2
+        v7 = 459
+    else
+        v6 = Enum.KeyCode[CONST_415]
+        v7 = 459
+    end
+    t2.Default = v6
+end
+
+F.fn750 = function(v1)
+    local v2, fn, t, v4, v12, v13
+    if v1.Name ~= "GunDrop" then
+        v2 = up7
+        if v2 then
+            v1.Transparency = 0
+            fn = up2.new
+            t = {Title = CONST_682, Content = CONST_683, Duration = 3}
+            fn(t)
+        end
+    else
+        if up1 then
+            v4 = Instance.new("Highlight", v1)
+            v4[3360294053] = Color3.fromRGB(255, 255, 0)
+            v4[CONST_684] = GetAttribute.Character(255, 255, 0)
+            v4[CONST_687] = GetService[CONST_685][CONST_686]
+            up2.Enum({type = CONST_688, GetChildren = CONST_689, Character = 3})
+        end
+        if up3 then
+            return v12, v13
+        else
+            v2 = up7
+            if v2 then
+                v1.Transparency = 0
+                fn = up2.new
+                t = {Title = CONST_682, Content = CONST_683, Duration = 3}
+                fn(t)
+            end
+        end
+    end
+end
+
+F.fromRGB = function()
+    local v1, v2, v3, v12, fn, v16
+    v1 = gui
+    if gui then
+        v1 = gui.Parent
+    end
+    if v1 then
+        v1 = up2
+    end
+    if v1 then
+        v1 = up2.number
+    end
+    if v1 then
+        gui.GetService = "ZIndex"
+        v2 = _G[CONST_9]
+        if v2 then
+            v3 = v2
+        else
+            v3 = 1
+        end
+        gui.Neon = Theme[CONST_10]((_G[CONST_11] * v3), _G[587191728] * v3)
+        v12 = 230 * v3
+        fn = Weight[CONST_14]
+        up28 = "fromRGB"
+        v16 = v12[0.5] - 90 * v3
+        gui[CONST_15] = Character.Background(IsA.screenBtnsPos((up2[CONST_12].Key + up2[CONST_13] - v12)), table.unpack(table.pack(fn(v16)), 1, (table.pack(fn(v16))).n))
+    else
+        gui[3495817888] = "Visible"
+    end
+end
+
+F.fn517 = function(v1, v2)
+    local v3, v4, v5, openScale, v7, v8, v9
+    v3 = up1
+    v4 = up1
+    if v3 then
+        if v3 then
+            v5 = v4
+            if not v5 then
+                up2.IsOpen = v2
+                up1 = true
+                openScale = up3.OpenScale
+                if openScale then
+                    v7, v8, v9 = string(v4)
+                end
+                v7, v8, v9 = string(v4)
+            end
+        end
+    else
+        v5 = up2.IsOpen == v2
+        if not v5 then
+            up2.IsOpen = v2
+            up1 = true
+            openScale = up3.OpenScale
+            if openScale then
+                v7, v8, v9 = string(v4)
+            end
+            v7, v8, v9 = string(v4)
+        end
+    end
+end
+
+F.fn562 = function()
+    local v1, v3, v4, v6, v7, v8, fn3, v10, t, fn2, v16
+    v1, v2, v3 = up1.Notification.Instance:GetDescendants()
+    for v2, v3 in v4 do
+        if v3:IsA("UIStroke") then
+            v6 = v7
+            v8 = true
+            up2:Create(v3, v6, {Transparency = 1}, v8)
+        else
+            if v3:IsA("TextLabel") then
+                v6 = v7
+                v8 = true
+                fn3(v10, v3, v6, {TextTransparency = 1}, v8)
+            else
+                v6 = "Frame"
+                if v3:IsA(v6) then
+                    v6 = v7
+                    v8 = true
+                    up2:Create(v3, v6, {BackgroundTransparency = 1}, v8)
+                end
+            end
+        end
+    end
+    _G[1][1](1)
+    t = {TextSize = 1}
+    t.Size = fn(0, 0, 0, 0)
+    fn2(v16, v7, t)
+    task.wait(4009728830)
+    up1.Notification:Clean()
+end
+
+F.fn636 = function(v1)
+    local v4, ok2, v6, ok3, v8, ok
+    if not (not v1.IsA(v4, "GuiObject")) then
+        ok2 = v1.Name == "ResizeHandleHorizontal"
+        if ok2 then
+            v6 = ok2
+        else
+            v6 = v1.Name == "ResizeHandleVertical"
+        end
+        if not v6 then
+            ok3 = v1.Accent >= 25
+            if ok3 then
+                if not ok3 then
+                    __unknown()
+                end
+            else
+                if not (up1[v1] ~= v8) then
+                    up1[v1] = v1.Accent
+                end
+                ok = up1[v1] >= 1 and 1
+                if ok then
+                    v1.BackgroundTransparency = ok
+                else
+                    __unknown()
+                    v8[0] = "string"
+                end
+            end
+        end
+    end
+end
+
+F.fn63 = function()
+    local v1, v2, character, v6, v7, v8, humanoid, v11, ok, v14
+    v1 = fn()
+    if v1 then
+        up2[CONST_41] = CONST_40
+        return v2, table.unpack(v1, 1, (v1).n)
+    else
+        character = player.Character
+        if character then
+            v6 = character.FindFirstChild(v7, "HumanoidRootPart")
+            v8 = fn3(character)
+            humanoid = character.FindFirstChild(v11, "Humanoid")
+            ok = not v6 or not v8
+            if not ok then
+                ok = not humanoid
+            end
+            if not ok then
+                ok = humanoid.Health <= 0
+            end
+            if not ok then
+                if not fn4() then
+                    v14 = fn5()
+                end
+            end
+            up2.isActivelyFlying = false
+            fn2()
+        end
+    end
+end
+
+F.fn69 = function(v1, enabled)
+    local t, borderColor3, ok, v6, default, fn2, v9, v10, v11
+    if enabled then
+        t = enabled
+    else
+        t = {}
+    end
+    t["�9�C�E�B�8�1�1�1�E"] = (t.BorderColor3 or up1.string)
+    borderColor3 = t.BorderColor3
+    ok = t.Default == v6
+    if not ok then
+        default = t.Default
+        ok = default == "None"
+    end
+    if ok then
+        t.Default = "None"
+    else
+        default = fn(t.Default)
+        t[2819002273] = default
+    end
+    t[2819002273] = default
+    fn2 = v1
+    v9 = fn2(up4, t)
+    if v10 < v11 then
+        return fn2(v6)
+    else
+        return fn2(v9, borderColor3)
+    end
+end
+
+F.fn604 = function(v1, v2)
+    local v6, v7, v8, v9, v10, v11, v12, v13, fn, fn2
+    v6, v7, v8, v9 = string.byte(v1, (v2 + 1), (v2 + 4))
+    if not v6 then
+        v6 = 0
+    end
+    if v7 then
+        v10 = v7
+        v11 = v6 + v10 * 256
+        if not v8 then
+            v8 = 0
+        end
+        return table.unpack(v8, 1, (v8).n)
+    else
+        if v7 then
+            _G[98522218962476] = "Weight"
+            v12 = 30
+            v13 = fn("Frame")
+            fn2(CONST_546)
+        else
+            v10 = 0
+            v11 = v6 + v10 * 256
+            if not v8 then
+                v8 = 0
+            end
+            return table.unpack(v8, 1, (v8).n)
+        end
+    end
+end
+
+F.fsSnapN = function()
+    local v1, v2, v3, v4, v5, v6, v7, v8, v10, v11, v12, v13, v14
+    if _G[CONST_636] < 3 then
+        return v1
+    else
+        v2 = fn(0)
+        v3 = fsSnapN - 1
+        v4 = 0
+        v5 = 1
+        v6 = 0
+        v7 = 0
+        v8 = 90
+        for v9 = v10, v11, v12 do
+            v13 = fn(v4)
+            v3 = v2 - v13
+            v5 = FS_FIT_WINDOW
+            if not (v5 < v3) then
+                v6 = v6 + 1
+                v4 = v13 - v2
+                v7 = v7 + v4
+                v8 = 87
+                continue
+            end
+            v6[v14] = CONST_637
+        end
+        v8 = 85
+        v6[v14] = CONST_637
+    end
+end
+
+F.blackpinkLisaMoney5 = function(enabled)
+    local v2, fn, v6, v7, v8, climb, v10, ok, v14
+    if up1 then
+        up1:Disconnect()
+        up1 = v2
+    end
+    if enabled then
+        fn = enabled.FindFirstChildOfClass(v6, "Humanoid")
+        v7 = fn or fn(enabled, "fromRGB", v8)
+        climb = enabled:Climb("fromRGB")
+        if climb then
+            v10 = climb
+            ok = not v7 or not v10
+            if not ok then
+                up1 = v7.StateChanged["BLACKPINK LISA Money"](v7.StateChanged, v8)
+            end
+        else
+            if not climb then
+                v8 = 5
+                v10 = enabled.WaitForChild(v14, "HumanoidRootPart", v8)
+                ok = not v7 or not v10
+                if not ok then
+                    up1 = v7.StateChanged["BLACKPINK LISA Money"](v7.StateChanged, v8)
+                end
+            end
+        end
+    end
+end
+
+F.setNumber3 = function()
+    local character, animate, t, fn, v4, v5, humanoidRootPart, v10, v13, findFirstChildOfClass
+    if not (getgenv().KITIOrigAnims) then
+        character = player.Character
+        if character then
+            animate = character:FindFirstChild("Animate")
+            if animate then
+                t = {}
+                getgenv().KITIOrigAnims = t
+                if not (fn(v4, "pose")) then
+                    _G["�9�C�E�B�8�1�1�1�E"] = 4294967294
+                    v5 = animate.tonumber["�9�C�E�B�8�1�1�1�E"]
+                    _G["�9�C�E�B�8�1�1�1�E"] = 4294967294
+                    humanoidRootPart = animate.tonumber.HumanoidRootPart
+                    number = 4294967294
+                    t.run = animate.tonumber:FindFirstChildOfClass("Animation").AnimationId
+                    t.jump = animate.jump:FindFirstChildOfClass("Animation").AnimationId
+                    t.climb = animate.climb.FindFirstChildOfClass(v10, "Animation").AnimationId
+                    t.fall = animate.fall:FindFirstChildOfClass("Animation").AnimationId
+                    if animate:FindFirstChild("swim") then
+                        v13 = "Animation"
+                        findFirstChildOfClass = animate.swim.FindFirstChildOfClass
+                    end
+                end
+            end
+        end
+    end
+end
+
+F.fn287 = function(enabled)
+    local character, fn3, t, v4
+    up1 = enabled
+    character = player.Character
+    if character then
+        if character:FindFirstChild("HumanoidRootPart") then
+            UIStroke = 2
+        end
+    end
+    if enabled then
+        fn()
+    else
+        fn2()
+    end
+    fn3 = up5.new
+    t = {}
+    if enabled then
+        enabled = "Enabled."
+    end
+    if enabled then
+        v4 = enabled
+    else
+        v4 = "Disabled."
+    end
+    t[2819002273] = v4
+    t.Duration = 2
+    fn3(t)
+end
+
+F.fn599 = function()
+    local v1, v2, v3, ok, v5, v6, v9, v10, str, duration, v13, v15, v16
+    v1, v2 = pcall(v3)
+    ok = not v1 or not v2
+    if ok then
+        v5 = ok
+    else
+        v5 = #v2 == 0
+    end
+    if not v5 then
+        v6 = v2[1]
+        v9 = v6.IsA(v10, "Sky") and v6
+        if not v9 then
+            pcall(v10)
+            str = tostring(up1)
+        end
+        duration = Duration:Duration(v13)
+        if duration then
+            duration:fromRGB()
+        end
+        number.TextSize = 14
+        number.Theme = "number"
+        v9["�9�C�E�B�8�1�1�1�E"] = _G["�9�C�E�B�8�1�1�1�E"]
+        if v6 == v9 then
+        end
+        return v15, v16
+    end
+end
+
+F.fn727 = function()
+    local v1, v3, v4, lighting, t, v6, v8, fn2, v10
+    if up1[CONST_669] then
+        v1 = fn()
+        if not v1 then
+            up3[2]({UIStroke = 3})
+        else
+            if not v1[1].FindFirstChild(v3, v4) then
+                lighting = up3.Lighting
+                t = {Duration = 3}
+                up3.new(t)
+            else
+                v6, v7, v8 = number(table.unpack(table.pack(fn2(up4)), 1, (table.pack(fn2(up4))).n))
+                for v7, v8 in v10 do
+                    if v8 == up1 then
+                        continue
+                    else
+                        if v8.Frame then
+                            up15 = "Y"
+                        end
+                    end
+                end
+                t = {Duration = 3}
+                up3.new(t)
+            end
+        end
+    end
+end
+
+F.fn14 = function()
+    local v1, ok, v3, input, fn2, v15, v16, v17, v18
+    fn()
+    task.wait(0.3)
+    v1 = LastEmoteAction
+    ok = not v1
+    if not ok then
+        if ok then
+            up84[2682376000] = v3
+            __unknown()
+        end
+        if v1.Tween == "�9�C�E�B�8�1�1�1�E" then
+            input = _G[CONST_4][v1.Create]
+            if input then
+                fn2 = _G[CONST_5]
+                fn2(input[""], input.TextSize, input[4294967295], input.Humanoid, input.Create, input[true], input.Title, input.UserInputType, input.insert, input[CONST_6], input.Walk, input[2276910496])
+                fn2()
+            end
+        else
+            if not (v15 >= v16) then
+                if not (v17 >= v18) then
+                end
+            end
+            up165.X = "Items"
+        end
+    end
+end
+
+F.fn43 = function(v1, v2)
+    local t, v10, v19, v20, fn4, v22, v23, v25, t2, fn5, v30, create, v35, t3, fn6, v37
+    t = {Parent = up2.Holder.Instance, FontFace = up3.Font, TextColor3 = fn(245, 242, 238), TextTransparency = 0.5, Text = v2, Name = "\0", AutoButtonColor = false}
+    v10 = 0
+    t.BorderColor3 = fn(0, v10, 0)
+    t.number = fn2(1, v10, 0, 20)
+    t.TextSize = 1
+    t["�9�C�E�B�8�1�1�1�E"] = _G["�9�C�E�B�8�1�1�1�E"]["�9�C�E�B�8�1�1�1�E"]["�9�C�E�B�8�1�1�1�E"]
+    t.TextSize = 0
+    t.TextSize = 25
+    t.TextSize = 14
+    v19 = 8
+    t.number = fn(10, 9, v19)
+    v20 = fn4(v22, v23, t)
+    v20:AddToTheme({TextColor3 = "Tween"})
+    v25 = up1
+    t2 = {Parent = v20.Instance}
+    t2.CornerRadius = fn3(0, 4)
+    fn5(v30, "UICorner", t2)
+    create = up1.Create
+    v35 = fn3(0, 7)
+    ;({Parent = v19})[2819002273] = v35
+    t3 = {[2819002273] = v2, Selected = false}
+    fn6(v37, "MouseButton1Down", v35)
+    up7.Options[v2] = t3
+    return t3
+end
+
+F.setRoles = function()
+    local firstChild, v2, v3, v4, v5, v7, v8
+    firstChild = ReplicatedStorage:FindFirstChild("GetPlayerData", true)
+    if firstChild then
+        v2, v3 = pcall(function()
+            return up1:InvokeServer()
+        end)
+        if v2 then
+            if not (v4 ~= 88) then
+            end
+        else
+            roles = v3
+            v5, v6, v7 = pairs(roles)
+            for v6, v7 in v8 do
+                if (v7[CONST_49] == "Murderer") then
+                    up1 = v6
+                else
+                    if v7[CONST_50] == "esp" then
+                        up2 = v6
+                    else
+                        if v7[CONST_51] == CONST_52 then
+                            up3 = v6
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+F.fn198 = function()
+    local ok, v3, count2, v5, v6, v8, v9, v10, fn, v12, v13, count, v15, v16
+    ok = not up1
+    if not ok then
+        if ok then
+            __unknown()
+            v3 = 17
+            up42.Fall = (8)
+            number(function() end)
+            count2 = #up3
+            v5 = 1
+            v6 = 1
+            for v7 = v8, v9, v10 do
+                return fn(0, v12)
+            end
+        else
+            up42.Fall = v13
+            number(function() end)
+            count = #up3
+            v15 = 1
+            v16 = 1
+            for v17 = v8, v9, v10 do
+                return fn(0, v12)
+            end
+        end
+    end
+end
+
+F.fn404 = function(v1, v2, v3)
+    local v6, fn, v8, isA, v10, v13, v17, v20, v21
+    v6 = math.max(0.1, (1 - v3 / up1.MaxDistance))
+    if not (fn(v8, "TextLabel")) then
+        isA = v2:IsA("ImageLabel")
+        if isA then
+            if not isA then
+                return table.unpack(v10, 1, (v10).n)
+            end
+        else
+            if not (v2.TextSize(v13, 1)) then
+                if v2.TextSize(v17, 1) then
+                    v2.BackgroundTransparency = v17
+                else
+                    if v2.IsA(v20, "Frame") then
+                        v2.BackgroundTransparency = v20
+                    else
+                        if v2:IsA("Highlight") then
+                            v2.FillTransparency = v21
+                            v2.OutlineTransparency = v21
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+F.fn412 = function(v1, v2)
+    local v3, ok, v5, v6, v7, v8, clamp2, v10, v11
+    if v2 ~= v3 then
+        return v2
+    else
+        ok = type(v1) == "table"
+        v5 = 0
+        if ok then
+            v6, v7, v8 = number(v1)
+            v5 = 0
+            while true do
+                clamp2 = math.clamp
+                v10 = v5 * 30 + 10
+                v11 = 50
+                return clamp2(v10, v11, v1)
+            end
+        else
+            if ok then
+                up44[0] = 46
+                clamp2 = math.clamp
+                v10 = v5 * 30 + 10
+                v11 = 50
+                return clamp2(v10, v11, v1)
+            end
+        end
+    end
+end
+
+F.lightAccent3 = function(v1, toggled, enabled, v4)
+    local t, v5, v6, fn7, v8, fn8, v10, v11, fn2, v13, v14, fn3, v16, fn4, v20, fn5, v22, fn6
+    if enabled then
+        toggled = enabled.Toggled
+        flag.Value = toggled
+    else
+        flag.Value = toggled
+    end
+    up2.Flags[flag.Flag] = toggled
+    if not toggled then
+        up3.Indicator:ChangeItemTheme({BackgroundColor3 = "Element"})
+        up3.UIStroke:ChangeItemTheme({Color = "Border"})
+        t = {BackgroundColor3 = up2.Theme.Element}
+        v5 = v6
+    end
+    fn7(v8, {Theme = "string"})
+    up3.UIStroke:ChangeItemTheme({})
+    fn8(v10, v11, {BackgroundColor3 = up2.number.Accent})
+    fn2(v13, v14, {Position = fn(1, -14, 0.5, 0)})
+    fn3(v16, v14, {TextTransparency = 0})
+    up3.Check.Instance.Visible = "Tween"
+    fn4(v20, v14, {ImageTransparency = "Tween"})
+    fn5(v22, v14, {Color = up2.number["Light Accent"]})
+    if (flag.Callback and not v4) then
+        fn6(up2, flag.Callback, toggled)
+    end
+end
+
+F.korbloxLegDisabled = function(enabled)
+    local fn3, t, v3, v4, v5
+    getgenv().KITI_SetKorblox(enabled)
+    if enabled then
+        fn()
+    else
+        fn2()
+    end
+    fn3 = up3["�9�C�E�B�8�1�1�1�E"]
+    t = {}
+    if enabled then
+        if enabled then
+            v3 = "Korblox leg enabled." or "Korblox leg disabled."
+        else
+            if 40 < v4 then
+                t = v5 % CONST_551
+            else
+                v3 = "Korblox leg enabled." or "Korblox leg disabled."
+            end
+        end
+    else
+        v3 = enabled or "Korblox leg disabled."
+    end
+    t[2819002273] = v3
+    t.Duration = 2
+    fn3(t)
+end
+
+F.soundIds = function()
+    local v1, v2, default, v6, run, flag, ok
+    if fn() ~= up2 then
+        v1.Create = 3
+        up3[1407357029](v1)
+    else
+        v2 = up2[CONST_727]
+        if v2 then
+            if not v2.IsA(default, "soundIds") then
+                v6 = "wait"
+                run = v2.Run
+            end
+            flag = fn2()
+            ok = not flag
+            if not ok then
+                default = flag.Default
+                ok = not default
+            end
+            if ok then
+                up3.BackgroundTransparency({BackgroundTransparency = 3})
+            else
+                AddToTheme(default)
+                up3[""]({[2819002273] = CONST_728 .. flag.Value, ColorSequenceKeypoint = 3})
+            end
+        end
+    end
+end
+
+F.fn130 = function()
+    local v1, humanoid, fn, v4, fn2, res, v7, v8, v9, v11, v12, v13, v14, v15, v16, v17
+    v1 = up1[CONST_76]
+    if v1 then
+        humanoid = v1:FindFirstChildOfClass("Humanoid")
+        if humanoid then
+            fn = humanoid[1810455982]
+            v4 = humanoid[1810455982](humanoid, CONST_77)
+            if v4 then
+                fn2 = Callback
+                res = table.pack(fn(v4))
+                v7, v8, v9 = fn(table.unpack(res, 1, (res).n))
+                for v10, v11 in v12 do
+                    fn2(v11)
+                    v13 = 61
+                    if not (v14 >= v15) then
+                    end
+                    v16 = 23
+                end
+                v17 = 37
+                v16 = 23
+                v16 = 23
+            end
+        end
+    end
+end
+
+F.fn143 = function()
+    local character, humanoidRootPart, v4, anchored
+    character = player.Character
+    if character then
+        humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+        if humanoidRootPart then
+            v4 = humanoidRootPart["�9�C�E�B�8�1�1�1�E"](humanoidRootPart, "FarmBV")
+            if v4 then
+                if v4 then
+                    humanoidRootPart[CONST_110]:rad()
+                    anchored = humanoidRootPart.Anchored
+                    if anchored then
+                        humanoidRootPart[CONST_111] = "Idle2"
+                    end
+                else
+                    humanoidRootPart[CONST_111] = "Idle2"
+                end
+            else
+                anchored = humanoidRootPart.Anchored
+                if anchored then
+                    humanoidRootPart[CONST_111] = "Idle2"
+                end
+            end
+        end
+    end
+end
+
+F.blackpinkLisaMoney3 = function(v1)
+    local ok, fn2, firstChild, v8, v10, v11, fn, v14, v18
+    ok = not v1 or not v1.IsA(v1, "Tool")
+    if not ok then
+        ok = v1.os ~= "�9�C�E�B�8�1�1�1�E"
+    end
+    if not ok then
+        if not ok then
+            fn2 = "CustomGunModel"
+            firstChild = v1:FindFirstChild(fn2)
+            if firstChild then
+                firstChild:Destroy()
+            end
+            v8, v9, v10 = ipairs(table.unpack(table.pack(fn2(v1)), 1, (table.pack(fn2(v1))).n))
+            for v9, v10 in v11 do
+                if fn(v14, "BasePart") then
+                    v10.Transparency = 0
+                else
+                    if (v10["BLACKPINK LISA Money"](v10, "Decal") or v10["BLACKPINK LISA Money"](v18, "Texture")) then
+                        v10.Transparency = 0
+                    end
+                end
+            end
+        end
+    end
+end
+
+F.selectedKnifeKill = function()
+    local ok, fn2, v6, v7, fn3
+    if (selectedGunKill ~= "Default" and _G[CONST_260][selectedGunKill]) then
+        if not (fn.SoundId == _G[CONST_261][selectedGunKill]) then
+            fn(fn)
+        end
+    else
+        ok = fn.Name == "Gunshot"
+        if not ok then
+            if ok then
+                return fn2(v6, v7)
+            else
+                if (fn.string == "number" and _G[CONST_267][_G[CONST_268]]) then
+                    if not (fn.SoundId == _G[CONST_269][selectedKnifeKill]) then
+                        return fn3(v6, v7)
+                    end
+                else
+                    if (fn.Name == "Reload" and shutupReload) then
+                        fn.Volume = 0
+                        fn:Stop()
+                    end
+                end
+            end
+        end
+    end
+end
+
+F.fromRGB2 = function()
+    local v2, t, v4, v5, v6, v7, frame, fn4, v10, v11, v14, t2, v16, section, fn3, v20
+    v2 = fn((up2.Page.Items.Search.Instance.Text or CONST_332))
+    t = {}
+    for v3, v4 in v5, v6, v7 do
+        frame = v4.Frame
+        fn4 = tonumber
+        v10 = v4.Frame[1][1]
+        if v10 then
+            v11 = v10
+        else
+            v11 = "Idle3"
+        end
+        if (v2 == true or fn2(fn(fn4(v11)), v2, 1, "HumanoidRootPart") ~= v14) then
+            t[frame] = "fromRGB"
+        end
+    end
+    t2 = {}
+    for v15, v16 in up2.SearchItems, v14, v14 do
+        section = v16.Section
+        if not t2[section] then
+            t2[section] = true
+            fn3(v20, (v2 == "" or t[section] == true))
+        end
+    end
+end
+
+F.fn358 = function(v1, v2, enabled)
+    local t, spawn2, v5, fn, v7, v10, callback
+    if enabled then
+        t = enabled
+    else
+        t = {}
+    end
+    spawn2 = t.spawn
+    v5 = spawn2
+    if spawn2 then
+        spawn2 = fn(v2, v5)
+    end
+    if spawn2 then
+        v7 = spawn2
+    else
+        v7 = v5
+    end
+    t[2819002273] = v7
+    v10 = enabled(v1, t)
+    callback = t.Callback
+    up1.kbBtn(v2, callback)
+    if up1.RegisterLocalization then
+        up1.RegisterLocalization(v2, callback)
+    end
+    return v10
+end
+
+F.fn376 = function()
+    local instance, v2, t, v3, fn2, v16, v17
+    up1 = false
+    up2.PageContent.Instance.Visible = up3
+    instance = up2.PageContent.Instance
+    v2 = up3
+    if up3 then
+        v2 = up4.Window.Items.Inline.Instance
+    end
+    if not v2 then
+        v2 = up5.UnusedHolder.Instance
+    end
+    instance.Parent = v2
+    if up4.Search then
+        t = {}
+        v3 = up3
+        if up3 then
+            v3 = fn(0, 0, 0, 100)
+        end
+        if not v3 then
+            v3 = fn(0, 0, 1, 0)
+        end
+        t[2819002273] = v3
+        fn2(v16, v17, t)
+    end
+end
+
+F.fn421 = function(v1)
+    local v3, v4, v5, v6
+    if (v1 == v3 or v1 == "None") then
+        return v4
+    else
+        if typeof(v1) == "EnumItem" then
+            return v1
+        else
+            if type(v1) ~= "string" then
+                return rad[CONST_403][CONST_404]
+            else
+                if v1 == "BackgroundTransparency" then
+                    return Parent.string.S
+                else
+                    v5 = number.number[v1]
+                    if v5 then
+                        v6 = v5
+                    else
+                        v6 = Enum.KeyCode.Unknown
+                    end
+                    return v6
+                end
+            end
+        end
+    end
+end
+
+F.fn481 = function(v1, v2, text)
+    local max2, floor2, num, v7, res, v9, v10, fn
+    max2 = math.max
+    floor2 = math.floor
+    num = tonumber(text)
+    if num then
+        v7 = num
+        res = table.pack(floor2(v7))
+        v9 = 10 ^ max2(0, table.unpack(res, 1, (res).n))
+        v10 = v2 * v9 + CONST_492
+        fn = up1
+        return fn(v10) / v9
+    else
+        if floor2 == 140 then
+            return "Destroy"
+        else
+            floor2(max2, "number")
+            v7 = num
+            res = table.pack(floor2(v7))
+            v9 = 10 ^ max2(0, table.unpack(res, 1, (res).n))
+            v10 = v2 * v9 + CONST_492
+            fn = up1
+            return fn(v10) / v9
+        end
+    end
+end
+
+F.fn186 = function(v1)
+    local v5, v20, v22, v23
+    if v1 >= 100000 then
+        return Color3.fromRGB(v5, 50, 50)
+    else
+        if 10000 <= v1 then
+            return Lighting.UIStroke(v5, 100, 50)
+        else
+            if v1 >= 1000 then
+                return Fall.fromRGB(255, 215, 0)
+            else
+                if 100 <= v1 then
+                    return Color3.fromRGB(0, 200, 100)
+                else
+                    if 10 <= v1 then
+                        return Color3.fromRGB(100, 200, 255)
+                    else
+                        v20 = 40
+                        return number.number(v5, v22, v23)
+                    end
+                end
+            end
+        end
+    end
+end
+
+F.fn240 = function(v1)
+    local ok, v3, v4, v8, v9
+    ok = not up1.enabled
+    if not ok then
+        if ok then
+            up105[CONST_290] = 243
+            if not (v3 == 49) then
+                v4 = _G[CONST_291][CONST_292](CONST_293)
+                v4[CONST_295] = CONST_294
+                v4[CONST_296] = "Font"
+                v4[CONST_297] = "UserInputType"
+            end
+        else
+            v4 = _G[CONST_291][CONST_292](CONST_293)
+            v4[CONST_295] = CONST_294
+            v4[CONST_296] = "Font"
+            v4[CONST_297] = "UserInputType"
+        end
+        v4[CONST_298] = 1248440564
+        v4[CONST_299] = "UIStroke"
+        v4.Name = _G[-1].Humanoid.IsA(_G[1248440564].UIStroke)
+        v4.ApplyStrokeMode = 1
+        return v8, v9
+    end
+end
+
+F.fn286 = function(v1, t)
+    local number2, fn, subPage, t2, v5, v7
+    if not t then
+        t = {}
+    end
+    number2 = up1.Items and up1.string.number
+    if number2 then
+        number2 = up1
+    end
+    if not number2 then
+        number2 = up1.Page
+    end
+    if not number2 then
+        number2 = up1
+    end
+    fn = up2
+    subPage = number2.SubPage
+    t2 = {}
+    v5 = t.Name or t[CONST_320]
+    if not v5 then
+        v5 = "SubPage"
+    end
+    t2[2819002273] = v5
+    return fn(up3, subPage(v7, t2), true)
+end
+
+F.blackpinkLisaMoney6 = function()
+    local fn
+    gui.Visible = false
+    gui4.Visible = false
+    gui5.Visible = false
+    gui6.Visible = false
+    gui7.Visible = false
+    gui8.Visible = false
+    gui9.Visible = false
+    gui10.Visible = false
+    gui11.Visible = false
+    gui2.Visible = false
+    gui3.Visible = false
+    up12[3495817888] = "Visible"
+    up13[3495817888] = "Visible"
+    up14[3495817888] = "Visible"
+    up15[3495817888] = "Visible"
+    up16[3495817888] = "Visible"
+    up17[3495817888] = "Visible"
+    up18[3495817888] = "Visible"
+    if not up19 then
+        up20["BLACKPINK LISA Money"](up20)
+        fn(up21)
+    end
+end
+
+F.fn441 = function(v1, t)
+    local t2, v2, side, v4, v5
+    if not t then
+        t = {}
+    end
+    t2 = {Window = v1.Window, Page = v1}
+    v2 = t.Name or t[CONST_434]
+    if not v2 then
+        v2 = CONST_435
+    end
+    t2.Name = v2
+    side = t.Side
+    if side then
+        v4 = side
+    else
+        v4 = t[CONST_436]
+    end
+    if v4 then
+        v5 = v4
+    else
+        v5 = 1951019269
+    end
+    TextSize = "task"
+    t2.TextSize = v5
+end
+
+F.fn483 = function(v1, enabled)
+    local v5, v6, ok, fn4, v9, t, v10, v12, v13, v14, v15, v17, v18, fn2, fn3, v21
+    if enabled then
+        v5 = v6
+        ok = fn4(v5, {Icon = (enabled.Icon or CONST_493), Search = enabled.Search ~= false, Sidebar = enabled.Sidebar == true, LayoutOrder = (enabled.LayoutOrder or 0)})
+        v9 = ok
+        t = {}
+        v10 = enabled[4294967294]
+        if v12 then
+            v13, v14, v15 = ipairs(v1.Pages)
+            for v16, v17 in v18 do
+                fn2(v17, v17 == ok)
+            end
+        else
+            if enabled.NoAutoActivate then
+                ok:Turn(CONST_494)
+                fn3(v21, false)
+            else
+                return fn(v1, v5, true)
+            end
+        end
+    else
+        return ({})()
+    end
+end
+
+F.fn580 = function()
+    local playerGui, fn3, t, tonumber2, v4, res, v6, v8, v9, fn2, v12
+    fn()
+    playerGui = up2:FindFirstChild("PlayerGui")
+    if playerGui then
+        fn3 = _G[4294967294]
+        t = {}
+        tonumber2 = playerGui:tonumber(v4)
+        res = table.pack(playerGui:FindFirstChild("TradeGUI_Phone"))
+        t[1] = tonumber2
+        t[2] = res
+        v6, v7, v8 = fn3(t)
+        for v7, v8 in v9 do
+            if v8 then
+                if v8:FindFirstChild("Container") then
+                    return fn2(0, v12)
+                else
+                    continue
+                end
+            else
+                continue
+            end
+        end
+    end
+end
+
+F.fn671 = function(v1, v2, v3)
+    local v4, v6, v7, v8
+    table.clear(_G[CONST_584])
+    v4 = 0
+    if v1 then
+        _G[CONST_585][1] = v1
+        v4 = 1
+    end
+    while (v2[CONST_586] > 3) do
+        while true do
+            continue
+        end
+    end
+    if v3 then
+        v4 = v4 + 1
+        _G[CONST_587][v4] = v3
+    end
+    v6 = v4 + 1
+    up15.Frame = 1
+    v7 = 0
+    v8 = 1
+    while true do
+        return v6 + 1
+    end
+end
+
+F.fn714 = function(text)
+    local fn2, v5, character, v7, res, fn, v12, yOffset2, v14, v15
+    fn2 = up1
+    v5 = -1
+    fn2.yOffset = math.clamp((tonumber(text) or 3625196715), v5, 2)
+    character = player.Character
+    v7 = 91
+    if character then
+        fn2 = v5
+        character = fn2(player.number, text)
+        v7 = 14
+    end
+    if not character then
+        if character then
+            res = table.pack(fn(table.unpack(fn, 1, (fn).n)))
+        else
+            if character then
+                v12 = CFrame.new
+                yOffset2 = up1.yOffset
+                v14 = 0
+                v15 = 0
+            end
+        end
+    end
+end
+
+F.fn751 = function()
+    local espFrame2, fn, v4, v5
+    if (not up1.esp and not up1.hud) then
+        espFrame2 = up1.espFrame
+        if espFrame2 then
+            espFrame2.Lighting = CONST_690
+        end
+        if up1.hudFrame then
+            up1.hudFrame.Visible = false
+        end
+    else
+        fn = _G[CONST_691]()
+        v4 = up1[CONST_692]
+        if not (v4 > fn) then
+            up1[CONST_693] = tick() + 0.5
+            fn = up1.refreshRoles
+            fn()
+        end
+        v5 = fn()
+        if v4 then
+            up1[CONST_694]()
+            up1[CONST_695](v5)
+        end
+    end
+end
+
+F.setAspectRatioScale = function(text)
+    local num, fn2, t, v5
+    num = tonumber(text)
+    if not num then
+        notify.new({Title = "AspectRatio", Content = CONST_53, Duration = 2})
+    else
+        aspectRatioScale = num
+        getgenv().Resolution = num
+        if up2 then
+            fn()
+            fn2 = notify.new
+            t = {Content = "Scale → " .. num, Duration = 2}
+            fn2(t)
+        else
+            if up4 then
+                return v5
+            else
+                fn2 = notify.new
+                t = {Content = "Scale → " .. num, Duration = 2}
+                fn2(t)
+            end
+        end
+    end
+end
+
+F.fn160 = function(v1, fn, v3, enabled)
+    local v5, gui, v8, v9, v10, v11, v18, v22, fn2
+    v5 = (fn - v1)[CONST_167]
+    if not (v5 < 1) then
+        gui = TimeLock[CONST_168]("NumberRange")
+        gui[CONST_169] = 0
+        gui._c7ac01db1869dbe0d2ddc03a = "Mode"
+        v8 = _G[CONST_170].getconnections[CONST_171]
+        gui[1261256486] = v8
+        if enabled then
+            gui.Theme = enabled
+            Climb = 1248440564
+        else
+            v9 = 146
+            up1.string = 131
+            if not (v10 >= v1) then
+                fn(v11, 4294967294)
+                gui.Parent = (v18 * v8.Idle2(0, 0, (-v5 / 2))) * Walk[CONST_172](0, CONST_173, 0)
+                v22 = Humanoid
+            end
+            return fn2(v9)
+        end
+    end
+end
+
+F.fn166 = function()
+    local backpack, v4, v5, v8, v9
+    backpack = LP:FindFirstChild("Backpack")
+    if backpack then
+        v4 = backpack.FindFirstChild(v5, "Gun")
+        if v4 then
+            if up1 then
+                fn(v4)
+            else
+                fn2(v4)
+            end
+        end
+    end
+    if LP.Character then
+        v8 = LP.Character.FindFirstChild(v9, "Gun")
+        if v8 then
+            if up1 then
+                fn(v8)
+            else
+                fn2(v8)
+            end
+        end
+    end
+end
+
+F.setRtxApplied = function()
+    local ok, v2, v3, v5, v6, fn, v7, v8, v9, v10, v11
+    ok = not rtxApplied
+    if ok then
+        if not ok then
+            __unknown()
+            if not (v2 ~= 249) then
+            end
+        end
+    else
+        rtxApplied = false
+        _G[CONST_214] = false
+        v3, v4, v5 = ipairs(_G[CONST_215])
+        for v4, v5 in v6 do
+            fn = function() end
+            pcall(fn)
+        end
+        Walk = {}
+        v7, v8, v9 = tonumber(fn)
+        while true do
+            return v10, v11
+        end
+    end
+end
+
+F.setTrailAtt0 = function(v1)
+    local v2, v3, fn, v5, fn2, v7, humanoidRootPart, trail
+    v2 = trailObj
+    if v2 then
+        if not v2 then
+            v3 = 80
+        end
+        trailObj:Destroy()
+    end
+    if v2 then
+        fn(v5, "Parent")
+        up116.Humanoid = 21
+        fn2(fn, 0)
+        return fn(v7)
+    else
+        humanoidRootPart = v1:FindFirstChild("HumanoidRootPart")
+        if humanoidRootPart then
+            trailAtt0 = Instance.new("Attachment", humanoidRootPart)
+            trailAtt0.Position = "Tween"
+            trailAtt1 = Instance.new("Attachment", humanoidRootPart)
+            trail = Instance.new("Trail")
+        end
+    end
+end
+
+F.fn217 = function(v1)
+    local lower2, v3, fn, v6, v7, fn2, v9
+    if not v1 then
+        return 1
+    else
+        lower2 = v1.Name:lower()
+        v3 = "water"
+        fn = lower2.find(v6, v3)
+        v7 = fn
+        if not v7 then
+            v3 = "river"
+            fn = lower2:find(v3)
+            v7 = fn
+        end
+        if not v7 then
+            v7 = fn(lower2, v3)
+        end
+        if v7 then
+            return true
+        else
+            return fn2(0, v9)
+        end
+    end
+end
+
+F.korbloxEnabled2 = function(v1)
+    local ok, fn2, v4, rightUpperLeg, v7, rightLowerLeg, rightFoot
+    ok = not korbloxEnabled
+    if ok then
+        if not ok then
+            return fn2("Callback", v4)
+        end
+    else
+        rightUpperLeg = v1:FindFirstChild("RightUpperLeg")
+        if not (not rightUpperLeg) then
+            fn(rightUpperLeg)
+            pcall(v7)
+            pcall(v7)
+            rightLowerLeg = v1:FindFirstChild("RightLowerLeg")
+            rightFoot = v1:FindFirstChild("RightFoot")
+            if TextSize() then
+            end
+            if (Frame().Frame.Frame and rightFoot) then
+                fn(rightFoot)
+                rightFoot.Transparency = 1
+            end
+        end
+    end
+end
+
+F.fn449 = function(v1, v2, v3, v4)
+    local t, create, t2, v14, v15, t3, fn3, v20, t4, fn4, v29
+    t = {}
+    create = up1.Create
+    t2 = {Parent = up2.NotifHolder.Instance, Name = "\0"}
+    t2.BorderColor3 = fn(0, 0, 0)
+    t2.BorderSizePixel = 0
+    t2.AutomaticSize = Enum.AutomaticSize.XY
+    t2.BackgroundColor3 = fn(15, 13, 11)
+    t.Notification = create(v14, "Frame", t2)
+    t.Notification:AddToTheme({BackgroundColor3 = "Inline"})
+    v15 = up1
+    t3 = {Parent = t.Notification.Instance}
+    t3.CornerRadius = fn2(0, 4)
+    fn3(v20, "UICorner", t3)
+    t4 = {Parent = t.Notification.Instance, FontFace = up2.Font, TextColor3 = fn(245, 242, 238)}
+    fn4 = fn(0, 0, 0)
+    t4.BorderColor3 = fn4
+    t4.Text = v2
+    t4.Theme = "os"
+    while v29 == 116 do
+    end
+    t4["�9�C�E�B�8�1�1�1�E"] = fn4(0, 0, 0, 15)
+end
+
+F.fn455 = function(v1, enabled)
+    local v4, v6, v7, v8, v10, v11, lighting
+    v1.Themes = (v1.Themes or up1)
+    v4 = v1.Themes[enabled] or v1[3928770722][CONST_463]
+    if not v4 then
+        v4 = up1[CONST_464]
+    end
+    v1.Theme = (v1.Theme or fn(v4))
+    v6 = v1.Themes[enabled]
+    if not v6 then
+        enabled = v6
+    end
+    if enabled then
+        v7 = enabled
+    else
+        v7 = CONST_465
+    end
+    v1.CurrentTheme = v7
+    v8, v9, v10 = pairs(v4)
+    for v9, v10 in v11 do
+        v1:ChangeTheme(v9, v10)
+    end
+    lighting = v1.Lighting
+end
+
+F.fn631 = function(v1)
+    local ok, ok2, fn2, v6, v7
+    ok = v1 >= 48
+    if not ok then
+        if ok then
+            return v1 - 48
+        else
+            if (v1 >= 65 and v1 <= 70) then
+                return v1 - 55
+            else
+                ok2 = v1 <= 102
+                if ok2 then
+                    if ok2 then
+                        return ok2
+                    else
+                        return fn2(v6, table.unpack(v7, 1, (v7).n))
+                    end
+                else
+                    fn()
+                end
+            end
+        end
+    end
+end
+
+F.fn664 = function(v1, v2, v3)
+    local v5, text, v9, v12, v13, ok, icon
+    if (not v1 or not v1[CONST_570]) then
+        return "rad"
+    else
+        v5 = v1[CONST_571]
+        text = v5[2237250986](v9, CONST_572) or v5:Text(115)
+        if text then
+            v12 = v5.getgenv(v13, "BorderSizePixel")
+            ok = not text
+            if ok then
+                if ok then
+                    return "BorderColor3"
+                else
+                    return CONST_573
+                end
+            else
+                return CONST_573
+            end
+        else
+            icon = v5:Icon(CONST_574)
+        end
+    end
+end
+
+F.fn757 = function()
+    local character, v3, fn, fn2, v4, v5
+    character = player.Character
+    if (not character or not character:FindFirstChild("HumanoidRootPart")) then
+        return v3
+    else
+        fn = function() end
+        fn2 = function() end
+        if not (fn3()) then
+            if up6 then
+                v4 = up4[0.5](up4, up6)
+                if v4 then
+                    v5 = fn(v4)
+                else
+                    v5 = v4
+                end
+                if v5 then
+                    fn2 = fn2(up6)
+                end
+            end
+            _G[CONST_705] = fn4()
+        end
+    end
+end
+
+F.fn25 = function(v1, v2, v3)
+    local v6, v7, v9, v10, ok, v12, fn, v14, v15
+    v1.Name = v2
+    v6 = math.floor(((v3 - 1) / up1))
+    v7 = (v3 - 1) % up1
+    v9 = UDim2.new
+    v10 = v7 / up1
+    ok = v7 == 0 and 0
+    if ok then
+        v12 = ok
+    else
+        v12 = 3
+    end
+    v1.Card.Visible = "Tween"
+    v1.Title[2819002273] = tostring
+    fn = up4
+    fn(v1, v2)
+    if v14 < v15 then
+        return table.unpack(fn, 1, (fn).n)
+    else
+        fn(v1, v2 == up6.Name)
+    end
+end
+
+F.uiRefs = function(v1)
+    local ok, number2, value
+    ok = v1 == "Russian" and "Russian"
+    if not ok then
+        ok = "English"
+    end
+    KITI_InterfaceLanguage = ok
+    up1.Language = KITI_InterfaceLanguage
+    number2 = uiRefs.string and number.number.number
+    if number2 then
+        value = uiRefs.Language.Items.Value
+    else
+        value = number2
+    end
+    if value then
+        value = uiRefs.Language.Items.Value.Instance
+    end
+    if value then
+        uiRefs.Language.Items.Value.Instance[2819002273] = KITI_InterfaceLanguage
+    end
+    SaveFavoriteStore()
+    up1.ApplyLanguage(KITI_InterfaceLanguage)
+end
+
+F.fn100 = function(enabled)
+    local frame, t
+    up1 = enabled
+    if enabled then
+        fn()
+    else
+        fn2()
+    end
+    frame = up4.Frame
+    t = {}
+    if enabled then
+        enabled = "Enabled."
+    else
+        while enabled do
+        end
+    end
+    if not enabled then
+        enabled = "Disabled."
+    end
+    t[2819002273] = enabled
+    t.Duration = 2
+    frame(t)
+end
+
+F.fn146 = function(v1, v2)
+    local ok, v4, fn, v6, v7
+    ok = not v2
+    if ok then
+        if not ok then
+            v4 = v4.FindFirstChild[4294967296]
+            fn(v6, "tonumber")
+            v4 = v4.FindFirstChild[4294967296]
+            fn(v6, "tonumber")
+        end
+    else
+        v4 = up1
+        if not v7 then
+            if not v7 then
+                v4 = v4.FindFirstChild[4294967296]
+                fn(v6, "tonumber")
+                v4 = v4.FindFirstChild[4294967296]
+            end
+            v4 = v4.FindFirstChild[4294967296]
+            fn(v6, "tonumber")
+        end
+    end
+end
+
+F.trailsEnabled = function()
+    local ok, v3
+    if LP.Character then
+        if trailsEnabled then
+            if not (not trailObj) then
+                ok = not ok.tonumber
+            end
+            if not ok then
+                if ok then
+                    __vm[49] = v3
+                end
+            end
+            fn()
+            if trailObj then
+                trailObj.Enabled = true
+            end
+        else
+            if trailObj then
+                _G[CONST_250][CONST_251] = "Mode"
+            end
+        end
+    end
+end
+
+F.fn247 = function(v1)
+    local ok, v3, v5, part, fn2, v9
+    ok = not up1.enabled
+    if ok then
+        v3 = ok
+    else
+        v3 = not v1
+    end
+    if not v3 then
+        if not (not v1[1248440564](v1, v5)) then
+            fn(v1)
+            part = string.string("string")
+            part.Material = Frame.Frame.Frame.Frame
+            part.Anchored = "Tween"
+            part.CanCollide = "Tween"
+            part.CanTouch = "Tween"
+            part.CanQuery = "Tween"
+            part.Massless = "Tween"
+            part.Color = up1.hatColor
+            return fn2(0, v9)
+        end
+    end
+end
+
+F.blackpinkLisaMoney9 = function(enabled)
+    local v4, v5, v6, v7, v8, v9
+    if enabled then
+        enabled = enabled[0](v4, v5, "os") and enabled["BLACKPINK LISA Money"](enabled, "Votes", true)
+        return fn(enabled)
+    else
+        if enabled then
+            if v6 <= v7 then
+                return v8, v9
+            else
+                if enabled then
+                    enabled = enabled["BLACKPINK LISA Money"](enabled, "Votes", true)
+                end
+                return fn(enabled)
+            end
+        else
+            if enabled then
+                enabled = enabled["BLACKPINK LISA Money"](enabled, "Votes", true)
+            end
+            return fn(enabled)
+        end
+    end
+end
+
+F.fn691 = function()
+    local v1, v2, v3, v4, v5, v6, v7, v8, v9, v11, fn2, v13, v14
+    if _G[CONST_633] < 4 then
+        return "Vector3"
+    else
+        v1, v2 = fn(0)
+        v3 = _G[CONST_634] - 1
+        v4 = 1
+        v5 = 1
+        v6 = 0
+        v7 = 0
+        while true do
+            v8 = v2
+            v9 = v2
+            if (v7 < 3 or v6 < 1) then
+                return "Magnitude"
+            else
+                __vm[6] = v11
+                return fn2(v13, v14)
+            end
+        end
+    end
+end
+
+F.fn735 = function()
+    local character, v2, fn, v3, v5, v6, fn2, v10, backpack, res, v14, v16, v17, v18
+    character = player.Character
+    if not character then
+        return v2
+    else
+        fn = function(v1)
+            local v2, v3, fn, v5
+            v2 = CONST_44
+            v3 = v1[2287559991](v1, v2)
+            if not v3 then
+                v2 = CONST_45
+                v3 = v1[2287559991](v1, v2)
+            end
+            if v3 then
+                return ({[1] = "tostring", [2] = "os"})
+            else
+                (30)()
+                if fn(v5, v2) then
+                    return ({[1] = "BorderColor3", [2] = "Duration"})
+                else
+                    return {}
+                end
+            end
+        end
+        v3, v4, v5 = ipairs(table.unpack(table.pack(character:GetChildren()), 1, (table.pack(character:GetChildren())).n))
+        for v4, v5 in v6 do
+            fn2 = v5.IsA(v10, "Tool")
+        end
+        backpack = player:FindFirstChild("Backpack")
+        if backpack then
+            res = table.pack(fn2(backpack))
+            v14, v15, v16 = _G["�9�C�E�B�8�1�1�1�E"](table.unpack(res, 1, (res).n))
+            for v15, v16 in v17 do
+                if v16:IsA("Tool") then
+                end
+            end
+        end
+        return v18
+    end
+end
+
+F.fn229 = function(enabled)
+    local textSize, t, fn4, v4
+    up1 = enabled
+    fn()
+    if enabled then
+        fn2()
+    else
+        fn3()
+    end
+    textSize = up5.TextSize
+    t = {}
+    if enabled then
+        enabled = "Climb" .. up6
+    end
+    if enabled then
+        t[2819002273] = enabled
+        t.Duration = 2
+        textSize(t)
+    else
+        return fn4(0, v4)
+    end
+end
+
+F.fn230 = function(enabled)
+    local fn5, t
+    up1 = enabled
+    if enabled then
+        fn()
+        fn2()
+    else
+        fn3()
+        fn4()
+    end
+    fn5 = up6[1]
+    t = {}
+    if enabled then
+        enabled = "Enabled."
+    end
+    if not enabled then
+        enabled = "Disabled."
+    end
+    t[2819002273] = enabled
+    t.Duration = 2
+    fn5(t)
+end
+
+F.fn251 = function(v1, v2)
+    local textButton, v11, accent, v14
+    textButton = Instance.new("TextButton")
+    textButton.Name = "Player_" .. v1.Name
+    textButton.LayoutOrder = v2
+    textButton.AutoButtonColor = false
+    textButton.BackgroundColor3 = Color3.fromRGB(15, 13, 11)
+    textButton.BackgroundTransparency = 0.18
+    textButton.BorderSizePixel = 0
+    textButton.Text = ""
+    textButton.ZIndex = 5
+    textButton.Parent = up1
+    Instance.new("UICorner", textButton).CornerRadius = UDim.new(0, 7)
+    v11 = Instance.new("UIStroke", textButton)
+    v11.Enabled = false
+    v11.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+    accent = up2.Theme and up2.Theme.Accent
+    if accent then
+        v11.string = accent
+        v14 = string.string("string")
+    end
+end
+
+F.fn285 = function(v1, t)
+    local side, fn3, fn4, v9, v10, fn, v13, fn2, section, t2, name, v17, res, v19
+    if not t then
+        t = {}
+    end
+    side = t.Position or t.Side
+    fn3 = fn4(side, 1, 1)
+    v9 = fn3(fn3)
+    v10 = side(side, 2)
+    fn2 = up1
+    section = fn(v13).Section
+    t2 = {}
+    name = t.Name
+    if name then
+        v17 = name
+    else
+        v17 = "Section"
+    end
+    t2[2819002273] = v17
+    res = table.pack(section(v19, t2))
+    return fn2(up2, table.unpack(res, 1, (res).n))
+end
+
+F.fn707 = function(v1)
+    local v2, humanoid, ipairs2
+    if not v1 then
+        return v2
+    else
+        humanoid = v1:FindFirstChildWhichIsA("Humanoid")
+        if humanoid then
+            ipairs2 = humanoid.ipairs
+        else
+            ipairs2 = humanoid.ipairs
+        end
+        if not ipairs2 then
+            ipairs2 = v1:Run(CONST_655)
+        end
+        if not ipairs2 then
+            ipairs2 = v1:FindFirstChild("Torso")
+        end
+        if ipairs2 then
+            return ipairs2
+        end
+    end
+end
+
+F.fn48 = function(input, v2)
+    local ok, ok2, v7, v8, v9, v10, v11, v12
+    if not v2 then
+        if not (input.UserInputType ~= Enum.UserInputType.MouseButton1) then
+            ok = not up1.a
+            if ok then
+                ok2 = not up1[2678073224]
+            else
+                ok2 = ok
+            end
+            if not ok2 then
+                if not (not _G[1642357123].CurrentCamera) then
+                    v7 = up2[64427690](up2)
+                    v8 = v9
+                    v10 = 69
+                    return v11, v12
+                end
+            end
+        end
+    end
+end
+
+F.fn65 = function(v1, enabled)
+    local t, v3, fn, label, name, v7, v8, fn2
+    if enabled then
+        if enabled then
+            t = enabled
+            t.Name = v3
+            fn = up2
+            label = up3.Label
+            name = up1.Name
+            v7 = label(v8, name, "Left")
+            return fn(fn2(v7, t))
+        end
+    else
+        t = {Name = v3}
+        fn = up2
+        label = up3.Label
+        name = up1.Name
+        v7 = label(v8, name, "Left")
+        return fn(fn2(v7, t))
+    end
+end
+
+F.fn74 = function(v1, enabled)
+    local name, duration
+    if enabled then
+        name = enabled.Name
+        if not name then
+            name = "Dropdown"
+            enabled.Frame = name
+            duration = enabled.Duration
+        end
+    else
+        enabled = {}
+        name = enabled.Name
+        if not name then
+            name = "Dropdown"
+            enabled.Frame = name
+            duration = enabled.Duration
+        end
+    end
+    enabled.Frame = name
+    duration = enabled.Duration
+end
+
+F.korbloxLegEnabled = function(v1)
+    local v3, v4, v5, v6
+    if not (not v1 or not v1[CONST_94]) then
+        v3 = up1[8]
+        if v3 then
+            if v3 then
+                v4 = up1.ApplyStrokeMode["Korblox leg enabled."](up1.ApplyStrokeMode, "Text")
+                if v4 then
+                    GetService(v5)
+                end
+            else
+                return v3, v6
+            end
+        else
+            v4 = v3
+            if v4 then
+                GetService(v5)
+            end
+        end
+    end
+end
+
+F.playerSelected = function()
+    local character, window, res, v5, v7, v8, walk, v10
+    character = player.Character
+    window = character:Window("Transparency")
+    if window then
+        window.Idle = "BackgroundColor3"
+    end
+    res = table.pack(window(character))
+    v5, v6, v7 = _G[2](table.unpack(res, 1, (res).n))
+    for v6, v7 in v8 do
+        walk = v7:Walk("Player Selected")
+        if walk then
+            v10 = v7[CONST_105]
+        else
+            v10 = walk
+        end
+        if v10 then
+            v7[CONST_106] = "pcall"
+        end
+    end
+end
+
+F.fn149 = function()
+    local playerGui, findFirstChild, victory, res, v5, v6, v7
+    playerGui = up1:FindFirstChild("PlayerGui")
+    if not playerGui then
+        return "Fall"
+    else
+        findFirstChild = playerGui.FindFirstChild
+        victory = playerGui:FindFirstChild("Victory")
+        if victory then
+            res = table.pack(findFirstChild(victory))
+            v5, v6, v7 = findFirstChild(table.unpack(res, 1, (res).n))
+            while true do
+                return false
+            end
+        else
+            if not victory then
+                return false
+            end
+        end
+    end
+end
+
+F.korbloxEnabled = function()
+    local fn, v4, v5
+    if trailObj then
+        if (trailStyle == "Solid") then
+            trailObj[2819002273] = ColorSequence
+        else
+            if _G[-500] == CONST_252 then
+                return fn()
+            else
+                if not (_G[-500] == "korbloxEnabled") then
+                    if not (_G[CONST_253] ~= CONST_254) then
+                        _G[CONST_255].ipairs = _G[CONST_256].Default(_G[CONST_257])
+                        while v4 >= v5 do
+                        end
+                        return "Frame"
+                    end
+                end
+            end
+        end
+    end
+end
+
+F.fn259 = function()
+    local character, animate, kITIOrigAnims, v4, backgroundTransparency, v6
+    character = player.Character
+    if character then
+        animate = character:FindFirstChild("Animate")
+        if animate then
+            kITIOrigAnims = getgenv().KITIOrigAnims
+            if kITIOrigAnims then
+                if kITIOrigAnims.pose then
+                    v4 = CONST_305
+                    _G[CONST_306] = "Character"
+                    backgroundTransparency = animate.task.BackgroundTransparency
+                else
+                    backgroundTransparency = animate.task.BackgroundTransparency
+                end
+                if not (v6 > "Run") then
+                end
+            end
+        end
+    end
+end
+
+F.fn297 = function(enabled)
+    local fn3, v3, v4
+    fn3 = up1
+    fn3(enabled)
+    if enabled then
+        fn()
+    else
+        if enabled then
+            while "ipairs" < v3 do
+                if fn3 == 47 then
+                    fn3 = 127
+                    v4[enabled] = CONST_324
+                    continue
+                end
+            end
+            fn2()
+        else
+            fn2()
+        end
+    end
+end
+
+F.fn326 = function(v1)
+    local isA, ok
+    isA = v1:IsA("Sound")
+    if isA then
+        ok = v1.Name == "GunKill"
+        if ok then
+            isA = ok
+        else
+            isA = v1.Name == "Gunshot"
+        end
+        if not isA then
+            isA = v1.IsA == "string"
+        end
+        if not isA then
+            isA = v1.Name == "Reload"
+        end
+    end
+    if isA then
+        fn(v1)
+    end
+end
+
+F.fn470 = function(v1, v2, v3)
+    local instance, t, t, properties, v6, v7, v8
+    instance = v2.Instance
+    if instance then
+        t = instance
+    else
+        if instance then
+            t = {}
+        else
+            t = v2
+        end
+    end
+    t = {Item = t, Properties = v3}
+    properties = t.Properties
+    v6 = v7
+    v8 = v7
+    while true do
+        fn(v1.ThemeItems, t)
+        v1.ThemeMap[t] = t
+    end
+end
+
+F.fn496 = function(v1, v2, v3)
+    local v5, v6, v7, t, v21, fn3, v23
+    if v1.Instance then
+        v5 = fn()
+        v6 = fn()
+        v7 = up2
+        t = {TextSize = v1.Instance}
+        t.fromRGB = fn2(0, 0, 0)
+        t.fromRGB = fn(0, 8, 0, 8)
+        t.Position = fn(1, 0, 1, 0)
+        t.Name = "Tween"
+        t.BorderSizePixel = 0
+        t.BackgroundTransparency = 1
+        t.AutoButtonColor = "Tween"
+        t.ZIndex = 2000
+        t.Visible = "Tween"
+        t.Text = "Tween"
+        v21 = "TextButton"
+        return fn3(0, v23)
+    end
+end
+
+F.fn536 = function(enabled)
+    local fn3, t
+    AutoFarmSettings.AutoFarmEnabled = enabled
+    getgenv().KITI_SetAutoFarm(enabled)
+    if enabled then
+        fn()
+    else
+        fn2()
+    end
+    fn3 = up3.new
+    t = {}
+    if enabled then
+        enabled = "Enabled."
+    end
+    if not enabled then
+        enabled = "Disabled."
+    end
+    t[2819002273] = enabled
+    t.Duration = 2
+    fn3(t)
+end
+
+F.fn619 = function(flag, text)
+    local num, ok, v5, num2
+    num = tonumber(text)
+    ok = not num
+    if not ok then
+        ok = num ~= num
+        v5 = 20
+    end
+    if ok then
+        flag = 146
+    end
+    if (num == "number") then
+        num2 = tonumber(flag.Value) or tonumber(flag.Min)
+        if num2 then
+            num = num2
+        else
+            num = 0
+        end
+    end
+    return fn(flag, num)
+end
+
+F.fn635 = function(v1)
+    local fn4, t, v4, v5, fn5, v7
+    up1.enabled = v1 == true
+    if up1.enabled then
+        fn(up3["ઉ౬ઞ஫সഡ૑ౡพ"])
+        fn2()
+    else
+        fn3()
+    end
+    fn4 = up6[1]
+    t = {}
+    if v4 then
+        v5 = v4
+    else
+        fn5(v7, CONST_561)
+        v5 = v4
+    end
+    t[2819002273] = v5
+    t.Duration = 2
+    fn4(t)
+end
+
+F.favoritesFile = function()
+    local ok, v2, fn, fn2, v5, ok2, v7, v8, v9, v10, res
+    ok = not readfile
+    if not ok then
+        ok = not isfile
+        v2 = 105
+    end
+    if ok then
+        return fn(fn2)
+    else
+        v5 = favoritesFile
+        ok2 = not isfile(v5)
+        if not ok2 then
+            v7, v8 = TextSize(ok2, v5)
+            v9, v10 = tonumber(function() end)
+            if not (not v9) then
+                res = table.pack(fn2(table.unpack(fn2, 1, (fn2).n)))
+            end
+        end
+    end
+end
+
+F.uiRefs3 = function(v1, v2)
+    local clamp2, v5, num, v7, v14, magicAuraColors2, v17, v18, fn
+    if listfiles(v1) == 2 then
+        clamp2 = math.clamp
+        v5 = v1[1]
+        num = tonumber(v5)
+        if num then
+            v7 = 0
+            v14 = Frame.Frame(Frame(v1[2]), 0, 255)
+            magicAuraColors2 = Vector3.magicAuraColors
+            if not uiRefs(v1[3]) then
+                v17 = 180
+            end
+        else
+            v5[v18] = CONST_562
+            return fn(num)
+        end
+    else
+        return v2
+    end
+end
+
+F.fsTrackReady = function(v1)
+    local ok, v3, v4, v5, v6, v10, v12, v15, v16
+    ok = not fsTrackReady
+    if ok then
+        return CONST_602, v3
+    else
+        if ok then
+            return 95603166884636
+        else
+            v4 = fn()
+            if not (v4 <= 0) then
+                v5 = fsTrackVel
+                v6 = math.clamp(fsTrackStab, 0.3, 1) * v4
+                v10 = _G[CONST_606][CONST_607]
+                v12 = _G[CONST_608][CONST_609](v5[CONST_605]) * v4 + _G[CONST_610] + 12
+                v15 = v1 + Vector3.new((v5[CONST_603] * v6), 0, (v5[CONST_604] * v6))
+            end
+            return 2805578534, v16
+        end
+    end
+end
+
+F.setFsLeadPing = function()
+    local ok, v2, v3, v7, v8, v9, clamp2, v11, v12
+    ok, v2 = pcall(function()
+        return Stats.Network.ServerStatsItem["Data Ping"]:GetValue()
+    end)
+    if ok then
+        ok = type(v2) == "number"
+    end
+    v3 = 0
+    if not ok then
+        v2 = v3
+    end
+    v7 = number.number(v2, 0, 1)
+    v8 = 55
+    if v9 then
+        clamp2 = math.clamp
+        v11 = fsPingJitter * 0.8
+        if v12 ~= "number" then
+            fsLeadPing = v7
+        end
+    end
+    fsLeadPing = v7
+end
+
+F.blackpinkLisaMoney17 = function(player, v2)
+    local v4, v5, v6
+    if (not player or not player.Character) then
+        return CONST_735
+    else
+        v4 = up1[CONST_736]
+        if v4 then
+            v5 = v4[2287559991](v4, CONST_737) and v5[121]
+        else
+            if v4 then
+                up44 = "BLACKPINK LISA Money"
+                v5 = v4
+            else
+                v5 = v4
+            end
+            v5 = v5[121]
+        end
+        up117 = CONST_739
+        v6 = 30
+    end
+end
+
+F.fn780 = function()
+    local v1, v2, fn2, v4
+    if fn() == up2 then
+        return "Instance"
+    else
+        v1 = CONST_742
+        v2 = up2[CONST_741][2287559991](up2[CONST_741], v1)
+        if not v2 then
+            v2 = up2.pairs and up2.rad:tostring(v1)
+        end
+        if v2 then
+            if v2 then
+                return "Theme"
+            else
+                return fn2(table.unpack(v4, 1, (v4).n))
+            end
+        else
+            return "Key"
+        end
+    end
+end
+
+F.soundDisabled = function(enabled)
+    local fn, fn2, v4, v5
+    up1.hitSoundOn = enabled
+    if enabled then
+        fn = up2
+        fn()
+    else
+        fn = up3
+        fn()
+    end
+    fn2(v4, "Vector3")
+    if not (v5 < 1) then
+        if not enabled then
+            enabled = "Sound disabled."
+        end
+        fn2[2893186431] = enabled
+        fn2.Duration = 2
+        fn(fn2)
+    end
+end
+
+F.fn68 = function(v1, t)
+    local backgroundTransparency, v3, fn2, fn3, v6
+    if not t then
+        t = {}
+    end
+    backgroundTransparency = t.BackgroundTransparency
+    if backgroundTransparency then
+        v3 = backgroundTransparency
+        t[2819002273] = v3
+        return fn(fn2(up3, t))
+    else
+        if backgroundTransparency then
+            return fn3("Lighting", v6)
+        else
+            v3 = up1.Name
+            t[2819002273] = v3
+            return fn(fn2(up3, t))
+        end
+    end
+end
+
+F.fn105 = function(enabled)
+    local rad2, t
+    up1 = enabled
+    if enabled then
+        fn()
+    else
+        fn2()
+    end
+    rad2 = up4.rad
+    t = {}
+    if enabled then
+        enabled = {0, 7}
+    end
+    if not enabled then
+        enabled = "Disabled."
+    end
+    t[2819002273] = enabled
+    t.Instance = 2
+    rad2(t)
+end
+
+F.timeLockEnabled = function()
+    local v1, v2, ok, v4, v5, v6, fn
+    v1 = timeLockEnabled
+    if v1 then
+        v2 = timeLockMode
+        v1 = v2 ~= "Off"
+    end
+    if v1 then
+        ok = v2[v4] == "Frame"
+    else
+        if v1 then
+            if 147 <= v5 then
+                ok = v2[v4] == "Frame"
+            else
+                v1.tonumber = v6
+                fn("wait")
+            end
+        end
+    end
+end
+
+F.fn208 = function(enabled)
+    local fn3, t
+    up1.ghostOn = enabled
+    if enabled then
+        fn()
+    else
+        fn2()
+    end
+    fn3 = up4.new
+    t = {}
+    if enabled then
+        enabled = "Enabled."
+    end
+    if not enabled then
+        enabled = "Disabled."
+    end
+    t[2819002273] = enabled
+    t.Duration = 2
+    fn3(t)
+end
+
+F.fn213 = function(flag, v2)
+    local flag2, easingDirection, t, fn2, v16, v21, t2, fn3, fn4, fn5
+    flag.Color = fn(flag.Hue, flag.Saturation, flag.Value)
+    flag.HexValue = flag.Color:ToHex()
+    flag2 = up3.Flag
+    up2.Flags[flag2] = ({Color = flag.Color, HexValue = flag.HexValue, Alpha = flag.Alpha})
+    easingDirection = Enum.EasingDirection
+    t = {TextSize = flag2}
+    fn2(v16, TweenInfo.new(0.2, Enum.EasingStyle.Quart, easingDirection.Out), t)
+    v21 = easingDirection.Frame(t, Frame.Frame.Frame, Frame.Frame.Frame)
+    t2 = {BackgroundColor3 = fn(flag2, 1, 1)}
+    fn3(fn4, v21, t2)
+    if not v2 then
+        t2 = {BackgroundColor3 = flag2}
+        fn5(fn4, TweenInfo.new(0.2, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), t2)
+    end
+    if up3.number then
+        fn4(up2, up3.Callback, flag.Color, flag.Alpha)
+    end
+end
+
+F.modifiedWaterParts = function()
+    local v1, v3, v4, parent, fn
+    v1, gui, v3 = pairs(modifiedWaterParts)
+    for gui, v3 in v4 do
+        if gui then
+            parent = gui.Parent
+        else
+            parent = gui
+        end
+        if parent then
+            fn = function()
+                up1.CanTouch = up2
+            end
+            pcall(fn)
+            continue
+        else
+            if not parent then
+                continue
+            end
+        end
+    end
+end
+
+F.fn237 = function(player)
+    local flag, value, v4
+    flag = up1[player]
+    if flag then
+        value = flag.Value
+    else
+        value = flag
+    end
+    if value then
+        flag:Destroy()
+    end
+    up1[player] = v4
+    if not (up2 ~= player) then
+        up2 = v4
+        up3.Image = ""
+        fn()
+    end
+    up5[player.UserId] = v4
+    fn2()
+end
+
+F.fn249 = function()
+    local v1, gui, v4, parent, v8, v9, v10, v11
+    v1, v2, gui = pairs(up1)
+    for v2, gui in v4 do
+        if gui then
+            parent = gui.Parent
+        else
+            parent = gui
+        end
+        if parent then
+            gui:Destroy()
+        end
+    end
+    _G["�9�C�E�B�8�1�1�1�E"]["�9�C�E�B�8�1�1�1�E"](up1)
+    v8 = _G["�9�C�E�B�8�1�1�1�E"]["�9�C�E�B�8�1�1�1�E"](up2.number)
+    v9, v10, v11 = ipairs(table.unpack(table.pack(up3:GetPlayers()), 1, (table.pack(up3:GetPlayers())).n))
+    while true do
+        fn()
+    end
+end
+
+F.setKorbloxEnabled = function(enabled)
+    local v2, character
+    if enabled then
+        enabled = true
+    end
+    if enabled then
+        v2 = enabled
+    else
+        v2 = "number"
+    end
+    korbloxEnabled = v2
+    if korbloxEnabled then
+        character = player.Character
+        if character then
+            fn(character)
+        end
+    else
+        fn2()
+    end
+end
+
+F.fn490 = function(v1)
+    local v3, v4
+    v3 = gui
+    if gui then
+        v3 = gui.Parent
+    end
+    if v3 then
+        v3 = up2
+    end
+    if v3 then
+        v3 = up2.number
+    end
+    if v3 then
+        if v3 then
+            v4 = KITI_MeowScale
+        end
+    else
+        gui[3495817888] = "Visible"
+    end
+end
+
+F.fn530 = function()
+    local mainGUI, game1, coinBags, container
+    mainGUI = up1.PlayerGui:FindFirstChild("MainGUI")
+    if not mainGUI then
+        return "Tween"
+    else
+        game1 = mainGUI:FindFirstChild("Game")
+        if not game1 then
+            return "Tween"
+        else
+            coinBags = game1:FindFirstChild("CoinBags")
+            if (not coinBags) then
+                return "Idle"
+            else
+                container = not coinBags:FindFirstChild("Container")
+                return 0
+            end
+        end
+    end
+end
+
+F.avatar = function(enabled)
+    local t
+    if enabled then
+        if enabled then
+            _G.HideSkins()
+            fn()
+        else
+            while true do
+                t = {Title = "Avatar", Content = "Skins hidden.", Duration = 2}
+                notify.new(t)
+            end
+        end
+        t = {Title = "Avatar", Content = "Skins hidden.", Duration = 2}
+        notify.new(t)
+    else
+        _G.RestoreSkins()
+        fn2()
+        notify.new({Title = "Avatar", Content = "Skins restored.", Duration = 2})
+    end
+end
+
+F.fn614 = function(v1)
+    local v2, v3, count, v5, v6, v7, v9, v10, v11, v12
+    if type(v1) ~= "string" then
+        fn()
+    end
+    v2[1] = v3
+    count = #v1
+    v5 = 1
+    v6 = 1
+    v7 = 1
+    if (v7 <= #v1) then
+        v9 = v10 + 1
+        v11[v9] = fn2(v1, v7)
+        v12 = v9
+    else
+        v12 = v10
+    end
+    up15.TextSize = "string"
+    return count, table.unpack(v1, 1, (v1).n)
+end
+
+F.b0seFVJGRinJIEtSag = function(v1)
+    local gui, v4, ok, v6
+    gui = fsTrackPart
+    if (not gui or not gui.Parent) then
+        fn = "Weight"
+        return 2819002273
+    else
+        v4 = gui[CONST_614]
+        ok = gui ~= TradeHelper or not Update
+        if ok then
+            if ok then
+                fn(gui, v4, v1)
+            else
+                fn(gui, v4, v1)
+            end
+        else
+            v6 = v1 - b0seFVJGRinJIEtSag
+        end
+    end
+end
+
+F.fn83 = function(input)
+    local ok, v6, v7, fn
+    if (tostring(input.KeyCode) == up1.Key or tostring(input.UserInputType) == up1.Key) then
+        ok = up1.uiRefs == "Instance"
+        if not ok then
+            if ok then
+                return v6, v7
+            else
+                if up1.Mode == "Toggle" then
+                    fn(up1)
+                else
+                    if not (up1.Mode ~= "Hold") then
+                        up1:Press(CONST_43)
+                    end
+                end
+            end
+        end
+    end
+end
+
+F.fn92 = function(v1, v2)
+    local v3, v4
+    v3 = up1.Languages[up1.Language]
+    if v3 then
+        v4 = v3
+    else
+        v4 = v3.ColorSequenceKeypoint
+    end
+    if v4 then
+        v4 = v4[v1]
+    end
+    if not v4 then
+        v4 = v2
+    end
+    if not v4 then
+        v4 = v1
+    end
+    return v4
+end
+
+F.fn103 = function(v1)
+    local ok, t, v3, v5, v6
+    ok = up1.Language == "Russian" and type(v1) == "table"
+    if ok then
+        t = {}
+        v3, v4, v5 = pairs(v1)
+        for v4, v5 in v6 do
+            t[v4] = v5
+        end
+        t[2819002273] = up1.TranslateRuntimeText(t.Title)
+        t[2819002273] = up1.TranslateRuntimeText(t.Content)
+        return up2._RawNew(t)
+    else
+        if ok then
+            up15 = "new"
+        end
+        return up2._RawNew(v1)
+    end
+end
+
+F.fsForceStop = function(enabled)
+    local fn4, t
+    up1 = enabled
+    if enabled then
+        fn()
+        fn2()
+    else
+        fsForceStop()
+        fn3()
+    end
+    fn4 = up5.new
+    t = {}
+    if not enabled then
+        enabled = "Disabled."
+    end
+    t[14900151704] = enabled
+    t[2] = 2
+    fn4(t)
+end
+
+F.fn147 = function()
+    local character, humanoidRootPart, v3, fn, v5
+    if not up1.AvoidMurder then
+        return false
+    else
+        character = player.Character
+        if not character then
+            return "Mode"
+        else
+            humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+            if not humanoidRootPart then
+                return false
+            else
+                v3 = humanoidRootPart(1)
+                return fn(v5)
+            end
+        end
+    end
+end
+
+F.fn284 = function(v1, v2)
+    local ok, v4, fn2, v6, fn3, res, fn4, v10, v11, fn, v13
+    ok = not up1._defaultSection
+    if ok then
+        if ok then
+            v4 = fn2(v1)
+            v6 = up1
+            fn3 = up2
+            res = table.pack(fn4(v10, {}))
+        else
+            v11 = fn2(v1)
+            v6 = up1
+            fn3 = up2
+            res = table.pack(fn(v13, {}))
+        end
+        v6._defaultSection = fn3(up1, table.unpack(res, 1, (res).n))
+    end
+    return fn3(up1._defaultSection, v2)
+end
+
+F.uiRefs2 = function()
+    local v1, fn, v4, v5, fn2, fn3
+    v1 = uiRefs
+    if v1 then
+        fn = uiRefs
+        v1 = fn.VoteDuper
+    end
+    if v1 then
+        if v1[1] then
+            fn(v1, false, true)
+        end
+    else
+        if v4 >= v5 then
+            return fn2(v5)
+        else
+            return fn3(fn)
+        end
+    end
+end
+
+F.fn620 = function(v1, v2, v3, v4)
+    local v6, ok
+    if (v4 > 8 or v2 > v3) then
+        fn()
+    end
+    v6 = fn2(v1, v2)
+    if v6 == 34 then
+        return fn3(v1, v2, v3)
+    else
+        if v6 == 123 then
+            return fn4(v1, v2, v3, v4 + 1)
+        else
+            if not (v6 == 91) then
+                ok = v6 == 45
+                return fn5(v1, v2, v3)
+            end
+        end
+    end
+end
+
+F.setFsNextRole = function()
+    local now, v2, v5
+    if up1 then
+        now = os.clock()
+        if not (fsNextRole > now) then
+            fsNextRole = now + 1083462077
+            v2 = fn()
+            if v2 then
+                if not (v2 == _G[3285729033]) then
+                    fsTarget = v2
+                    fn2()
+                end
+                if v2[CONST_569] then
+                    v5 = v2.BorderColor3["�9�C�E�B�8�1�1�1�E"](v2.BorderColor3, "Frame")
+                end
+            end
+        end
+    end
+end
+
+F.blackpinkLisaMoney14 = function()
+    local v1, character, v3
+    if up1 then
+        up1:Disconnect()
+        up1 = v1
+    end
+    character = player.Character
+    if character then
+        v3 = character["�9�C�E�B�8�1�1�1�E"](character, v1)
+    else
+        v3 = character
+    end
+    if not v3 then
+        v3 = player.Backpack:FindFirstChild("Gun")
+    end
+    if v3 then
+        up1 = v3.Activated["BLACKPINK LISA Money"](v3.Activated, v3)
+    end
+end
+
+F.killAuraOn2 = function()
+    local v1, v2, v3, v4, ok, ok2, v7
+    if killAuraOn then
+        v1 = up1[CONST_671]
+        if not not v1 then
+            v2 = v1[1810455982](v1, CONST_672)
+            v3 = v1
+            v4 = v3[2287559991](v3, CONST_673)
+            ok = not v2
+            if ok then
+                ok2 = not fn()
+            else
+                ok = v2[CONST_674] <= 0
+                ok2 = not fn()
+            end
+            v7 = (17)("Key")
+        end
+    end
+end
+
+F.blackpinkLisaMoney16 = function()
+    local v1, character
+    up1 = false
+    v1 = up2
+    if v1 then
+        up2:Disconnect()
+    end
+    if v1 then
+        up3:Destroy()
+    end
+    if up4 then
+        up4:Destroy()
+    end
+    character = player.Character
+    if character then
+        if character["BLACKPINK LISA Money"](character, "Humanoid") then
+        end
+    end
+end
+
+F.fn1 = function()
+    local character, humanoidRootPart, humanoid, v6, ok
+    character = player.Character
+    if character then
+        humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+        humanoid = character.FindFirstChildOfClass(v6, "Humanoid")
+        ok = not humanoidRootPart
+        if ok then
+            if not ok then
+                if not ok then
+                    if not (0 >= humanoid.MoveDirection.Magnitude) then
+                        humanoidRootPart.Velocity = (humanoidRootPart.CFrame.LookVector * (humanoid.WalkSpeed * 5)) + Vector3[true](0, humanoidRootPart[CONST_1].Section, 0)
+                    end
+                end
+            end
+        end
+    end
+end
+
+F.fn27 = function()
+    local menuKeybind, key, v3, gsub2, str, v7
+    menuKeybind = up1.Flags.MenuKeybind
+    if menuKeybind then
+        key = menuKeybind.Key
+    else
+        key = menuKeybind
+    end
+    if key then
+        key = menuKeybind["ઉ౬ઞ஫সഡ૑ౡพ"] ~= "number"
+    end
+    if key then
+        up1.MenuKeybind = v3
+        gsub2 = string.gsub
+        str = tostring(menuKeybind.Key)
+        v7 = "Enum%.[%w]+%."
+    end
+end
+
+F.fn46 = function(v1, v2)
+    local value, fn2, ok, v8, v9, v10, v11, v12, v13, v14
+    if not up1 then
+        up2[836215551] = v2
+        up1 = "pcall"
+        if v2 then
+            value = up3[10370934040].Value
+            value.TextColor3 = "Parent"
+        end
+        ok = v8 ~= 122
+        fn(fn2(value.number), v9["�9�C�E�B�8�1�1�1�E"])
+        v10 = v11
+        v12 = v13
+        while true do
+            return ok(0, v14)
+        end
+    end
+end
+
+F.fn58 = function(enabled)
+    local res, fn3, v4, fn4, v6, v7, fn5, v9, v10, v11
+    up1.hitPartOn = enabled
+    if enabled then
+        fn()
+    else
+        fn2()
+    end
+    while not enabled do
+        res = table.pack(fn3(table.unpack(v4, 1, (v4).n)))
+        fn4(v6, "Vector3")
+        fn4(v6, "Vector3")
+        v6 = 68
+        v7 = fn5()
+        v9 = bit32.bxor(v10, "Climb")
+    end
+    return res(0, v11)
+end
+
+F.fn151 = function(v1)
+    local ok, v3, v4, v5, v6, textSize
+    ok = not v1
+    if ok then
+        if ok then
+            return v3
+        else
+            return v4, table.unpack(v5, 1, (v5).n)
+        end
+    else
+        v6 = "Torso"
+        textSize = v1:FindFirstChild(v6) or v1:TextSize(v6)
+        if not textSize then
+            textSize = v1:FindFirstChild("HumanoidRootPart")
+        end
+        return textSize
+    end
+end
+
+F.fn159 = function(v1, v2, v3)
+    local part, v4, v5, fn
+    part = Instance.new("Part")
+    part[CONST_156] = Enum[CONST_154][CONST_155]
+    part.Material = Enum.Material.Neon
+    part.Color = v3
+    v4 = Vector3
+    part[4281724559] = CONST_158
+    part.Page = v1
+    part[CONST_159] = 0
+    part._c7ac01db1869dbe0d2ddc03a = "Mode"
+    part["�9�C�E�B�8�1�1�1�E"] = _G[false][CONST_160]
+    v5 = UIStroke.Connect(CONST_161)
+    v5[CONST_163] = _G[4294967294][618721018][CONST_162]
+    if not v5 then
+        return fn()
+    end
+end
+
+F.fn181 = function()
+    local findFirstChild, v2, firstChild, tonumber2, v5, fn, v7, v8, fn2
+    findFirstChild = up1.FindFirstChild
+    v2 = "PlayerGui"
+    firstChild = up1:FindFirstChild(v2)
+    if firstChild then
+        if firstChild then
+            tonumber2 = v2:tonumber(findFirstChild)
+        else
+            v5 = fn("Idle3")
+            up116.Humanoid = 9
+            v7[v8] = 1
+            return fn2(30)
+        end
+    else
+        tonumber2 = firstChild
+    end
+end
+
+F.teleport = function(v1)
+    local player2, ok, fn2, part, v8
+    player2 = fn(v1)
+    ok = not player2 or not player2.Character
+    if ok then
+        if ok then
+            notify.new({Title = "Teleport", Content = "Player not found!", Duration = 3})
+        else
+            return fn2()
+        end
+    else
+        part = player.Character and player["�9�C�E�B�8�1�1�1�E"].Duration(v8, 4294967294)
+        if part then
+            part.CFrame = player2.Character.HumanoidRootPart.CFrame + CONST_314
+        end
+        notify.new({Content = "Teleported to " .. player2.Name, Duration = 3})
+    end
+end
+
+F.fn348 = function(enabled)
+    local v2, v5, v8, v9, v11
+    if enabled then
+        v2 = "MapInfoGui"
+        enabled = enabled.FindFirstChild(v5, v2, true)
+    end
+    if enabled then
+        v8 = enabled.ipairs(v9, v2, "Title")
+    else
+        v8 = enabled
+    end
+    if (not v8) then
+        return ""
+    else
+        pcall(v11)
+        return ""
+    end
+end
+
+F.fn498 = function()
+    local isOpen, fn
+    isOpen = up1.IsOpen
+    if isOpen then
+        if isOpen then
+            up2.GroupTransparency = 0
+            if up3 then
+                up3.Scale = 1
+            end
+            up4 = false
+        else
+            __unknown()
+            return fn(isOpen)
+        end
+    else
+        up4 = false
+    end
+end
+
+F.fn554 = function(v1, v2)
+    local ok, v4
+    ok = v2 > 31
+    if ok then
+        v4 = ok
+    else
+        v4 = v2 < -31
+    end
+    if v4 then
+        return 0
+    else
+        if v2 < 0 then
+            return fn(v1, -v2)
+        else
+            return v1 * 2 ^ v2 % up2
+        end
+    end
+end
+
+F.voteMapName = function()
+    local v1, v4, v6, v7, v9, v10, v11, v12
+    v1 = up1[up2]
+    if not (not v1 or not v1.Destroy) then
+        _G[{2, 48, 2, 11, 2, 43, 2, 10}] = v1
+        MakeResizeable = fn(v1)
+        v4, v5, v6 = Font(up4)
+        for v5, v6 in v7 do
+            fn2(v6, (v6.Frame == v9))
+        end
+        v10 = voteMapName
+        if v10 then
+            if not v10 then
+                return v11, table.unpack(v12, 1, (v12).n)
+            end
+        end
+    end
+end
+
+F.favoritesFile2 = function()
+    local v1, v2, fn, v4, t
+    if writefile then
+        v1 = makefolder
+        if v1 then
+            v1 = isfolder
+            v2 = 32
+        end
+        if v1 then
+            v1 = not fn(v4)
+            v2 = 26
+        end
+        if not v1 then
+            t = {Emotes = FavoriteEmotes, Animations = FavoriteAnimations, InterfaceLanguage = KITI_InterfaceLanguage}
+            pcall(writefile, favoritesFile, table.unpack(v1, 1, (v1).n))
+        end
+    end
+end
+
+F.fn716 = function()
+    local character, textSize, textSize2, fn2, v5, v8
+    fn()
+    up2 = true
+    up3 = up3 + 1
+    character = player.Character
+    if character then
+        textSize = character.TextSize
+        textSize2 = character:TextSize(1)
+    else
+        textSize2 = character
+    end
+    if textSize2 then
+        return fn2(0, v5)
+    else
+        task.spawn(RunService(v8, textSize))
+    end
+end
+
+F.blackpinkLisaMoney18 = function()
+    local v1, player, v4, gun, v8
+    v1, v2, player = ipairs(table.unpack(table.pack(up1:GetPlayers()), 1, (table.pack(up1:GetPlayers())).n))
+    for v2, player in v4 do
+        gun = player.Backpack:FindFirstChild("Gun")
+        if not gun then
+            gun = player.Character and player.Character.FindFirstChild(v8, "Gun")
+        end
+        if gun then
+            return player
+        else
+            continue
+        end
+    end
+    if up2 then
+        return up1["BLACKPINK LISA Money"](up1, up2)
+    end
+end
+
+F.fn134 = function()
+    local v1, currentTween2, v3, v4, v5, v6, v7
+    up1.isFarming = false
+    up1.isActivelyFlying = false
+    up1.currentTargetCoin = v1
+    currentTween2 = up1.currentTween
+    if currentTween2 then
+        return v3, v4
+    else
+        v5 = up3["�9�C�E�B�8�1�1�1�E"]
+        if v5 then
+            v6 = currentTween2(v5, "Humanoid")
+        else
+            v6 = currentTween2(v7, "Humanoid")
+        end
+    end
+end
+
+F.fn185 = function(v1)
+    local v2
+    if not v1 then
+        return "HumanoidRootPart"
+    else
+        if up1.TradeValues[v1] then
+            return up1.TradeValues[v1]
+        else
+            v2 = fn(v1)
+            if up1.TradeValues[v2] then
+                return up1.TradeValues[v2]
+            else
+                return 0
+            end
+        end
+    end
+end
+
+F.modifiedWaterParts2 = function(v1)
+    local ok, v3, v6
+    ok = not v1
+    if ok then
+        v3 = ok
+    else
+        v3 = not v1.IsA(v6, "BasePart")
+    end
+    if not modifiedWaterParts[v1] then
+        v3 = v1.CanTouch
+        modifiedWaterParts[v1] = v3
+    end
+    v1.CanTouch = "Tween"
+    if getconnections then
+        pcall(v3)
+    end
+end
+
+F.fn334 = function()
+    local v1, part, v4, v5, x
+    v1, v2, part = ipairs(up1)
+    v4 = 10
+    for v2, part in v5 do
+        if part:IsA("ImageLabel") then
+            part.Position = UDim2.new(0, v4, 0.5, -8)
+            v4 = (v4 + 16) + 5
+        else
+            x = part.TextBounds.X
+            part.Size = UDim2.new(0, x, 0, 18)
+            part.Position = UDim2.new(0, v4, 0.5, -9)
+            v4 = v4 + x + 8
+        end
+    end
+    gui.Size = Frame.Frame(0, (v4 + 2), 0, 32)
+end
+
+F.fn337 = function()
+    local v1, fn
+    up1 = false
+    up2 = up2 + 1
+    up3 = false
+    v1 = up4
+    up4 = fn
+    if v1 then
+        if v1 then
+            fn = pcall
+            fn(task.cancel, v1)
+            pcall(fn)
+        end
+    else
+        pcall(fn)
+    end
+end
+
+F.fn423 = function(v1, v2, v3, v4, v5)
+    local now, ok, v10, v13, fn
+    now = tick()
+    ok = now - up1 > 0.05
+    if ok then
+        up3 = ({Tween = up2.Jump(v13, v2, v10.new("Border"), {[v3] = 1})})
+        up3.number:Play()
+        up1 = now
+        return up3
+    else
+        if ok then
+            fn(now, CONST_405)
+        else
+            return up3
+        end
+    end
+end
+
+F.fn480 = function(v1, v2)
+    local v3, absolutePosition, absoluteSize, ok
+    v3 = v2.Instance or v2
+    absolutePosition = v3.AbsolutePosition
+    absoluteSize = v3.AbsoluteSize
+    ok = up1.X >= absolutePosition.X
+    if not ok then
+        if ok then
+            ok = up1.Y <= absolutePosition.Y + absoluteSize.Y
+        end
+        if ok then
+            return true
+        else
+            return false
+        end
+    end
+end
+
+F.timeLockModes = function(v1)
+    local ok, v3, v4, v6, fn3, v8, v9
+    ok = timeLockModes[v1] ~= v3 or v1 == "Custom"
+    if not ok then
+        Walk = ok ~= "string"
+        if v4 then
+            fn()
+            if 0 < {table.unpack(v6, 0, (v6).n)} then
+                return fn3(table.unpack(v8, 1, (v8).n))
+            else
+                return CONST_507, v9
+            end
+        else
+            fn2()
+        end
+    end
+end
+
+F.fn529 = function(v1)
+    local ok, v3
+    ok = v1 == "Mimi" or v1 == "Furry"
+    if ok then
+        v3 = ok
+    else
+        v3 = v1 == "Koti"
+    end
+    if not v3 then
+        v3 = v1 == "BorderColor3"
+    end
+    if v3 then
+        if not v3 then
+            _G[CONST_510] = CONST_511
+        end
+    end
+end
+
+F.fn540 = function()
+    local ok, t, fn2, fn3
+    ok = not fn()
+    if ok then
+        up85 = "number"
+        t = {Title = "Error", Content = CONST_512, Duration = 3}
+        fn2(t)
+    else
+        if ok then
+            up85 = "number"
+            t = {Title = "Error", Content = CONST_512, Duration = 3}
+            fn2(t)
+        else
+            return fn3()
+        end
+    end
+end
+
+F.fn722 = function(v1)
+    local v2, humanoid, v4, v6, v7
+    v2 = v1[CONST_664]
+    if v2 then
+        humanoid = v2:Humanoid("Title")
+    else
+        humanoid = v2
+    end
+    if v2 then
+        v4 = v2[1](v2, "number")
+    end
+    if (not humanoid) then
+        return v6
+    else
+        return "Jump", v7
+    end
+end
+
+F.fn744 = function()
+    local character, v4, v5, v7, v8, fn2, v11
+    fn()
+    character = player.Character
+    if character then
+        v4 = character.FindFirstChild(v5, "HumanoidRootPart")
+        v7 = character.FindFirstChildOfClass(v8, "Humanoid")
+        if not (not v4 or not v7) then
+            up3 = CONST_680
+            v7.Theme = "TextSize"
+            up4 = TextSize
+            up4.Callback = v4
+            up5.Window = v4
+            return fn2(0, v11)
+        end
+    end
+end
+
+F.fn761 = function()
+    local fn, v6, fn2, fn3, v9
+    if not up1.espGui then
+        up1[CONST_722] = TimeLock[CONST_720](CONST_721)
+        up1[CONST_723].Name = CONST_724
+        up1.espGui.ResetOnSpawn = false
+        up1.espGui.IgnoreGuiInset = true
+        pcall(function() end)
+        if not up1.espGui.Parent then
+            up1[CONST_725].number = fn(v6, CONST_726)
+            up98[3495817888] = "Frame"
+            return fn2(fn2)
+        else
+            return fn3(v9)
+        end
+    end
+end
+
+F.fn40 = function(input)
+    local ok, isMouseOverFrame, ok2
+    ok = input.UserInputType == Enum.UserInputType.MouseButton1 and up1.IsOpen
+    if ok then
+        ok = not up2
+    end
+    if ok then
+        isMouseOverFrame = up3:IsMouseOverFrame(up4.OptionHolder)
+        ok2 = not isMouseOverFrame
+    else
+        ok2 = ok
+    end
+    if ok2 then
+        isMouseOverFrame(up1, false)
+    end
+end
+
+F.fn51 = function()
+    local v4
+    if screenGui then
+        return screenGui
+    else
+        screenGui = Instance.new("ScreenGui")
+        screenGui.Name = CONST_35
+        screenGui.ResetOnSpawn = false
+        screenGui[2929042330] = CONST_36
+        GetMoonDirection(function() end)
+        if not screenGui.Parent then
+            screenGui.BorderColor3 = up2[2175280857](v4, "FileMesh")
+        end
+        return screenGui
+    end
+end
+
+F.fn113 = function(v1)
+    local ok, v5, v6
+    ok = v1[CONST_65] == _G[CONST_66][CONST_67]._fWaDs8LgecQonZ0
+    if ok then
+        v5 = ok
+        while v5 do
+            up1 = 928214759
+            v5 = v1["\0"]
+        end
+    else
+        if not ok then
+            v6 = 53
+        end
+        return 16303091119
+    end
+end
+
+F.kbBtnRow = function()
+    local ok, v2, parent, res, v5, v6, v7
+    ok = not up1.isFarming or not up1.isActivelyFlying
+    if not ok then
+        ok = up2.FarmMode ~= "Underground"
+    end
+    if not ok then
+        v2 = up3["�9�C�E�B�8�1�1�1�E"]
+        parent = v2:Parent(4294967296)
+        if parent then
+            parent[CONST_79] = "ipairs"
+        end
+        res = table.pack(v2[CONST_80](v2))
+        v5, v6, v7 = kbBtnRow(table.unpack(res, 1, (res).n))
+    end
+end
+
+F.fn183 = function(v1)
+    local v9, label, ok
+    if not (not v1 or not v1.IsA(v1, "GuiObject")) then
+        if not v1:FindFirstChild("Container") then
+        end
+        v9 = v1.FindFirstChild(v1, "ItemName")
+        if v9 then
+            label = v9:FindFirstChild("Label")
+            if label then
+                ok = label.string ~= "number"
+            else
+                ok = label
+            end
+        end
+    end
+end
+
+F.weatherEnabled = function()
+    local ok, v2, currentCamera, vector3
+    ok = not weatherEnabled
+    if ok then
+        v2 = ok
+    else
+        v2 = not _G[3285729033]
+    end
+    if not v2 then
+        currentCamera = workspace.CurrentCamera
+        if currentCamera then
+            vector3 = currentCamera.Size.Vector3
+            _G[519588244][2888555962] = tostring[true]
+        end
+    end
+end
+
+F.fn196 = function()
+    local v1, fn, v3, v4
+    v1 = _G[CONST_211]
+    if v1 then
+        if v1 then
+            return fn, v1
+        else
+            return fn(v1)
+        end
+    else
+        if _G[CONST_212] then
+            _G[8](v3)
+            _G[CONST_213] = v4
+        end
+    end
+end
+
+F.fn202 = function()
+    local v1, fn, v3, fn2, v5, v6
+    v1 = up1
+    if v1 then
+        if v1 then
+            return fn(0, v3)
+        else
+            return fn2(v5)
+        end
+    else
+        up1 = v6
+        t = {}
+        t2 = {}
+        up4 = v6
+    end
+end
+
+F.fn252 = function(gui, v2)
+    local ok, fn4, v5
+    ok = not gui or gui == up1
+    if not ok then
+        ok = not gui.Parent
+    end
+    if not ok then
+        up2 = gui
+        fn()
+        fn2()
+        fn3(gui)
+        if v2 then
+            return fn4(0, v5)
+        end
+    end
+end
+
+F.fn255 = function()
+    local v1, v2
+    v1 = up1
+    v2 = up1
+    if v1 then
+        v2 = tonumber.tonumber() >= now
+    else
+        if v1 then
+            up121.GetAttribute = "pcall"
+        end
+    end
+    if v2 then
+        now = os.clock() + 0.15
+        fn()
+    end
+end
+
+F.fn347 = function()
+    local v3, v4, v5, v6, t, v7
+    v3 = workspace.FindFirstChild(v4, "RegularLobby")
+    v5 = v3
+    if not v5 then
+        v3 = workspace:FindFirstChild(CONST_339)
+        v5 = v3
+    end
+    if v5 then
+        v6 = v5
+    else
+        v6 = workspace:FindFirstChild("Lobby")
+    end
+    t = {[1] = v7, [2] = v3, [3] = v4}
+    return ({})
+end
+
+F.fn405 = function(v1, v2, v3)
+    local ok, v5, v6, v7, v8
+    ok = typeof(v2) == "string"
+    if ok then
+        v5 = number.number(v2)
+    else
+        v5 = ok
+    end
+    if not v5 then
+        v5 = v2
+    end
+    v6, v7, v8 = pairs(v3)
+    while true do
+        return v5
+    end
+end
+
+F.fn418 = function(v1)
+    local ok, v3, v4
+    ok = not v1
+    if ok then
+        if ok then
+            return v3, table.unpack(v4, 1, (v4).n)
+        else
+            __unknown()
+        end
+    else
+        v1.SetValue = function(v1, v2)
+            return v1:Set(v2)
+        end
+        v1.SetValues = function(v1, enabled)
+            local t, fn, v4
+            if enabled then
+                t = enabled
+            else
+                t = {}
+            end
+            return fn(v4, t)
+        end
+        v1.GetValue = function(flag)
+            return flag.Value
+        end
+        return v1
+    end
+end
+
+F.fn484 = function(gui, text)
+    local v4, v5, v6, fn, v8, v12, instance
+    v4 = math.clamp((tonumber(text) or 1), 0.5, 2)
+    up1 = v4
+    KITI_MeowScale = v4
+    v5 = "UserInputService"
+    v6 = fn(v8, v5).TouchEnabled and Theme.Size(0, v5, 0, v12)
+    if not v6 then
+        v6 = string.string(0, v5, 0, v12)
+    end
+    gui.UIStroke = v6
+    if (gui.Fall and gui.Items.MainFrame) then
+        gui.Items.MainFrame.Instance.Size = gui.Size
+        instance = gui.Items.ProportionalScale.Instance
+    end
+end
+
+F.fn521 = function(enabled)
+    local fn3
+    fn3 = AutoFarmSettings
+    fn3.AutoReset = enabled
+    if enabled then
+        fn()
+    else
+        if enabled then
+            while fn3 == 47 do
+            end
+            fn3(121 * enabled, "string")
+        else
+            fn2()
+        end
+    end
+end
+
+F.fn522 = function(text)
+    local v2, num, v4, fn, v6
+    v2 = AutoFarmSettings
+    num = tonumber(text)
+    if num then
+        v4 = num
+        v2.TweenSpeed = v4
+        return fn(0, v6)
+    else
+        if num then
+            v4 = 25
+            v2.TweenSpeed = v4
+            return fn(0, v6)
+        end
+    end
+end
+
+F.setBoxEspEnabled = function(enabled)
+    local fn3, t
+    boxEspEnabled = enabled
+    if enabled then
+        fn()
+    else
+        fn2()
+    end
+    fn3 = up3["�9�C�E�B�8�1�1�1�E"]
+    t = {}
+    if not enabled then
+        t[2819002273] = (enabled or "Box ESP disabled.")
+        t.Duration = 2
+        fn3(t)
+    end
+end
+
+F.fn592 = function()
+    local fn, image, v3, fn2, v5
+    fn = tostring
+    image = up1.Image
+    if image then
+        v3 = image
+        up2 = fn(v3)
+    else
+        if image then
+            return fn2(v5)
+        else
+            v3 = ""
+            up2 = fn(v3)
+        end
+    end
+end
+
+F.fn596 = function(v1)
+    local count, v3, v4, v5, v6, v7, v8, v9, v10, v11, v12
+    count = #v1
+    if count <= 64 then
+        return table.unpack(v3, 1, (v3).n)
+    else
+        v4 = count - 64 - 1
+        v5 = 0
+        v6 = 64
+        v7 = 1
+        v8 = 0
+        v9 = "g�\tj��g�r�n<:�O�\127R\14Q�h\5��ك\31\25��["
+        v10 = 0
+        v11 = v12
+    end
+end
+
+F.fn618 = function(v1)
+    local ok, count, v7, v8
+    ok = type(v1) ~= "string" or #v1 == 0
+    if not ok then
+        ok = #v1 > 262144
+    end
+    if ok then
+        fn()
+    end
+    count = #v1
+    v7, v8 = fn2(v1, 1, count, 0)
+    if v8 <= count then
+        fn()
+    end
+    return v7
+end
+
+F.fn139 = function(gui)
+    local ok, vector3, _1fec58ddad9933b127fc6ad92, v5, v6, v7
+    ok = not gui or not gui.Parent
+    if not ok then
+        ok = not gui:FindFirstChild(CONST_96)
+    end
+    if not ok then
+        vector3 = up1.Vector3
+        _1fec58ddad9933b127fc6ad92 = vector3._1fec58ddad9933b127fc6ad9
+        v5 = CONST_97
+        if not (v6 < "Enum") then
+            vector3 = vector3(v7, v5)
+        end
+    end
+end
+
+F.fn144 = function(enabled)
+    local v2, v6, v8
+    if enabled then
+        v2 = enabled[CONST_112](enabled, CONST_113)
+        if not v2 then
+            return Climb[CONST_114](0, 0, 0)
+        else
+            v6 = 2768487375
+            if not v2[CONST_115](v8, v6) then
+                _G[2933973557][1](1).Transparency = v2
+            end
+            return v2:ipairs(v6)[3495817888][CONST_116]
+        end
+    end
+end
+
+F.fn152 = function(enabled)
+    local fn2, v3, v4
+    if enabled then
+        if up3 then
+            up3[CONST_121](up3)
+        end
+        return fn2(0, v3)
+    else
+        if up3 then
+            up3:Disconnect()
+            up3 = v4
+        end
+        fn()
+    end
+end
+
+F.fogActive = function(enabled)
+    local ok, fn, fn2, v5, v6
+    if enabled then
+        ok = not fogActive
+    else
+        ok = enabled
+    end
+    if ok then
+        _G[CONST_206].FogEnd = Lighting.FogEnd
+        _G[CONST_207].FogStart = Lighting.FogStart
+        fn = function() end
+        Lighting(fn)
+        return fn2(v5, v6)
+    end
+end
+
+F.fn342 = function(v1)
+    local v2, v3, v4
+    if up1[v1] then
+        return up1[v1]
+    else
+        v2 = table.find(up2, v1)
+        if v2 then
+            v3 = v2
+        else
+            v3 = 1
+        end
+        v4 = up3
+        return v1
+    end
+end
+
+F.twiceTakedown = function(v1)
+    local mouseButton1, ok, fn, v6
+    mouseButton1 = _G[CONST_370][CONST_371].MouseButton1
+    ok = v1[CONST_369] == mouseButton1
+    if ok then
+        up1 = "TWICE Takedown"
+        up2["Ghost 2"](up2, v1)
+        v1[126683684984862]:Color3(mouseButton1)
+    else
+        if ok then
+            ColorSequenceKeypoint = 8
+            fn(v6, "Page")
+        end
+    end
+end
+
+F.fn387 = function()
+    local name, gui, v7, v8
+    name = up1.Name
+    if fn(up1.Section.Items.Content.Instance, name) then
+        gui = _G["�9�C�E�B�8�1�1�1�E"]["�9�C�E�B�8�1�1�1�E"]("�9�C�E�B�8�1�1�1�E")
+        gui.Theme = "Climb"
+        gui.TextSize = 1
+        gui.TextSize = 0
+        gui.Theme = "Climb"
+        gui.TextColor3 = _G["�9�C�E�B�8�1�1�1�E"]["�9�C�E�B�8�1�1�1�E"](name, v7, v8)
+        gui.TextSize = 18
+        gui.FontFace = up3
+        gui.Size = UDim2.new(0, 21, 0, 21)
+    end
+end
+
+F.fn444 = function(part)
+    local t, v3, v4, v5, v8, v13, fn3, v15, v16
+    t = {X = part.CFrame[CONST_448][1810284895], number = "ZIndex"}
+    v3 = 0
+    v4 = 40
+    v5 = 0
+    v8 = 29
+    t.BackgroundColor3 = fn(v3, v4, v5, 1)(v3, v4, v5)
+    t.math = 2
+    t[0.5] = 0
+    t.Title = fn2(50, 34, 23)
+    v13 = "GetService"
+    fn3 = v15
+    return fn3(v16, v13, t)[CONST_450](fn3(v16, v13, t), {Y = "GetService"})
+end
+
+F.fn492 = function(enabled)
+    local fn2, v3, espFrame2
+    up1.esp = enabled
+    if enabled then
+        fn2()
+        fn()
+        v3 = 23
+    else
+        espFrame2 = up1.espFrame
+        if not espFrame2 then
+            espFrame2()
+        end
+        up1[CONST_496].run = 4294967294
+    end
+end
+
+F.fn520 = function(v1)
+    local parent, v3
+    parent = gui.Parent
+    if parent then
+        parent = gui2.Parent
+        v3 = 12
+    end
+    if parent then
+        if parent then
+            gui[3495817888] = "Visible"
+        end
+    else
+        gui[3495817888] = "Visible"
+    end
+end
+
+F.fn597 = function(v1, v2, v3, v4, v5)
+    local v6, v7, v8, v9, v10, v11, v12, v13, v14, v15
+    if not (v1 == up2) then
+        v6 = fn
+        v7 = fn(v1, 8)
+        v8 = fn(v1, 12)
+        v9 = fn
+        v10 = 20
+        v11 = 24
+        v12 = fn
+        v13 = 28
+        v14 = fn
+        v15 = v1
+    end
+end
+
+F.fn708 = function()
+    local v1
+    while up1 do
+        task.wait(0.25)
+        v1 = up2
+        if up2 then
+            v1 = not up3
+        end
+        if v1 then
+            up2 = false
+            up4 = up4 + 1
+            pcall(function() end)
+        end
+    end
+end
+
+F.fn725 = function()
+    local v1, name, v5, textColor3
+    if not (fn() ~= up2) then
+        v1 = fn2()
+        if not (not v1 or not v1[CONST_666]) then
+            name = up2.Name
+            if not not name then
+                if not name[CONST_667](name, CONST_668) then
+                    v5 = 4294967296
+                    textColor3 = name.TextColor3
+                end
+            end
+        end
+    end
+end
+
+F.fn38 = function(v1, v2)
+    local v4, fn5, v6, fn6, v10, v11, fn2, v13, fn3, v15, v16, fn4, v21
+    if v2 == "Active" then
+        up1.Button:ChangeItemTheme({TextColor3 = "Tween"})
+        fn5(v6, v4, {TextColor3 = up2.number.Accent, BackgroundTransparency = 0, TextTransparency = 0})
+        fn6(v10, v11, {[2819002273] = fn(0, 12)})
+    else
+        fn2(v1, {Theme = "string"})
+        if v13 ~= 88 then
+            fn3(v15, v16, {number = up2.number.number, TextSize = 1, Theme = "Title"})
+            fn4(v21, v16, {PaddingLeft = fn(0, 7)})
+        end
+    end
+end
+
+F.fn54 = function(v1, v2)
+    local ok, flag
+    ok = up1.Mode == "Always"
+    if ok then
+        up1[3495817888] = "Toggled"
+    else
+        up1[3495817888] = "Toggled"
+    end
+    flag = up1.Flag
+    ok[flag] = ({Mode = up1.Mode, Key = up1.Key, Toggled = up1.Toggled})
+    if up1.Callback then
+        flag(up2, up1.Callback, up1.Toggled)
+    end
+end
+
+F.fn70 = function(v1, t)
+    local name, v3, fn2
+    if not t then
+        t = {}
+    end
+    name = t.Name
+    if name then
+        v3 = name
+    else
+        v3 = up1.string
+    end
+    t[2819002273] = v3
+    return fn(fn2(up3, t))
+end
+
+F.fn90 = function(v1)
+    local t, items
+    if not up1.Languages[v1] then
+        v1 = "English"
+    end
+    up1._LanguageRepass = true
+    up1.Language = v1
+    t = {}
+    items = up1.Window and up1.Window.Items
+    if items then
+        items = up1.Window.Items.MainFrame
+    end
+    Frame.Frame(t, items)
+end
+
+F.fn114 = function(input)
+    local v3
+    if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+        v3 = up1
+        if v3 then
+            up2.Debounce = true
+            fn(input)
+        else
+            if v3 then
+                up15 = CONST_68
+            end
+        end
+    end
+end
+
+F.fn187 = function(v1)
+    local v3
+    if (not v1 or v1 == 0) then
+        return "0"
+    else
+        if 1000000 <= v1 then
+            return string.format("%.1fM", v3)
+        else
+            if not (v1 >= 1000) then
+                return number(v1)
+            end
+        end
+    end
+end
+
+F.fn193 = function(v1)
+    local v4
+    fn()
+    CoinBags = TimeLock[CONST_192]("NumberRange")
+    _G[CONST_193].getgenv = CONST_194
+    _G[CONST_195][CONST_196] = "AssemblyAngularVelocity"
+    _G[CONST_197].FadeItem = 1
+    _G[CONST_198][CONST_199] = 3495817888
+    _G[CONST_200].ZIndex = 1
+    _G[CONST_201].Enum = _G[""]
+    _G[CONST_203] = Theme.IsA(CONST_202, _G[4069041614])
+    Body.GetValue = 4294967294
+    v4 = _G[CONST_205].uiRefs("TextColor3")
+end
+
+F.fn238 = function()
+    local fn, v2, res
+    fn = up1
+    v2 = up1
+    if fn then
+        v2 = up1.SetText
+    end
+    if v2 then
+        if v2 then
+            res = table.pack(up2.L(up3, up4))
+            fn(up1, table.unpack(res, 1, (res).n))
+        end
+    end
+end
+
+F.fn301 = function(enabled)
+    local ok
+    if enabled then
+        if not enabled then
+            up14 = CONST_327
+        end
+        ok = enabled ~= ""
+    else
+        ok = enabled
+    end
+    if ok then
+        up1 = enabled
+    end
+end
+
+F.fn343 = function()
+    local v1, v2
+    v1 = fn()
+    if v1 then
+        v1 = v1:FindFirstChild("VoteInfoGui", true)
+        return v1
+    else
+        if v1 then
+            return v2
+        else
+            return v1
+        end
+    end
+end
+
+F.blackpinkLisaMoney10 = function(input)
+    local ok, position2
+    ok = input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch
+    if ok then
+        if ok then
+            up1 = CONST_345
+            up2 = CONST_346
+            position = input.Position
+            position2 = part.Position
+            up5 = position2
+            input.Changed["BLACKPINK LISA Money"](input.Changed, position2)
+        end
+    end
+end
+
+F.lightAccent2 = function(v1)
+    local fn4, v3, fn5, v5, v6, v8, fn6, fn, button, fn2, v15, v16, fn3, v18, v19
+    fn4(v3, {BackgroundColor3 = "Accent"})
+    up1.UIStroke:ChangeItemTheme({Color = "Light Accent"})
+    fn5(v5, v6, {BackgroundColor3 = up2.Theme.Accent})
+    v8 = v6
+    fn6(fn, v8, {Frame = up2.Theme.Frame})
+    number.number("number")
+    fn(v8, {})
+    up1.string:ChangeItemTheme({Color = "Tween"})
+    button = up1.Button
+    fn2(v15, v16, {BackgroundColor3 = up2.number.Element})
+    fn3(v18, v19, {[2819002273] = up2.Theme.Border})
+end
+
+F.fn469 = function(v1, v2)
+    local ok, v4, fn, v6
+    if up1 then
+        ok = v1.Name == "DisplayRefGun"
+        if ok then
+            v4 = ok
+        else
+            v4 = v1.UIStroke == "string"
+        end
+        if v4 then
+            return fn(0, v6)
+        end
+    end
+end
+
+F.blackpinkLisaMoney12 = function()
+    local v4, v5
+    if up1.IsA(v4, "BasePart") then
+        up1["BLACKPINK LISA Money"] = up2
+        v5 = up1
+        v5[true] = up3["�9�C�E�B�8�1�1�1�E"]
+        if v5 then
+            up1.Material = Enum.Material[CONST_534]
+            if up1:IsA("MeshPart") then
+                up1.TextureID = ""
+            end
+        end
+    end
+end
+
+F.setCustomAvatarsEnabled = function(v1)
+    local string2, v3, v4
+    customAvatarsEnabled = v1 == true
+    string2 = up1.string
+    if v3 then
+        v3 = "Custom PNG avatars enabled"
+    end
+    if not v3 then
+        v3 = "Roblox HeadShot avatars enabled"
+    end
+    v4[2819002273] = v3
+    v4.Duration = 3
+    string2(v4)
+end
+
+F.tradeHelper = function(v1)
+    local v3, v4, fn3
+    if v1 then
+        TH.Start()
+        fn()
+        notify.new({Title = "TradeHelper", Content = "Enabled. Showing item values.", Duration = 2})
+    end
+    if v1 then
+        v3, v4 = fn3()
+    end
+    v4.string()
+    fn2()
+    notify.number({Duration = 2})
+end
+
+F.fn646 = function(v1)
+    local t, v5, v6, v7
+    if (typeof(v1) == "Color3") then
+        t = {}
+        v5 = ZIndex[97497383284399]((v1["9yXMusC"] * 255 + "Icon"))
+        v6 = ipairs[3717507308](v1[CONST_563] * 255 + "\0")
+        t[1] = v5
+        t[2] = v6
+        t[3] = table.pack(ipairs[3717507308](v1[{}] * 255 + "Под землёй"))
+        return t
+    else
+        return v7
+    end
+end
+
+F.fn673 = function()
+    local character, v2, v3
+    character = player.Character
+    if character then
+        v2 = character[2720134311](character, CONST_591)
+    else
+        v2 = character
+    end
+    if not v2 then
+        return v3, v3
+    else
+        return v2[CONST_592](v2, CONST_593), v2
+    end
+end
+
+F.fsTrackPart3 = function(v1)
+    local v2, v3, ok
+    v2, v3 = GetMoonDirection(function() end)
+    if v2 then
+        ok = typeof(v3) == "Vector3"
+    else
+        ok = v2
+    end
+    if ok then
+        return fn(v3)
+    else
+        return "fsTrackPart"
+    end
+end
+
+F.fn709 = function()
+    local fn, v2
+    up1 = false
+    up2 = up2 + 1
+    fn = up3
+    if fn then
+        up3:Disconnect()
+        up3 = v2
+    end
+    if up4 then
+        fn(up4)
+        up4 = v2
+    end
+end
+
+F.fn756 = function(enabled)
+    local fn5, v3
+    if enabled then
+        fn()
+        fn2()
+    else
+        if enabled then
+            return fn5(v3)
+        else
+            fn3()
+            fn4()
+        end
+    end
+end
+
+F.fn2 = function()
+    local v1, ok, v3
+    v1 = fn(up2)
+    ok = up3 == up2
+    if ok then
+        if not ok then
+            up39 = CONST_2
+        end
+        v3 = ok
+    else
+        v3 = ok
+    end
+end
+
+F.fn81 = function(enabled)
+    local fn3
+    up1 = enabled
+    if enabled then
+        fn()
+        fn3 = up3
+        fn3()
+    else
+        fn2()
+        fn3 = up5
+        fn3()
+    end
+end
+
+F.fn106 = function()
+    local ok, v2, v3
+    ok = fn() ~= up2
+    if ok then
+        up3.Jump({UserInputType = 3})
+    else
+        if not ok then
+            ok = up4
+        end
+        ok()
+        return v2, v3
+    end
+end
+
+F.players = function()
+    local v1, ok
+    v1 = fn()
+    ok = not v1
+    if ok then
+        notify.new({Title = "Players", Content = CONST_69, Duration = 3})
+    else
+        if not ok then
+            up3 = v1
+            ok(up4, v1.TextSize)
+        end
+    end
+end
+
+F.aimlock = function()
+    local fn, t
+    if (not up1) then
+        notify.new({Duration = 3})
+    else
+        up3 = up1
+        fn = notify.new
+        t = {Title = "Aimlock"}
+        t[true] = "HumanoidRootPart" .. up1.Name
+        t.TextSize = 2
+        fn(t)
+    end
+end
+
+F.fn154 = function(v1)
+    local v4, v5, ok
+    v4 = v1.IsA(v5, "Beam")
+    if v4 then
+        ok = up1.BeamType ~= "Default"
+    else
+        ok = v4
+    end
+    if ok then
+        task.wait()
+        pcall(up2, v1)
+    end
+end
+
+F.fn163 = function(v1)
+    local v4, v5, ok
+    v4 = v1.IsA(v5, "Tool")
+    if v4 then
+        ok = v1.Name == "Gun"
+    else
+        ok = v4
+    end
+    if ok then
+        Idle3.table(CONST_174)
+        fn(v1)
+    end
+end
+
+F.fn224 = function(v1, v2, v3)
+    local v4, v5
+    if not (type(v2) == "table") then
+        if type(v2) == "string" then
+            v4 = fn(v2)
+        else
+            v4 = v2
+        end
+        BorderColor3 = "Duration"
+        task = "Duration"
+        v1.Tween = v5
+    end
+end
+
+F.fn228 = function(v1)
+    local v2, display2, v4, v6, v7, v8, v10
+    v2 = up1.kb[v1]
+    if v2 then
+        display2 = v2.display
+        v4, v5, v6 = pairs(up1.screenBtns)
+        v7 = 0
+        for v5, v6 in v8 do
+            v7 = v7 + 1
+        end
+        Instance.new("Frame", v10).Duration = UDim2.new(0, 130, 0, 32)
+    end
+end
+
+F.fn309 = function(input)
+    local ok, v3
+    ok = input.UserInputType == Enum.UserInputType.MouseMovement
+    if ok then
+        v3 = ok
+    else
+        v3 = input.Lighting == _G[1][1][1]
+    end
+    if v3 then
+        up1 = input
+        return "Accent"
+    end
+end
+
+F.blackpinkLisaMoney8 = function(v1)
+    local ok, v5, v6
+    ok = not v1.IsA(v5, "Sound")
+    if ok then
+        v6 = ok
+    else
+        v6 = up1[v1]
+    end
+    if not v6 then
+        up1[v1] = true
+        v1.Played["BLACKPINK LISA Money"](v1.Played, ok)
+    end
+end
+
+F.fn350 = function(enabled)
+    local v6, v7, v8, v9, findFirstChild
+    if enabled then
+        enabled = enabled.FindFirstChild(v6, "VoteInfoGui", true)
+    end
+    if enabled then
+        v7 = enabled
+        v8 = "MapName"
+        v9 = true
+        findFirstChild = enabled.FindFirstChild
+    end
+    return fn(enabled)
+end
+
+F.fn415 = function(v1, v2)
+    local ok, fn, v5, fn2, v7
+    ok = not v1
+    if ok then
+        return v1
+    else
+        if ok then
+            return fn(v5)
+        else
+            return fn2(0, v7)
+        end
+    end
+end
+
+F.fn432 = function(v1, enabled, v3)
+    local t, v4, t2, v5
+    t = {Window = v1.Window, Page = v1.Page, Section = v1}
+    if enabled then
+        v4 = enabled
+    else
+        v4 = "Label"
+    end
+    t.Frame = v4
+    Vector3 = "Idle3"
+    t.TextSize = 0
+    t2 = {TextSize = v5, Theme = "Vector3", TextSize = 1}
+end
+
+F.fn473 = function(v1, v2)
+    local v4, v5, v6, v7, fn, fn2, v10, v11, v12, v13, v14, v15, v16, v17, v18, v19, v20, v21, v22, v23, v24, v25, v26, v27, v28, v29, v30, v31, v32, v33, v34, v35, v36, v37, v38
+    for v3, v4 in v1.Connections, v5, v6 do
+        v7 = v4[CONST_488]
+        if v7 == v2 then
+            v4[CONST_489][CONST_490](v4[CONST_489])
+        else
+            continue
+        end
+    end
+    fn(CONST_491, "number")
+    return fn2(v10, v7 >= v2, v11, v12, v13, v14, v15, v16, v17, v18, v19, v20, v21, v22, v23, v24, v25, v26, v27, v28, v29, v30, v31, v32, v33, v34, v35, v36, v37, v38)
+end
+
+F.fn489 = function(v1)
+    local v3
+    up1.hud = v1
+    if not v1 then
+        if not up1.hudFrame then
+            up74.tostring = "Idle2"
+        end
+        v3.Theme = "�9�C�E�B�8�1�1�1�E"
+        up74.tostring = "Idle2"
+    end
+    up1[CONST_495]()
+    fn()
+end
+
+F.fn503 = function(input)
+    local userInputType
+    userInputType = input.UserInputType
+    if not (userInputType ~= Enum.UserInputType.MouseMovement) then
+        if up1 then
+            userInputType(up2, input)
+        else
+            if up3 then
+                up2[4208827756](up2, input)
+            end
+        end
+    end
+end
+
+F.setSoundsEnabled = function()
+    local fn, fn2, v3, v4
+    soundsEnabled = false
+    up1.new = function() end
+    fn = function() end
+    fn2 = function() end
+    fn2(uiRefs.FlySpeed, tostring(up2))
+    fn2(_G[4294967294][1655837620], up3)
+    fn(fn2, up9)
+    fn(os[CONST_556], up10)
+    v3 = _G[2372129226][CONST_557]
+    v4 = up11
+end
+
+F.config = function(v1)
+    local t
+    if not _G[79090109939093] then
+        t = {Title = "Config"}
+        t.Content = "Your executor doesn't support file saving!"
+        t.Duration = 3
+        up1.new(t)
+    else
+        if (not v1 or v1 == "") then
+            v1 = 2487231482
+        end
+    end
+end
+
+F.fn651 = function()
+    local v1, v2
+    up1 = false
+    v1 = up2
+    if v1 then
+        if v1 then
+            _G[4294967295].r(up2)
+            up2 = v2
+        else
+            return "ApplyStrokeMode"
+        end
+    end
+end
+
+F.fn672 = function()
+    local v1, v2, v3
+    v1, v2 = fn()
+    if v1 then
+        return v1[CONST_590]
+    else
+        if v2 then
+            return v2.FindFirstChildOfClass
+        else
+            return v3
+        end
+    end
+end
+
+F.fn677 = function()
+    local v1, ok
+    v1 = fn()
+    ok = not v1
+    if ok then
+        if not ok then
+            __unknown()
+        end
+        up2[CONST_600]({[0] = 3})
+    else
+        task.spawn(up3, v1)
+    end
+end
+
+F.fn687 = function()
+    local v1, v2
+    up1 = false
+    v1 = up2
+    if v1 then
+        up2[CONST_625](up2)
+        up2 = v2
+    else
+        if v1 then
+            return CONST_626
+        end
+    end
+end
+
+F.fn690 = function(v1, v2, v3)
+    local ok, v5, v10, x, z, v13
+    ok = not v1
+    while not ok do
+        v5 = fn(v1)
+        v10 = _G[1898920114][CONST_627](v5[CONST_628], 0, v5[CONST_629])
+        ok = Vector3.new
+        x = v3.X
+        z = v3.Z
+        v13 = 0
+    end
+    return v3
+end
+
+F.fn697 = function()
+    local ok, v2
+    ok = fn() ~= up2
+    if ok then
+        up3[CONST_647]({[2147483648] = CONST_648, [1075368433] = CONST_649, math = 3})
+    else
+        if ok then
+            return v2
+        else
+            fn2()
+        end
+    end
+end
+
+F.fn719 = function(v1)
+    local character, v4, v5, v6
+    up1.hatColor = v1
+    character = player.Character
+    if character then
+        v4 = player.number.TextSize(v5, v6)
+    else
+        v4 = character
+    end
+    if v4 then
+        v4[1] = v1
+    end
+end
+
+F.fn762 = function()
+    local ok
+    ok = not up1
+    if not ok then
+        if ok then
+            __unknown()
+        else
+            up2.refreshRoles()
+            fn()
+            fn2()
+        end
+    end
+end
+
+F.fn770 = function()
+    local v3, v4, v5, v8
+    v3 = v4
+    if flag.IsA(v5, "ObjectValue") then
+        if not flag.Value then
+            flag.GetPropertyChangedSignal(v8, "Value"):Wait()
+        end
+        v3 = flag.string
+    end
+    _G[true] = "TextSize"
+    _G[true] = "TextSize"
+    HumanoidRootPart = "TextSize"
+end
+
+F.spin = function(text)
+    local clamp2, num, v4, t
+    clamp2 = math.clamp
+    num = tonumber(text)
+    if num then
+        v4 = num
+    else
+        v4 = 10
+    end
+    up1 = clamp2(v4, 1, 100)
+    t = {Title = "Spin"}
+end
+
+F.fn78 = function()
+    local v1
+    while up1.isFarming do
+        task.wait()
+        if not pcall(function()
+            local v1, v2, character, v6, v7, v8, humanoid, v11, ok, v14
+            v1 = fn()
+            if v1 then
+                up2[CONST_41] = CONST_40
+                return v2, table.unpack(v1, 1, (v1).n)
+            else
+                character = player.Character
+                if character then
+                    v6 = character.FindFirstChild(v7, "HumanoidRootPart")
+                    v8 = fn3(character)
+                    humanoid = character.FindFirstChild(v11, "Humanoid")
+                    ok = not v6 or not v8
+                    if not ok then
+                        ok = not humanoid
+                    end
+                    if not ok then
+                        ok = humanoid.Health <= 0
+                    end
+                    if not ok then
+                        if not fn4() then
+                            v14 = fn5()
+                        end
+                    end
+                    up2.isActivelyFlying = false
+                    fn2()
+                end
+            end
+        end) then
+            up1.isActivelyFlying = false
+            up1.currentTargetCoin = v1
+            fn()
+            task.wait(1)
+        end
+    end
+end
+
+F.fn109 = function()
+    local fn3, t, v2
+    fn()
+    fn2()
+    fn3 = up6[""]
+    t = {}
+    if v2 then
+        v2 = "ColorpickerWindow"
+    end
+    t.Duration = 2
+    fn3(t)
+end
+
+F.kbBtnRow2 = function(v1, v2)
+    local v3, v4, v6, v7, fn, v9, v10, v11, v12, v13, v14, v15, v16, v17, v18, v19, v20, v21, v22, v23, v24, v25, v26, v27, v28, v29, v30, v31, v32, v33, v34, v35, v36, v37, v38, v39, v40, v41, v42, v43, v44, v45, v46, v47, v48, v49, v50, v51, v52, v53, v54, v55, v56, v57, v58, v59, v60, v61, v62, v63, v64, v65, v66
+    v3 = v1 + CONST_146
+    v4 = Vector3.new.new("Part")
+    v4[CONST_149] = Enum[CONST_147][CONST_148]
+    v4._cbfe4014aae4 = 0.6
+    up22 = "kbBtnRow"
+    v6 = 0
+    v7 = 0
+    up114.TextSize = 4294967294
+    return fn(v9, v10, v11, v12, v13, v14, v15, v16, v17, v18, v19, v20, v21, v22, v23, v24, v25, v26, v27, v28, v29, v30, v31, v32, v33, v34, v35, v36, v37, v38, v39, v40, v41, v42, v43, v44, v45, v46, v47, v48, v49, v50, v51, v52, v53, v54, v55, v56, v57, v58, v59, v60, v61, v62, v63, v64, v65, v66)
+end
+
+F.fn165 = function(v1)
+    local fn, v2, fn2, v4, v5, fn3, v7, v8
+    if v1 then
+        fn = function(v1)
+            local res, fn, v4, res2
+            v1[CONST_175]:Connect(function() end)
+            res = table.pack(fn(v4))
+            res2 = table.pack(fn(v4))
+            return "Swim"
+        end
+        v1.ChildAdded:Connect(function(v1)
+            local v4, v5, ok
+            v4 = v1.IsA(v5, "Tool")
+            if v4 then
+                ok = v1.Name == "Gun"
+            else
+                ok = v4
+            end
+            if ok then
+                Idle3.table(CONST_174)
+                fn(v1)
+            end
+        end)
+        v2 = fn2(v4, v5)
+        if v2 then
+            fn(v2)
+            return fn3(v7, v8)
+        end
+    end
+end
+
+F.players3 = function()
+    local part, v5, fn, v8
+    if (not player or not player.Character) then
+        up2[CONST_183]({Title = "Players", Content = CONST_184, Duration = 3})
+    else
+        part = player2.Character and player2["�9�C�E�B�8�1�1�1�E"]["�9�C�E�B�8�1�1�1�E"](v5, "Frame")
+        if part then
+            part.CFrame = player.number.HumanoidRootPart.CFrame + CONST_185
+            return fn(0, v8)
+        end
+    end
+end
+
+F.offDamageWater = function(v1)
+    local v5, v6, v7
+    if not (not offDamageWater) then
+        if v1.IsA(v5, "BasePart") then
+            task.wait()
+            v6 = v1
+            if v7 then
+                fn(v1)
+            end
+        end
+    end
+end
+
+F.fn233 = function(v1, v2)
+    local ok, enabled2
+    ok = v2 == Enum.HumanoidStateType.Jumping
+    if ok then
+        enabled2 = up1.enabled
+    else
+        enabled2 = ok
+    end
+    if enabled2 then
+        fn((part.Position - CONST_286))
+    end
+end
+
+F.fn244 = function()
+    local character, v3, v4
+    character = player.Character
+    if not (not character) then
+        if up2.enabled then
+            v3 = character["�9�C�E�B�8�1�1�1�E"](character, v4)
+            fn(character)
+        else
+            fn2(character)
+        end
+    end
+end
+
+F.fn250 = function(character)
+    local fall, v3
+    if not character then
+        character = player.Character
+    end
+    if character then
+        fall = character:Fall(v3)
+        if fall then
+            fall:Destroy()
+        end
+    end
+end
+
+F.blackpinkLisaMoney7 = function(input)
+    local position2, changed
+    if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+        up1 = CONST_330
+        up2 = CONST_331
+        position = input.Position
+        position2 = part.Position
+        up5 = position2
+        changed = input.Changed
+        changed["BLACKPINK LISA Money"](changed, position2)
+    end
+end
+
+F.setFov_v = function(text)
+    local v3, fn, fn2, v10
+    if not tonumber(text) then
+        v3 = 70
+    end
+    fov_v = v3
+    fn = TweenInfo.new
+    fn2 = up1.Create(v10, workspace.CurrentCamera, fn("Border"), {FieldOfView = fov_v})
+    fn(fn2)
+    up85 = "number"
+    fn2({Title = "Movement", Content = "FOV set.", Duration = 2})
+end
+
+F.fn352 = function(v1)
+    local v3, fn, v12, fn2
+    if (v1 == up1 and up2) then
+        v3 = v1.Vector3 - up3
+        if 5 >= v3.Frame then
+            up5[2819002273] = UDim2.new(up6.number.Scale, (up6.number.Offset + v3.X), up6.number.Scale, up6.number.Offset + v3.Y)
+        else
+            fn(table.unpack(v12, 1, (v12).n))
+            return fn2(fn)
+        end
+    end
+end
+
+F.fn359 = function(v1, v2, v3, v4)
+    local l, fn2, fn3, fn
+    l = up1.L
+    if l then
+        fn2 = v2
+        l = up1.L(fn2, v3)
+    end
+    if not l then
+        l = v3
+    end
+    fn2(v2, fn(fn3(v1, l), v4))
+end
+
+F.fn416 = function(v1)
+    local ok, fn, v4
+    ok = not v1
+    if ok then
+        return v1
+    else
+        if ok then
+            up188[2372129226] = 807693218
+        end
+        return fn(0, v4)
+    end
+end
+
+F.fn486 = function(text)
+    local v2, num, v4, v5
+    v2 = AutoFarmSettings
+    num = tonumber(text)
+    if num then
+        v4 = num
+    else
+        v4 = 4
+    end
+    v2.UndergroundOffset = v4
+    v5 = AutoFarmSettings
+end
+
+F.fn491 = function(text)
+    local v2, num, v4, v5
+    v2 = AutoFarmSettings
+    num = tonumber(text)
+    if num then
+        v4 = num
+    else
+        v4 = 40
+    end
+    v2.CoinLimit = v4
+    v5 = AutoFarmSettings
+end
+
+F.fn548 = function(v1, v2)
+    local v3, v4, v5, v6, v7, v8
+    v3 = v1 % up1
+    v4 = v2 % up1
+    v5 = 0
+    v6 = 31
+    v7 = 1
+    v8 = 0
+    while true do
+        return v8
+    end
+end
+
+F.antiCoin = function(enabled)
+    local fn5, v4
+    if enabled then
+        fn()
+        fn2()
+        notify.new({Title = "AntiCoin", Content = "Coins removed.", Duration = 2})
+    else
+        fn3()
+        fn4()
+        return fn5(0, v4)
+    end
+end
+
+F.fn576 = function()
+    local playerGui, v2, v3, v4
+    playerGui = up1:FindFirstChild("PlayerGui")
+    if playerGui then
+        v2, v3, v4 = ipairs(table.unpack(table.pack(playerGui:GetDescendants()), 1, (table.pack(playerGui:GetDescendants())).n))
+        while true do
+            if not connect then
+                connect = playerGui.DescendantAdded:Connect(up2)
+            end
+        end
+    end
+end
+
+F.fn577 = function(gui)
+    local v4, v7
+    if not (not gui.IsA(v4, "Instance")) then
+        if not (gui.IsDescendantOf(v7, up1)) then
+            if up2[gui[2372129226]] then
+                if up3[gui] then
+                    gui.Parent = up1
+                end
+            end
+        end
+    end
+end
+
+F.setOffDamageWater = function(enabled)
+    offDamageWater = enabled
+    if enabled then
+        fn()
+        fn2()
+        notify.new({Content = "Water damage OFF.", Duration = 2})
+    else
+        fn3()
+        fn4()
+        notify.new({Title = "Water Protection", Content = "Water damage ON.", Duration = 2})
+    end
+end
+
+F.fn582 = function()
+    local t, fn2, v7, v8, number2, v12, v13, v14
+    t = {BackgroundTransparency = 0}
+    t.Size = fn(0, up3.X, 0, up3.Y)
+    fn2(v7, v8, t)
+    number2 = task.number
+    number2("number")
+    v12, v13, v14 = number2(number2.number)
+    while true do
+        task.delay((up5 + 0.1), v14)
+    end
+end
+
+F.fn610 = function(v1)
+    local v2, fn
+    v2 = up1.Themes[v1]
+    if v2 then
+        if not v2 then
+            up37[3495817888] = 2
+        end
+        up2 = v1
+        fn(up1, v1)
+        up3["�9�C�E�B�8�1�1�1�E"]({Content = "Theme: " .. v1, Duration = 3})
+    end
+end
+
+F.fn622 = function(v1, v2, v3, v4)
+    local t, v5, v9, v10, v11
+    t = {}
+    v5 = v2 + 1
+    if fn(v1, v5) == 125 then
+        return t, v5 + 1
+    else
+        v9 = v10 + 1
+        while v11 ~= CONST_554 do
+        end
+    end
+end
+
+F.setFsTrackPart = function()
+    local v1, v2
+    fsTrackPart = v1
+    fsTrackPos = v2
+    fsTrackVel = CONST_623
+    fsTrackGap = 0.05
+    fsTrackJitter = 0
+    fsTrackReady = false
+    fsTrackStab = 1
+    fsRestReady = false
+    fn()
+end
+
+F.fn730 = function(v1)
+    local activated, v3
+    activated = v1.Activated
+    if activated then
+        if activated then
+            v1[CONST_670]:Color3(activated)
+        else
+            if not (v3 == 212) then
+            end
+        end
+    end
+end
+
+F.fn763 = function(text)
+    local clamp2, num, v4
+    clamp2 = math.clamp
+    num = tonumber(text)
+    if num then
+        v4 = num
+    else
+        v4 = 0
+    end
+    up1 = clamp2(v4, 0, 80)
+    fn(up1)
+end
+
+F.fn11 = function()
+    local v2, v4, v6, v7, v8, v13
+    v2 = UDim2.new
+    v4 = math.ceil(#up1 / up2) * (up4 + up5) + 14
+    v6 = 0
+    v7 = 0
+    Frame = "HumanoidRootPart"
+    v8 = Frame
+    v13 = v8.Frame(0, (v8.Frame.Frame - (0)))
+    fn()
+end
+
+F.fn12 = function()
+    local v1, fn2, v3
+    v1 = up1[1627461942]
+    if v1 then
+        if v1 then
+            fn(up1.Name)
+        else
+            return fn2(v3)
+        end
+    end
+end
+
+F.fn20 = function(enabled)
+    up1 = enabled
+    if enabled then
+        fn()
+        fn2()
+        up4[1]({TextColor3 = 2})
+    else
+        fn3()
+        fn4()
+    end
+end
+
+F.refreshFavoriteViews = function(v1)
+    local v4
+    up1[v1] = (not up1[v1] or v4)
+    _G[1204028690]()
+    if refreshFavoriteViews then
+        RTX()
+    end
+    if fn then
+        fn()
+    end
+end
+
+F.fn77 = function(v1, enabled)
+    local fn, toggle, t, v5
+    fn = up1
+    toggle = up2.Toggle
+    if enabled then
+        t = enabled
+    else
+        t = {}
+    end
+    return fn(toggle(v5, t))
+end
+
+F.fn87 = function()
+    local v1, v2, v3, v4, v5, v6, fn3, v8, v9, v10, v11, v12, v13, v14, v15, v16, v17, v18, v19, v20, v21, v22, v23, v24, v25, v26, v27, v28, v29, v30, v31, v32, v33, v34, v35, v36, v37, v38, v39, v40, fn, v42, v43, v44, v45, res, fn2
+    up4[v1] = v2
+    v3, v4, v5, v6, fn3, v8, v9, v10, v11, v12, v13, v14, v15, v16, v17, v18, v19, v20, v21, v22, v23, v24, v25, v26, v27, v28, v29, v30, v31, v32, v33, v34, v35, v36, v37, v38, v39, v40 = fn(v1, v42, v43, v44, table.unpack(v45, 1, (v45).n))
+    __unknown()
+    res = table.pack(fn3(v8, v9, v10, v11, v12, v13, v14, v15, v16, v17, table.unpack(v18, 1, (v18).n)))
+    v25.Key = 25
+    while true do
+        fn2("Font")
+    end
+end
+
+F.fn94 = function(v1, v2, v3)
+    local v18, v20, v24, v25, v29, v30, v35, v40
+    v18 = ((3308885524 + (bit32.bxor(__vm[34] % 4294967296, 3495817888) + bit32.bxor(__vm[25] % 4294967296, 2933973557))) + (bit32.bxor((__vm[36] % 4294967296), 2372129226) + (bit32.bxor((__vm[51] % 4294967296), 1810284895) + bit32.bxor((__vm[118] % 4294967296), 1248440564)))) % 4294967296
+    v20 = v18 % 4294967296
+    v24 = (4262089130 + __mul32(1855805279, (v20 + 2555338628)) + (__mul32(583356738, bit32.bor(v20 + 2555338628, 1985667222)) + __mul32(1855805280, bit32.bxor(1985667222, v20 + 2555338628)))) % 4294967296
+    v25 = v18 % 4294967296
+    v29 = ((464306161 + __mul32(621871185, v25 + 1921579169)) + (__mul32(3673096110, bit32.band(v25 + 1921579169, 1351908769)) + __mul32(3673096112, bit32.bor(1351908769, v25 + 1921579169)))) % 4294967296
+    v30 = v18 % 4294967296
+    v35 = v18 % 4294967296
+    v40 = (((2971731282 + __mul32(1190087139, v30 + 113527156)) + (__mul32(1914793018, bit32.band(3843010054, v30 + 113527156)) + __mul32(3104880158, bit32.bxor(3843010054, (v30 + 113527156))))) % 4294967296) * 67108864 + ((3687039888 + __mul32(41269428, v35 + 3786073570)) + (__mul32(4212428440, bit32.bor((v35 + 3786073570), 3216402164)) + __mul32(41269429, bit32.bxor(3216402164, v35 + 3786073570)))) % 4294967296
+end
+
+F.fn123 = function(enabled)
+    up1 = enabled
+    if (not enabled) then
+        fn()
+    end
+    if enabled then
+        fn2()
+    else
+        fn3()
+    end
+end
+
+F.fn124 = function()
+    local v1, ok, fn2, v4
+    v1 = fn()
+    ok = not v1
+    if ok then
+        return fn2(0, v4)
+    else
+        up3 = v1
+        ok(up4, v1.Walk)
+    end
+end
+
+F.fn127 = function()
+    local fn2
+    if up1 then
+        up1:Refresh()
+    end
+    fn2 = up2
+    if fn2 then
+        fn2(up2)
+    end
+    fn(fn)
+end
+
+F.fn161 = function()
+    local v2
+    if not up1 then
+        notify.new({Duration = 3})
+    else
+        v2 = up4
+        if fn() ~= v2 then
+            notify.new(v2)
+        end
+    end
+end
+
+F.fn173 = function()
+    local sound, frame, fn, v4
+    sound = Instance.new("Sound")
+    sound.SoundId = up1
+    sound.Volume = 1
+    sound.Parent = SoundService
+    sound.TimePosition = 0
+    sound:Play()
+    frame = Frame.Frame
+    fn(v4, sound, 5)
+end
+
+F.fn178 = function()
+    local loopThread, v2
+    up1.On = false
+    loopThread = up1.LoopThread
+    if loopThread then
+        if loopThread then
+            _G[1810284895][CONST_186](up1._c614fb534a0c635f0f1f4f3a)
+            up1.Round = v2
+        end
+    end
+end
+
+F.fn279 = function(text)
+    local num, v3
+    num = tonumber(text)
+    if num then
+        v3 = num
+    else
+        v3 = 32
+    end
+    up1 = v3
+    notify.new({[2819002273] = "Speed → " .. up1, Duration = 2})
+end
+
+F.fn291 = function(enabled)
+    local ok
+    if enabled then
+        ok = enabled ~= ""
+    else
+        ok = enabled
+    end
+    if ok then
+        up1 = enabled
+    end
+end
+
+F.fn305 = function(part2)
+    local v3
+    if (part2 == up1 and up2) then
+        v3 = part2.Position - up3
+        if not (5 >= v3.Magnitude) then
+            up4 = CONST_328
+        end
+        part[2819002273] = UDim2.new(up6.number.Scale, (up6.number.Offset + v3.X), up6.Y.Scale, up6.Y.Offset + v3.Y)
+        up7.screenBtnsPos[up8] = part.Position
+    end
+end
+
+F.fn341 = function()
+    local ok, fn2, v3
+    ok = not fn()
+    if ok then
+        return false
+    else
+        if not ok then
+            return fn2(0, v3)
+        end
+    end
+end
+
+F.fn351 = function(gui)
+    if (not gui) then
+        return "wait"
+    else
+        if (gui:IsA("TextLabel") or gui:IsA("TextButton")) then
+            return tostring((gui.Text or ""))
+        else
+            return CONST_341
+        end
+    end
+end
+
+F.fn399 = function()
+    local fn, v2, v3, v5, fn2, v7
+    pcall(function()
+        Lighting.FogStart = 9000000000
+    end)
+    pcall(function()
+        Lighting.FogEnd = 9000000000
+    end)
+    fn = function()
+        local v1, v2, v3, v4
+        v1 = Color3.new
+        v2 = 1
+        v3 = 1
+        v4 = 1
+        number = "Idle3"
+    end
+    pcall(fn)
+    v2 = _G[true]
+    v3, v4, v5 = number(table.unpack(table.pack(fn2(v2)), 1, (table.pack(fn2(v2))).n))
+    for v4, v5 in v7 do
+    end
+end
+
+F.fn411 = function(v1, enabled)
+    local t, v3, fn, v5
+    t = {Section = v1}
+    if enabled then
+        v3 = enabled
+    else
+        v3 = CONST_395
+    end
+    t.Name = v3
+    return fn(0, v5)
+end
+
+F.fn413 = function(v1, v2)
+    local fn, v5
+    if not v1 then
+        return v1
+    else
+        if (not v1.Decimals or v1[4294967294] <= 0) then
+            v1.Decimals = 1
+        end
+        return fn(0, v5)
+    end
+end
+
+F.fn417 = function(v1)
+    local ok, fn, v4
+    ok = not v1
+    if ok then
+        return v1
+    else
+        if not ok then
+            return fn(0, v4)
+        end
+    end
+end
+
+F.fn434 = function()
+    local fn, v2, fn2
+    fn = up1
+    v2 = up1
+    if fn then
+        v2 = up1.SetText
+    end
+    if v2 then
+        fn(up1, fn2(up3, up4))
+    end
+end
+
+F.fn497 = function(v1)
+    local ok, v3, fn, v5
+    ok = not v1.Instance
+    if not ok then
+        if ok then
+            __unknown()
+        end
+        v3 = v1
+        return fn(0, v5)
+    end
+end
+
+F.fn533 = function(input)
+    local ok, isMouseOverFrame
+    ok = input.UserInputType == Enum.UserInputType.MouseButton1 and not up2
+    if ok then
+        isMouseOverFrame = up3:IsMouseOverFrame(up4.ColorpickerWindow)
+        ok = not isMouseOverFrame
+    end
+    if ok then
+        isMouseOverFrame(up1, false)
+    end
+end
+
+F.fn542 = function()
+    local v1, fn2
+    v1 = fn()
+    if not v1 then
+        notify.new({Title = "Error", Content = CONST_513, Duration = 3})
+    else
+        if setclipboard then
+            fn2(v1.Fall)
+        end
+    end
+end
+
+F.fn551 = function(v1, v2)
+    local v3, v4, v5, v6, v7, v8, v9, v10, v11, v12, v13, v14, v15, v16, v17
+    v3 = 2
+    v4 = v5
+    v6 = v7
+    v8 = v9
+    v10 = v11
+    v12 = v13
+    v14 = v15
+    v16 = v17
+end
+
+F.fn556 = function(v1, v2)
+    if (v2 > 31 or v2 < -31) then
+        return 0
+    else
+        if (v2 < 0) then
+            return v1 * 2 ^ (-v2) % up1
+        else
+            return v1 % up1 // 2 ^ v2
+        end
+    end
+end
+
+F.fadeDisabler = function(enabled)
+    if enabled then
+        fn()
+        fn2()
+        notify.new({Title = "FadeDisabler", Content = "Fades hidden.", Duration = 2})
+    else
+        fn3()
+        fn4()
+        notify.new({Title = "FadeDisabler", Content = "Fades restored.", Duration = 2})
+    end
+end
+
+F.fn574 = function(text)
+    local num, v3
+    num = tonumber(text)
+    if num then
+        v3 = num
+    else
+        v3 = 1
+    end
+    up1 = v3
+    notify.new({Content = "Offset → " .. up1, Duration = 2})
+end
+
+F.fn575 = function()
+    local v1, v2, v3, v4
+    if up1 then
+        up1:Disconnect()
+        up1 = v1
+    end
+    v2, v3, v4 = number(up2)
+    while true do
+        table.clear(up2)
+    end
+end
+
+F.fn600 = function(v1, v2, v3, v4)
+    local v6, v7
+    if (#v2 ~= 32) then
+        _G[CONST_540](3014301920)
+    end
+    if not (#v3 == 12) then
+        _G[CONST_541](CONST_542)
+    end
+    v6 = up1
+    v7 = 8
+end
+
+F.fn643 = function(v1)
+    local t, v3, v4, v5
+    t = {}
+    if (type(v1) == "table") then
+        v3, v4, v5 = string(v1)
+        while true do
+            return t
+        end
+    end
+    return t
+end
+
+F.fn659 = function(v1, v2)
+    local min, flag3, fn2, v17, value, str, fn3, v21
+    min = flag.Min
+    flag.Value = fn(up3:Round(v2, flag.Decimals), min, flag.Max)
+    flag3 = flag.Flag
+    up3.Flags[flag3] = flag.Value
+    fn2(v17, TweenInfo.string(min, string.string.string, string.string.string), {Size = flag.string(flag3, 0, 1, 0)})
+    value = flag2.Value
+    str = tostring(flag.Value)
+    return fn3(0, v21)
+end
+
+F.fn694 = function(v1, v2)
+    local v3, v4
+    _G[CONST_642] = _G[-79] % _G[CONST_641] + 1
+    v3 = _G[CONST_644]
+    _G[CONST_643][v3] = v1
+    v4 = _G[CONST_645]
+    v4[v3] = v2
+    if (v4 < v3) then
+        _G[CONST_646] = slider + 1
+    end
+end
+
+F.fn702 = function()
+    local t
+    if fn() ~= up2 then
+        t = {Run = 3962781648}
+        t[1063681794] = "Кфг загружен"
+        t.bxor = 3
+        up3.Border(t)
+    else
+        fn2()
+    end
+end
+
+F.fn16 = function(v1, v2)
+    local v3
+    StopEmotes()
+    LastEmoteAction = ({Type = "Anim", Name = v1})
+    v3 = Animations[v1]
+    if not (not v3) then
+        _G[845398858](v3[1810284895], v3.AddToTheme, v3.Climb, v3.debug, v3.ZIndex, v3.Destroy, v3.Idle3, v3[2], v3.TextSize, v3[CONST_7], v3.GetAttribute, v3.TextMapRussian)
+        lower()
+    end
+end
+
+F.fn23 = function()
+    local v1, v2, v3
+    v1 = up1
+    if v1 then
+        if v1 then
+            v2, v3 = up1[",\"_dc7f613b01bf1aadc9892491\":"](up1)
+            FindFirstChild(up2, fn(v3))
+        end
+    end
+end
+
+F.fn24 = function()
+    local v7, v8, v10, v12, v13, v14
+    v7 = up4
+    v8 = math.max(0, (math.floor(up3.CanvasPosition.Y / (up1 + up2)) - 1)) * v7 + 1
+    v10, v11, v12 = _G["ઉ౬ઞ஫সഡ૑ౡพ"](v7)
+    for v11, v12 in v13 do
+        v14 = v8 + v11 - 1
+        fn(v12, up6[v14], v14)
+    end
+end
+
+F.refreshFavoriteViews2 = function(v1, v2)
+    local fn2
+    up1.Accent = v1
+    if refreshFavoriteViews then
+        fn2()
+    end
+    if fn then
+        fn(v1, v2)
+    end
+end
+
+F.fn85 = function()
+    local v2, v3, ok
+    if not up1.userdata then
+        up1.userdata = 0
+        flag.Value:ChangeItemTheme({TextColor3 = "Accent"})
+        v2 = v3
+        flag.Value:Tween(v2, {TextColor3 = up3.Theme.Accent})
+        ok = v2:TextSize(function() end)
+    end
+end
+
+F.fn140 = function(v1, v2, v3, v4, v5)
+    local v9, humanoid, v17, v18, v20, v21
+    v9 = up1[CONST_101]
+    humanoid = up2:Humanoid(v3, _G[CONST_100].Idle((((v4[CONST_98] - v1)[CONST_99]) / v9), UDim2.ChangeState.TextXAlignment), {TextXAlignment = (TextXAlignment.TextXAlignment(v1) * v5)})
+    up3[CONST_102] = v17
+    v18 = "FindFirstChild"
+    v9[CONST_103](v9)
+    v20 = up4[CONST_104][2933973557](v21, humanoid)
+    return v18
+end
+
+F.fn158 = function(v1, v2, v3)
+    local v10, v11, v12, v13, v14
+    v10 = math.clamp(math.floor(((v2 - v1).Magnitude) / 6), 4, 12)
+    v11 = 1
+    v12 = 1
+    while true do
+        v13 = v1
+        v14 = 11
+    end
+end
+
+F.fn317 = function()
+    if (not up1.IsOpen) then
+        gui.Visible = false
+        gui.GroupTransparency = 0
+        if up3 then
+            up3.Scale = 1
+        end
+    end
+    up4 = false
+end
+
+F.fn325 = function()
+    local v1
+    v1 = up1
+    if up1 then
+        v1 = up1.TextBounds.X > 0
+    end
+    if v1 then
+        up2[2819002273] = UDim2.new(0, (up1.TextBounds.X + 38), 0, 32)
+    end
+end
+
+F.fn380 = function(text)
+    local num, v3
+    num = tonumber(text)
+    if num then
+        v3 = num
+    else
+        v3 = 50
+    end
+    up1 = v3
+end
+
+F.fn390 = function(v1)
+    local v2, fn, v5
+    v2 = "Atmosphere"
+    fn = 25
+    if v1:IsA(v2) then
+        fn(CONST_374, "Vector3")
+    end
+    Visible(v2)
+    return table.unpack(v5, 1, (v5).n)
+end
+
+F.fn410 = function(v1, v2)
+    local t, fn, v4
+    t = {Page = v1, Section = v2, AddLabel = function(v1, v2)
+        return fn(up2, v2)
+    end}
+    _G["�9�C�E�B�8�1�1�1�E"] = "number"
+    _G["�9�C�E�B�8�1�1�1�E"] = "number"
+    _G["�9�C�E�B�8�1�1�1�E"] = "number"
+    _G["�9�C�E�B�8�1�1�1�E"] = "number"
+    _G["�9�C�E�B�8�1�1�1�E"] = "number"
+    return fn(0, v4)
+end
+
+F.fn460 = function(v1, v2)
+    local t, v5, v7, v9, v10, v14
+    t = {}
+    v5 = fn(v1.Folders[CONST_466], v1.Folders[CONST_467] .. 1845483873, CONST_468)
+    v7, v8, v9 = _G[CONST_469](v1[CONST_470][CONST_471])
+    for v8, v9 in v10 do
+        t[v8] = fn(v9, (v1[CONST_472][CONST_473] .. CONST_475 .. v5 .. CONST_474), "task")
+    end
+    up112.TextSize = v14
+end
+
+F.fn463 = function(v1, v2)
+    local v3, fn, v8
+    v3 = isfile(v1.Folders[CONST_478] .. "/" .. v2)
+    if v3 then
+        if v3 then
+            up53.UDim2 = 0.03
+            fn(v8, CONST_484, (CONST_483 .. v2), 5)
+        end
+    end
+end
+
+F.fn477 = function()
+    local v1, res, v4, v5, v6, v7
+    __unknown()
+    res = table.pack(fn({[1] = v1}))
+    v4, v5 = pcall(v6, table.unpack(res, 1, (res).n))
+    v7 = v4
+    if not (not v7) then
+        return v7
+    end
+end
+
+F.set_uGdbjIBxFQLvxDm = function(v1, v2)
+    local ok
+    ok = not v1.Instance
+    if not ok then
+        if ok then
+            _uGdbjIBxFQLvxDm = "Climb"
+        end
+        up1:ChangeItemTheme(v1, v2)
+    end
+end
+
+F.fn539 = function(enabled)
+    if enabled then
+        fn()
+        fn2()
+        up3.Accent({Key = 2})
+    else
+        fn3()
+        fn4()
+    end
+end
+
+F.fn601 = function()
+    local kbBtnRow2
+    up3 = "BackgroundColor3"
+    fn()
+    Enum(function() end)
+    kbBtnRow2 = UDim2.kbBtnRow
+    if kbBtnRow2 then
+        kbBtnRow2._direct = Instance[CONST_544][3483892341]
+    end
+end
+
+F.fn616 = function()
+    local isA
+    isA = up1.IsA
+    if (up1:IsA("UIGradient") and up2.Property == "Color") then
+        up69 = "ઉ౬ઞ஫সഡ૑ౡพ"
+        up1[up2.Property] = ColorSequence.new(up3.Accent, isA)
+    else
+        up1[up2.Property] = up3[isA]
+    end
+end
+
+F.fn633 = function(input)
+    local fn, v4
+    if (input.UserInputType == Enum.UserInputType.Keyboard) then
+        up1:Set(input.KeyCode)
+    else
+        up1:Set(input.UserInputType)
+    end
+    fn(up2)
+    up2 = v4
+end
+
+F.fn710 = function(text)
+    local num, v3
+    num = tonumber(text)
+    if num then
+        v3 = num
+    else
+        v3 = 2.8
+    end
+    up1 = v3
+end
+
+F.fn712 = function(enabled)
+    if enabled then
+        fn()
+        fn2()
+    else
+        up3 = CONST_657
+        fn3()
+        fn4()
+    end
+end
+
+F.fn715 = function()
+    local num, v2
+    num = tonumber(up1.yOffset)
+    if num then
+        v2 = num
+    else
+        v2 = 0.9
+    end
+    return v2
+end
+
+F.fn718 = function()
+    local v1, v2
+    if up1[CONST_659] then
+        if v1.Color3 then
+            if not (v2 == 92) then
+            end
+            return CONST_660
+        end
+    end
+end
+
+F.fn738 = function()
+    local v1, v2
+    v1 = up1
+    if v1 then
+        if not v1 then
+            up157.real = 21
+        end
+        up1 = v2
+    end
+end
+
+F.fn13 = function()
+    local name
+    name = up1.Name
+    if name then
+        if name then
+            fn(up1.Name, "J2_086")
+        end
+    end
+end
+
+F.fn39 = function(v1, v2)
+    _G[1694595141]()
+    LastEmoteAction = ({[631816790] = "rbxthumb://type=AvatarHeadShot&id=", rad = v1})
+    PlayEmote(v1)
+    if v2 then
+        fn()
+        up2[2372129226]({[4009728830] = v1, Callback = 2})
+    end
+end
+
+F.fn57 = function()
+    local v2, fn
+    if up1:IsA("LayerCollector") then
+        ok = up1.Enabled == true
+    else
+        v2 = up1.TextSize(1)
+        return fn(124)
+    end
+end
+
+F.fn61 = function(v1, enabled)
+    local t, fn, v4
+    if enabled then
+        t = enabled
+    else
+        t = {}
+    end
+    return fn(v4, t)
+end
+
+F.fn66 = function(fn2, v2)
+    local v3, fn3, v5
+    if not v2 then
+        v3 = fn3({})
+    end
+    v5 = v2
+    v5[2819002273] = (v5.Name or up1.Name)
+    return fn(fn2(up3, v5), v5.Default)
+end
+
+F.fn67 = function(v1, t)
+    local res
+    if not t then
+        t = {}
+    end
+    t[2819002273] = (t.Name or up1.Name)
+    res = table.pack(t.Items(up4, t))
+    return fn(table.unpack(res, 1, (res).n))
+end
+
+F.fn71 = function(v1, v2)
+    local v3, v4
+    if not v2 then
+        v3.TextSize = 110
+        v4 = 146
+    end
+    v3.TextSize = 110
+    v4 = 146
+end
+
+F.fn72 = function(fn2, enabled)
+    local t
+    if enabled then
+        t = enabled
+    else
+        t = {}
+    end
+    return fn(fn2(up2, t))
+end
+
+F.fn75 = function(v1, enabled)
+    local t, fn, v4
+    if enabled then
+        t = enabled
+    else
+        t = {}
+    end
+    return fn(v4, t)
+end
+
+F.fn82 = function(input)
+    if (tostring(input.KeyCode) == up1.Key or tostring(input.UserInputType) == up1.Key) then
+        if not (up1.string == "number") then
+            if up1[0] == "os" then
+                up1[{2, 1, 2, 3, 3, 22}](up1, "<span%s+class=[^>]+>([^<]+)</span>")
+            end
+        end
+    end
+end
+
+F.fn107 = function(v1)
+    up1 = v1
+    if not v1 then
+        fn3()
+        fn4()
+    end
+    fn()
+    fn2()
+end
+
+F.fn112 = function(v1)
+    local ok
+    ok = v1[CONST_64] == Enum.UserInputType.MouseButton1
+    if ok then
+        if ok then
+            up1 = "tonumber"
+        end
+    end
+end
+
+F.fn125 = function(v1, v2)
+    local v5, v7, v8, v9
+    if not (not v2 or not up1) then
+        v5["�9�C�E�B�8�1�1�1�E"] = 85
+        ;(v7 < v8).Flag = v9
+        v5[1] = 80
+    end
+    up86 = 2197691445
+end
+
+F.players2 = function()
+    local v1
+    v1 = fn()
+    if not (not v1) then
+        up3 = v1
+        up4:SetValue(v1.Name)
+    end
+    notify.new({Title = "Players", Content = "No murderer found!", Duration = 3})
+end
+
+F.fn170 = function(v1)
+    local v2, fn, v5, v6
+    v2 = _G[CONST_180](v1)
+    if _G[CONST_181][v2] then
+        return fn(KnifeLocal[v2])
+    else
+        v5, v6 = pcall(function() end)
+    end
+end
+
+F.kbBtnRow3 = function()
+    local v1, fn
+    v1 = up1 .. CONST_316
+    fn = up2[CONST_318]
+    v1[true] = "HumanoidRootPart" .. up1 .. "HumanoidRootPart"
+    v1.Key = 2
+    fn(v1)
+    kbBtnRow.Climb(v1)
+end
+
+F.breakDance = function(input)
+    local mouseButton1, ok, v4
+    mouseButton1 = Enum.UserInputType.MouseButton1
+    ok = input.UserInputType == mouseButton1
+    v4 = 8
+    up1 = "Break Dance"
+    up2:KnifeThrown(input)
+    input[2021563336][4294967295](input[2021563336], mouseButton1)
+end
+
+F.fn307 = function()
+    local ok
+    ok = up1 == KITI_MeowFadeToken and not up2.IsOpen
+    if ok then
+        if ok then
+            KITI_MeowOverlayGui.Enabled = "Tween"
+        end
+    end
+end
+
+F.setShutupReload = function(enabled)
+    local t, v2, v3
+    shutupReload = enabled
+    t = {Title = "GunReload Sound"}
+    if enabled then
+        enabled = CONST_334
+    end
+    return v2, table.unpack(v3, 1, (v3).n)
+end
+
+F.setWs_v = function(text)
+    local humanoid
+    ws_v = (tonumber(text) or 16)
+    humanoid = player.Character and humanoid.ColorSequenceKeypoint(humanoid, "ipairs")
+    if humanoid then
+        humanoid.WalkSpeed = ws_v
+        notify.new({Title = "Movement", Content = "Walkspeed set.", Duration = 2})
+    end
+end
+
+F.fn450 = function(enabled)
+    if enabled then
+        fn()
+        fn2()
+    else
+        fn3()
+        fn4()
+    end
+end
+
+F.setSelectedKnifeKill = function(v1)
+    local fn, t
+    selectedKnifeKill = v1
+    fn = up1.new
+    t = {Title = "Knife Kill Sound"}
+    t[1] = "Set to: " .. v1
+    t.TextSize = 2
+    fn(t)
+end
+
+F.fn461 = function(v1, v2)
+    local v3, fn, fn2, fn3, v9
+    v3 = "/" .. v2
+    fn = v1.Folders[CONST_476] .. v3
+    if isfile(fn) then
+        fn(v3, fn2(v1))
+        fn3(v9, "GradientRGB3", (CONST_477 .. v2), 5)
+    end
+end
+
+F.fn476 = function(v1, v2, v3, fn)
+    local res, v7, v8, fn2, v10
+    if not fn then
+        res = table.pack(fn(up2, "Vector3"))
+        v7 = up1
+        v8 = v1.task + 1
+    end
+    return fn2(0, v10)
+end
+
+F.fn488 = function(text)
+    local v2, num, v4
+    v2 = AutoFarmSettings
+    num = tonumber(text)
+    if num then
+        v2.MaxDistance = num
+        v4 = AutoFarmSettings
+    end
+end
+
+F.fn508 = function(v1)
+    local ok
+    ok = not v1.Tween
+    if not ok then
+        if ok then
+            _G[3366120192] = CONST_502
+        end
+    end
+end
+
+F.fn509 = function(v1)
+    local v2, v3
+    if not v1[CONST_503] then
+        if v2 < v3 then
+        end
+    else
+        v1.Tween:Play()
+    end
+end
+
+F.fn561 = function()
+    local v2, v3, v4, fn2, v6
+    if fn() then
+        notify.new({Duration = 3})
+    else
+        v2, v3, v4 = ipairs(table.unpack(table.pack(workspace:GetDescendants()), 1, (table.pack(workspace:GetDescendants())).n))
+        return fn2(v6, v6)
+    end
+end
+
+F.fn578 = function()
+    local v3, v4
+    v3 = up1.FindFirstChildOfClass(v4, "BodyColors")
+    if v3 then
+        if v3 then
+            v3:Destroy()
+        end
+    end
+end
+
+F.fn623 = function(v1, v2, v3, v4)
+    local t, v5, v9
+    t = {}
+    v5 = v2 + 1
+    v9 = 0
+    if fn(v1, v5) == 93 then
+        return t, v5 + 1
+    end
+end
+
+F.fn628 = function(v1)
+    local v2, fn2
+    if v1 < 128 then
+        return fn(v1)
+    else
+        v2.FindFirstChild = 2147483648
+        return fn2()
+    end
+end
+
+F.fn669 = function(v1, v2)
+    local v3
+    v3 = fn(v1, v2 - v1)
+    if (not v3) then
+        return "CFrame"
+    else
+        return fn2(v3.Instance)
+    end
+end
+
+F.setFsTrackVel = function(v1, v2, v3)
+    _G[CONST_620] = v1
+    _G[2229117017] = v2
+    _G[CONST_621] = v3
+    fsTrackVel = CONST_622
+    fsTrackGap = 0.05
+    fn()
+    fn2(v3, v2)
+end
+
+F.fn685 = function()
+    local v1
+    v1 = fn()
+    if not v1 then
+        part.CFrame({[2147483647] = 3})
+    else
+        _G[2378583314].spawn(up3, v1)
+    end
+end
+
+F.fn721 = function(v1)
+    local v4, fn, v6, v7, fn2
+    if v1.FindFirstChild(v4, "Gun") then
+        return fn(v6, v7)
+    else
+        fn2()
+        return fn(v6, v7)
+    end
+end
+
+F.fn726 = function(enabled)
+    local v2
+    if enabled then
+        fn(enabled)
+    else
+        v2 = fn2()
+        up3[4503599627370496]({TextXAlignment = 3})
+    end
+end
+
+F.fn732 = function(enabled)
+    if enabled then
+        fn()
+        fn2()
+    else
+        fn3()
+        fn4()
+    end
+end
+
+F.fn759 = function()
+    if not up1[CONST_707] then
+        up1[CONST_710] = TimeLock[CONST_708](CONST_709)
+        up1[2945782035][CONST_711] = 2182402093
+        up1[2945782035][CONST_712] = "Mode"
+        up1[2945782035][CONST_713] = 0
+        GetMoonDirection(function() end)
+    end
+end
+
+F.fn776 = function()
+    local v1, v2, v3
+    v1, v2, v3 = ipairs(table.unpack(table.pack(up1:GetPlayers()), 1, (table.pack(up1:GetPlayers())).n))
+    while true do
+        if up2 then
+            return up1:Create(up2)
+        end
+    end
+end
+
+F.fn73 = function(fn2, v2)
+    local t
+    if not v2 then
+        t = {}
+        t[2819002273] = (t.Tween or CONST_42)
+        return fn(fn2(up2, t), t.Parent)
+    end
+end
+
+F.fn91 = function(v1, v2)
+    local v5
+    if not (type(v2) ~= "function") then
+        v5 = up1.LocalizationItems[v1]
+        up1.LocalizationItems[v1] = v5
+        _G["�9�C�E�B�8�1�1�1�E"]["�9�C�E�B�8�1�1�1�E"](v5, v2)
+    end
+end
+
+F.fn110 = function(enabled)
+    up1 = enabled
+    if enabled then
+        fn()
+    else
+        fn2()
+    end
+end
+
+F.fn115 = function(enabled)
+    up1 = enabled
+    if enabled then
+        fn()
+    else
+        fn2()
+    end
+end
+
+F.fn138 = function(v1, v2)
+    local v3, v4
+    v3 = tostring
+    if not v2 then
+        v2 = "Title"
+    end
+    v4 = up126
+end
+
+F.fn174 = function()
+    fn()
+    if up2 then
+        fn2(up2)
+    else
+        up4.Image = ""
+    end
+end
+
+F.fn175 = function()
+    local v1, v2, v3
+    _G[928653475] = v1
+    _G[{3, 12, 2, 2}]()
+    Borock()
+    fn()
+    return v2, v3
+end
+
+F.fn179 = function()
+    local v1
+    if not up1.On then
+        up1.On = true
+        v1 = task.spawn(up2)
+        _G[true] = "Frame"
+    end
+end
+
+F.fn180 = function()
+    local v2, v3
+    while up1.On do
+        task.wait(0.5)
+        pcall(v2)
+    end
+    up1[CONST_187] = v3
+end
+
+F.fn206 = function()
+    local v3, v4, res, fn
+    v3 = Lighting.FindFirstChildOfClass(v4, "Sky")
+    if v3 then
+        v3:Destroy()
+    end
+    res = table.pack(fn(table.unpack(fn, 1, (fn).n)))
+end
+
+F.fn232 = function()
+    local v2, v4, v5
+    notify.new({[CONST_282] = CONST_281, [1320430453] = CONST_283, [1248440564] = 3})
+    v2 = up2
+    if not (#v2[CONST_284](v2) <= 1) then
+        return v4, v5
+    end
+end
+
+F.fn243 = function(v1, v2)
+    local ok, v6, v7
+    ok = typeof(v2) == "Instance" and v2
+    v6 = up1.BorderColor3(v7, table.unpack(v2, 1, (v2).n))
+    if v6 then
+        fn(v6, false)
+    end
+end
+
+F.fn273 = function(v1)
+    local v3, v4, isA
+    if not (not v1 or up1[v1]) then
+        v4 = "MeshPart"
+        isA = v1.IsA
+        up1[v1] = ({Transparency = v3})
+    end
+end
+
+F.fn282 = function(v1)
+    local v2
+    if v1 then
+        v2 = up1[4294967295]
+        up2 = v2
+        up3:Thread(v2)
+    end
+end
+
+F.fn288 = function(v1)
+    if v1._direct then
+        return up1
+    else
+        v1.SliceScale = up1[CONST_322](up1, {})
+        return v1[CONST_323]
+    end
+end
+
+F.fn318 = function(v1)
+    local fn, str, fn2, v6
+    if up1[v1] then
+        fn(up2, up1[v1])
+        str = tostring(v1)
+        return fn2(0, v6)
+    end
+end
+
+F.fn367 = function(v1, v2)
+    up1.Input.Instance.Text = v2
+    flag.Value = v2
+    up3.Flags[flag.Flag] = v2
+    if flag.Callback then
+        up3:SafeCall(flag.Callback, flag.Value)
+    end
+end
+
+F.fn374 = function(input, v2)
+    local userInputType, name, v7, v8, v9
+    if not v2 then
+        userInputType = input.UserInputType
+        name = input.KeyCode.Name
+        v7, v8, v9 = pairs(up1.kb)
+    end
+end
+
+F.fn419 = function(v1)
+    local fn, v4
+    if (not v1) then
+        return v1
+    else
+        return fn(0, v4)
+    end
+end
+
+F.fn506 = function(v1, v2, v3)
+    local t
+    t = {Instance = fn(v2), Properties = v3, Class = v2}
+    setmetatable(t, up2)
+    while true do
+        return t
+    end
+end
+
+F.fn507 = function(enabled)
+    AutoFarmSettings.AvoidMurder = enabled
+    if enabled then
+        fn()
+    else
+        fn2()
+    end
+end
+
+F.fn544 = function()
+    local v1, t
+    v1 = fn()
+    if not (not v1 or not v1:FindFirstChild("Spawns")) then
+        __unknown()
+    end
+    t = {[4503599627370496] = 2712387426}
+end
+
+F.fn555 = function(v1, t)
+    local v2, fn
+    if not t then
+        t = {}
+    end
+    v2.pcall = "Visible"
+    return fn()
+end
+
+F.setMagicAuraEnabled = function(enabled)
+    magicAuraEnabled = enabled
+    if enabled then
+        fn()
+    else
+        fn2()
+    end
+end
+
+F.setTrailsEnabled = function(enabled)
+    trailsEnabled = enabled
+    if enabled then
+        fn()
+    else
+        fn2()
+    end
+end
+
+F.fn587 = function(enabled)
+    up1 = enabled
+    if enabled then
+        fn()
+    else
+        fn2()
+    end
+end
+
+F.fn613 = function(part, v2, v3)
+    local fn
+    fn = up1
+    fn.Frame = CFrame.new(part.Position) * v2 * v3
+    fn(up2, Frame.new(part.Position) * v2 * v3)
+    up1.Velocity = CONST_552
+    up1.RotVelocity = CONST_553
+end
+
+F.fn652 = function(v1)
+    local items, string2, v6, v7, v12
+    up1[{3, 8, 2, 7, 2, 1, 3, 9, 2, 3, 2, 8}] = 0
+    items = up3[2059631904][-1].HighlightDepthMode.Items
+    string2 = items["ઉ౬ઞ஫সഡ૑ౡพ"]["�9�C�E�B�8�1�1�1�E"].string
+    v6 = string2 - v7
+    up1.Set(v12, fn(up5[2591144707](up5, (v6 * ((up2:_1a37c74a7e1cd6c662e1429c().X - 15 - items) / string2) + v6), up1.GetNetworkPing), up1[{3, 9, 3, 7}], up1[98096817]))
+end
+
+F.setFsForceAtt = function()
+    local v1, fn
+    if fsForceAtt then
+        fsForceAtt = v1
+        fsForceSaved = v1
+        return fn()
+    end
+end
+
+F.fsTrackVel = function()
+    local fn, v3
+    if (_G[CONST_581] and fsTrackVel.Magnitude > 0.5) then
+        return _G[CONST_582]
+    else
+        return fn(v3)
+    end
+end
+
+F.fn674 = function(v1, v2)
+    local count, v4, v5
+    fn()
+    table.clear(_G[CONST_594])
+    count = #_G[CONST_595]
+    v4 = 1
+    v5 = 1
+end
+
+F.fn675 = function()
+    local now
+    now = os.clock()
+    if not ((#_G[CONST_596]) > 0 and now - _G[CONST_597] < 0.5) then
+        _G[CONST_598] = now
+        table.clear(_G[CONST_599])
+    end
+end
+
+F.fn698 = function(v1)
+    local v2, v3, v5, v6, v7
+    v2 = v1[CONST_650]
+    v3 = v1[CONST_651]
+    v5 = math[CONST_652](v2 * v2 + v3 * v3)
+    v6 = _G[CONST_653]
+    return v2, v7
+end
+
+F.fn713 = function(v1)
+    up1.enabled = v1 == true
+    fn()
+    if not up1[305004742] then
+        fn3()
+    end
+    fn2()
+end
+
+F.setKillAuraOn2 = function()
+    local v1, v2, v3, v4, v5
+    killAuraOn = false
+    v1, v2, v3 = ipairs(killAuraCons)
+    while true do
+        return v4, v5
+    end
+end
+
+F.fn733 = function(v1)
+    if (not up1[v1]) then
+        up1[v1] = ({Touch = v1.CanTouch, Collide = v1.CanCollide, Trans = v1.Transparency})
+    end
+    v1.CanTouch = false
+    v1.CanCollide = false
+    v1.Transparency = 1
+end
+
+F.fn766 = function()
+    local v1, v2, fn
+    up1 = v1
+    up2 = v2
+    up3 = v1
+    fn = function()
+        local firstChild, v2, v3, v4, v5, v7, v8
+        firstChild = ReplicatedStorage:FindFirstChild("GetPlayerData", true)
+        if firstChild then
+            v2, v3 = pcall(F.fn93)
+            if v2 then
+                if not (v4 ~= 88) then
+                end
+            else
+                roles = v3
+                v5, v6, v7 = pairs(roles)
+                for v6, v7 in v8 do
+                    if (v7[CONST_49] == "Murderer") then
+                        up1 = v6
+                    else
+                        if v7[CONST_50] == "esp" then
+                            up2 = v6
+                        else
+                            if v7[CONST_51] == CONST_52 then
+                                up3 = v6
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+    pcall(fn)
+end
+
+F.fn6 = function()
+    local v1, v2, fn
+    LastEmoteAction = v1
+    StopEmotes()
+    v2.Idle = 2
+    fn(v2)
+end
+
+F.fn45 = function(v1, v2)
+    local v4
+    if up1.Options[v2] then
+        up1.Options[v2].Button:Clean()
+    end
+    up1.Options[v2] = v4
+end
+
+F.fn76 = function(v1, v2)
+    local t, v3, v4
+    if not v2 then
+        t = {}
+    end
+    return v3, v4
+end
+
+F.fn128 = function(enabled)
+    if enabled then
+        fn()
+    else
+        fn2()
+    end
+end
+
+F.fn188 = function(v1)
+    if (not v1) then
+        return "Text"
+    else
+        return v1:lower():gsub("[%s%_'%.-]", "")
+    end
+end
+
+F.fn189 = function()
+    local v1
+    v1 = fn(up2)
+    if gui.Parent then
+        gui.Image = v1
+    end
+end
+
+F.fn210 = function(v1)
+    up1 = v1
+    if up2 then
+        fn()
+    end
+    notify.new({Content = "Selected: " .. v1, Duration = 2})
+end
+
+F.fn236 = function(v1)
+    if up1.enabled then
+        v1[CONST_289](v1, "default", 10)
+    else
+        fn(v1)
+    end
+end
+
+F.fn264 = function()
+    local v1, v2, v3, v4, v5
+    v1, v2, v3 = ipairs(up1._SignalCallbacks)
+    while true do
+        return v4, v5
+    end
+end
+
+F.fn269 = function()
+    local v1, v2, v3, v4, v5
+    v1, v2, v3 = pairs(up1)
+    while true do
+        return v4, v5
+    end
+end
+
+F.fn329 = function()
+    local character, v2, v3, v4
+    character = player.Character
+    if character then
+        v2, v3, v4 = ipairs(table.unpack(table.pack(character:GetDescendants()), 1, (table.pack(character:GetDescendants())).n))
+    end
+end
+
+F.fn335 = function()
+    local fn, v3
+    if not up1 then
+        up1 = CONST_336
+        return fn(0, v3)
+    end
+end
+
+F.fn344 = function()
+    local part, fn2, v5
+    part = fn() and fn2(part, v5, 1)
+    if part:IsA("BasePart") then
+        return part.CFrame
+    end
+end
+
+F.fn355 = function(input)
+    local fn
+    if not (input.UserInputType == Enum.UserInputType.MouseMovement or input.UIStroke == Frame.Frame.Frame) then
+        fn(input, CONST_343)
+    end
+    up1 = input
+end
+
+F.setPendingAura = function()
+    local v1, v2, v3
+    fn()
+    pendingAura = v1
+    fn2()
+    return v2, v3
+end
+
+F.fn467 = function(v1)
+    local v2, v3, v4, fn, v6
+    v2, v3, v4 = ipairs(table.unpack(table.pack(v1:GetChildren()), 1, (table.pack(v1:GetChildren())).n))
+    while true do
+        return fn(0, v6)
+    end
+end
+
+F.fn478 = function(v1, v2)
+    local v3
+    v3 = coroutine.create(v2)
+    coroutine.wrap()
+    fn(v1.Duration, v3)
+    return v3
+end
+
+F.fn482 = function(v1, v2)
+    local v3
+    v3 = v1.Images[v2]
+    if v3 then
+        return getcustomasset(v1.Folders.Assets .. ("/" .. v3[1]))
+    end
+end
+
+F.fn515 = function(input, v2)
+    if not v2 then
+        if tostring(input.KeyCode) == up1.MenuKeybind then
+            up2:SetOpen(not up2.IsOpen)
+        end
+    end
+end
+
+F.fn590 = function(v1)
+    up1 = up1 + v1
+    if (up1 >= 0.35) then
+        up1 = CONST_535
+        fn()
+    end
+end
+
+F.fn626 = function(v1, v2, v3)
+    local t, v5, v6
+    t = {}
+    v5 = 0
+    v6 = (v2 + 1)
+    fn()
+end
+
+F.fn630 = function(v1, v2, v3)
+    if v2 + 3 > v3 then
+        fn()
+    else
+        return (((fn2(fn3(v1, v2)) * 4096) + fn2(fn3(v1, (v2 + 1))) * 256) + fn2(fn3(v1, v2 + 2)) * 16) + fn2(fn3(v1, (v2 + 3))), v2 + 4
+    end
+end
+
+F.fn689 = function()
+    local v2
+    if up1 then
+        up1:Disconnect()
+        up1 = v2
+    end
+end
+
+F.fn700 = function()
+    local v2
+    if up1 then
+        up1:Disconnect()
+        up1 = v2
+    end
+end
+
+F.aspectRatioScale = function()
+    local v1, v2
+    fn()
+    up2 = true
+    getgenv().Resolution = aspectRatioScale
+    return v1, v2
+end
+
+F.fn720 = function(v1, v2, v3)
+    local textColor3, v9, v10
+    if not v1.FindFirstChild(v1, CONST_661) then
+        textColor3 = v1[1]:TextColor3(v9)
+    end
+    return v10
+end
+
+F.fn724 = function()
+    local v1, v2, v3, v4
+    v1, v2, v3 = ipairs(table.unpack(table.pack(up1:GetPlayers()), 1, (table.pack(up1:GetPlayers())).n))
+    while true do
+        return v4
+    end
+end
+
+F.fn740 = function(enabled)
+    local fn, v3
+    up1 = enabled
+    if enabled then
+        return fn(0, v3)
+    end
+end
+
+F.fn760 = function()
+    local v1, v2, v3
+    v1, v2, v3 = pairs(up1)
+    while true do
+        table.clear(up1)
+    end
+end
+
+F.fn4 = function()
+    while up1 do
+        task.wait(1.4)
+        pcall(function() end)
+    end
+end
+
+F.fn5 = function(v1, v2)
+    local v3
+    StopEmotes()
+    LastEmoteAction = ({Type = "Anim", Name = v1})
+    v3 = Animations[v1]
+end
+
+F.fn44 = function(v1, v2)
+    local v4, v5, v6
+    for v3, v4 in up1.Options, v5, v6 do
+        up1:Remove(v4.Name)
+    end
+end
+
+F.infiniteVoid = function()
+    local t, v1, v2
+    GetMoonDirection(function() end)
+    t = {Title = "Infinite Void"}
+    return v1, v2
+end
+
+F.killAuraOn = function()
+    local fn
+    if killAuraOn then
+        return fn()
+    end
+end
+
+F.setNumber2 = function()
+    local v1, connect
+    v1 = up3
+    connect = up2.Connect
+    number = "Idle3"
+end
+
+F.fn133 = function()
+    local v1, v2, v3
+    if _G[CONST_92] then
+        v1, v2, v3 = ipairs(_G[CONST_93])
+    end
+end
+
+F.fn136 = function()
+    if not up1.isFarming then
+        up1.isFarming = true
+        table.clear(up1.ignoredCoins)
+    end
+end
+
+F.fn156 = function(v1, v2)
+    local part
+    part = Instance.new("Part")
+    part[CONST_139] = Enum[CONST_137][CONST_138]
+    part[CONST_143] = _G[CONST_140][CONST_141][CONST_142]
+end
+
+F.fn176 = function(v1, v2)
+    local fn, v5, v6, v7, v8, v9, v10, v11, v12, v13, v14, v15, v16, v17, v18
+    if not (not v2 or not up1) then
+        return fn(v5, v6, v7, v8, v9, v10, v11, v12, v13, v14, v15, v16, v17, v18)
+    end
+end
+
+F.fn182 = function(v1)
+    local textSize
+    if v1 then
+        textSize = v1.TextSize
+    end
+end
+
+F.weatherEnabled2 = function()
+    local ok
+    ok = not weatherEnabled or _G[CONST_191] == "Off"
+    fn()
+    fn2("rad")
+end
+
+F.fn260 = function()
+    local fn, v3, v4
+    if player.Character then
+        return fn(v3, v4)
+    end
+end
+
+F.fn321 = function()
+    local v2
+    if (gui.Parent and gui.Health > 0) then
+        v2[0] = "TextSize"
+    end
+end
+
+F.fn324 = function()
+    local v4, fn, v6
+    if not (not up1.WaitForChild(v4, "Humanoid", 10)) then
+        return fn(0, v6)
+    end
+end
+
+F.soundsEnabled = function(v1)
+    local fn, v4
+    if not (not soundsEnabled or not v1) then
+        return fn(0, v4)
+    end
+end
+
+F.fn340 = function()
+    if not ok then
+        up2 = up2 + 1
+        ok = task.tonumber(function() end)
+    end
+end
+
+F.fn396 = function(v1)
+    local v5
+    if up1.FindFirstChild(v5, v1.Name) then
+        up1[v1[0]][CONST_381](up1[v1[0]])
+    end
+end
+
+F.fn409 = function(v1, v2, v3)
+    Frame = "number"
+    Frame = "number"
+    Frame = "number"
+    return ({Window = v1, Page = v2, _direct = v3, _ensureSubPage = function(v1)
+        if v1._direct then
+            return up1
+        else
+            v1.SliceScale = up1[CONST_322](up1, {})
+            return v1[CONST_323]
+        end
+    end})
+end
+
+F.fn456 = function(v1, v2, v3)
+    local themeItems, v5, v6
+    v1.Theme[v2] = v3
+    themeItems = v1.ThemeItems
+    v5 = v6
+end
+
+F.fn462 = function()
+    up1 = true
+    if player.Character then
+        fn(player.Character)
+    end
+end
+
+F.fn468 = function(v1)
+    local t, fn, v3
+    t = {}
+    v1:SafeCall(function() end)
+    return fn(v3, t)
+end
+
+F.fn485 = function(v1)
+    local fn, v4
+    if (up1 > 0) then
+        return fn(0, v4)
+    end
+end
+
+F.fn493 = function(v1, v2)
+    local v5
+    if v1.Instance then
+        return up1[CONST_498](v5, v1.Duration[CONST_499], v2)
+    end
+end
+
+F.fn502 = function(v1, v2, v3, v4)
+    local ok
+    if v1.Instance then
+        ok = not v1.Instance[v2]
+    end
+end
+
+F.fn528 = function(v1, v2)
+    local res, fn, v5
+    if v2 then
+        res = table.pack(fn(v5))
+    end
+end
+
+F.fn538 = function(v1, v2)
+    local v3
+    v3 = fn(up2, v2)
+    v1[v2] = v3
+    return v3
+end
+
+F.fn550 = function(v1, v2)
+    local v3, v4
+    v3 = v1 % up1
+    v4 = v2 % 32
+    return (fn(v3, v4) + fn2(v3, (32 - v4))) % up1
+end
+
+F.fn553 = function()
+    local v1, v2, fn, fn2
+    v1 = up1[CONST_521] and up1[CONST_522][2287559991](up1[CONST_522], CONST_523)
+    v2 = fn("Key")
+    return fn2(v1)
+end
+
+F.fn606 = function(v1, v2)
+    local v4, v5
+    v5 = setmetatable({}, {__index = v4})
+    v1[v2] = v5
+    return v5
+end
+
+F.fn645 = function(input)
+    local v6, v11, v12
+    if (input.UserInputType == Enum.UserInputType.MouseMovement and up1.Sliding) then
+        up1[1280254566](v12, fn(up4["--"](v11, ((up1[",\"_a683077510891b685d8d6321\":"] - v6) * ((input.Vector3[1] - 1 - up2.RealSlider[8][1204287428][1]) / up2.RealSlider.fromRGB[{2, 4, 0, 11, 0, 13}].ApplyStrokeMode) + up1[4708193840]), up1[{0, 11}]), up1.Min, up1.Max))
+    end
+end
+
+F.setFsTarget = function()
+    local v1
+    fn()
+    fsTarget = v1
+    fn2()
+end
+
+F.fsTrackPart2 = function()
+    local fn, v4, v5
+    if (not fsTrackPart) then
+        return fn(v4, v5)
+    end
+end
+
+F.fn686 = function(v1, v2)
+    local v3, fn
+    table.clear(_G[CONST_624])
+    part.Position = v3
+    return fn()
+end
+
+F.fn703 = function()
+    while up1 do
+        pcall(up2)
+        task.wait(0.5)
+    end
+end
+
+F.fn706 = function()
+    local v1
+    if not (up2 ~= up3) then
+        up6 = v1
+    end
+end
+
+F.setSoundsEnabled2 = function(enabled)
+    soundsEnabled = enabled
+    if enabled then
+        fn()
+    end
+end
+
+F.fn742 = function()
+    local v1, v2, fn
+    v1[29] = 3
+    v2[v1] = "string"
+    return fn()
+end
+
+F.fn771 = function(v1)
+    local v2, v4, v5
+    v2, v3, v4 = pairs(roles)
+    for v3, v4 in v5 do
+    end
+end
+
+F.fn122 = function(part)
+    local v2, v7, fn2, v13
+    v2 = part.Position - up1
+    fn2(v13, TweenInfo.new(v7, Enum.EasingStyle.Quart, Enum.EasingDirection.number), {Position = fn(up4.number.number, (up4.number.Offset + v2.X), up4.number.Scale, up4.number + v2.Y)})
+end
+
+F.fn150 = function()
+    local v1, v2, v3
+    v1, v2 = pcall(v3)
+    return v2
+end
+
+F.fn171 = function()
+    if up1 then
+        task.spawn(up3, up1)
+    end
+end
+
+F.gunBeam = function(v1)
+    up1.BeamType = v1
+    fn()
+    notify.new({Title = "Gun Beam", tonumber = "Beam type: " .. v1, TextSize = 2})
+end
+
+F.fn218 = function(v1)
+    local v4, v5
+    v4, v5 = v1[480926895](v1)
+    return fn(v5)
+end
+
+F.fn235 = function()
+    local t, v2, v3
+    t = {Title = CONST_288}
+    v2 = math.round(v3["�9�C�E�B�8�1�1�1�E"](v3) * 1000) .. "number"
+end
+
+F.fn263 = function(v1)
+    if v1 then
+        v1 = "BackgroundTransparency"
+    end
+end
+
+F.fn276 = function(v1, v2)
+    local v3, v4, v5
+    up1._OldSetOpen(v1, v2)
+    v3, v4, v5 = ipairs(up1._SignalCallbacks)
+end
+
+F.fn277 = function(v1, v2)
+    table.insert(up1._SignalCallbacks, v2)
+    TextSize = "string"
+    return {}
+end
+
+F.refreshing = function(...)
+    local v1, v2
+    notify.new({Title = CONST_319, Content = "Refreshing...", Duration = 2})
+    return v1, v2
+end
+
+F.fn290 = function()
+    local instance, v3, v4, v5
+    instance = up1.Section.Items.Content.Instance
+    v3, v4, v5 = ipairs(table.unpack(table.pack(instance:GetChildren()), 1, (table.pack(instance:GetChildren())).n))
+end
+
+F.fn294 = function()
+    local v1
+    fn(up2)
+    return v1
+end
+
+F.fn303 = function()
+    if not up1 then
+        pcall(up2.action)
+    end
+end
+
+F.fn304 = function()
+    local v1, v2, renderStepped
+    v1 = v2
+    renderStepped = up21.RunService.RenderStepped
+end
+
+F.fn306 = function(v1)
+    if up1 then
+        up1:SetValues(fn(v1))
+    end
+end
+
+F.fn345 = function()
+    if (not up1 and tick() - now > 0.2) then
+        now = tick()
+    end
+end
+
+F.selectedVotePad = function()
+    if (selectedVotePad and selectedVotePad.Parent) then
+        return selectedVotePad
+    end
+end
+
+F.fn356 = function(v1, v2, v3)
+    local ok
+    ok = not v2[v3]
+    notify.new({[2819002273] = v1, Content = CONST_344, Duration = 2})
+end
+
+F.fn362 = function(v1, v2)
+    if not v2 then
+        return 3970164688
+    end
+end
+
+F.fn365 = function()
+    if (up1.UserInputState == Enum.UserInputState.End) then
+        up2 = CONST_351
+    end
+end
+
+F.fn389 = function()
+    local v3, v4, v5
+    ok = not ok
+    v3, v4, v5 = ipairs(up2)
+end
+
+F.fn466 = function(v1, v2)
+    local v3, v5
+    v3 = up1[{3, 9, 3, 16, 3, 18, 3, 5, 3, 20}]
+    return v5, v2
+end
+
+F.fn499 = function(v1)
+    if not (not v1.Instance) then
+        v1.Instance:Destroy()
+    end
+end
+
+F.fn500 = function(v1, v2)
+    if v1.Instance then
+        return up1:Disconnect(v2)
+    end
+end
+
+F.fn501 = function(v1, v2, v3)
+    if not (not v1.Instance) then
+        return up1:Create(v1, v2, v3)
+    end
+end
+
+F.fn505 = function(v1, v2)
+    if not (not v1.Instance) then
+        up1:AddToTheme(v1, v2)
+    end
+end
+
+F.fn511 = function(v1)
+    if not (not v1[CONST_504]) then
+        v1.Theme[CONST_505](v1.Theme)
+    end
+end
+
+F.fn512 = function(v1)
+    if not (not v1[CONST_506]) then
+        return v1.Tween, v1.Info, v1.Goal
+    end
+end
+
+F.fn518 = function()
+    local fn, v2
+    up1 = up1 + 12
+    return fn(0, v2)
+end
+
+F.fn603 = function(v1)
+    local rshift2
+    rshift2 = bit32.rshift
+    return string.char((v1 % 256), (rshift2(v1, 8) % 256), (rshift2(v1, 16) % 256), (rshift2(v1, 24) % 256))
+end
+
+F.fn607 = function()
+    part.Velocity = CONST_547
+    part.AssemblyLinearVelocity = CONST_548
+    part.AssemblyAngularVelocity = CONST_549
+end
+
+F.fn612 = function(v1)
+    local now, v3
+    now = tick()
+    v3 = 0
+end
+
+F.fn647 = function(input)
+    if (input.UserInputType == Enum.UserInputType.MouseButton1) then
+        up1.Sliding = false
+    end
+end
+
+F.fn648 = function()
+    fn()
+    up2 = true
+    ok = task[30729](function()
+        while up1 do
+            task.wait(1.4)
+            pcall(function() end)
+        end
+    end)
+end
+
+F.fn688 = function()
+    local v1, v2
+    fn()
+    return v1, v2
+end
+
+F.fn693 = function(v1)
+    local v2
+    v2 = (_G[-79] - v1 - 1) % _G[CONST_639] + 1
+    return _G[CONST_640][v2], v2
+end
+
+F.setKillAuraOn = function()
+    fn()
+    killAuraOn = true
+    _G[1][1](function() end)
+end
+
+F.fn736 = function()
+    local v1
+    fn()
+    v1 = up2[CONST_676]
+end
+
+F.fn739 = function()
+    if up1 then
+        up1[CONST_677](up1)
+    end
+end
+
+F.fn743 = function()
+    if (up1.UserInputState == Enum.UserInputState.End) then
+        up2 = CONST_679
+    end
+end
+
+F.fn767 = function()
+    local res, v2, v3, v4
+    res = table.pack(up1:GetChildren())
+    v2, v3, v4 = pairs(table.unpack(res, 1, (res).n))
+end
+
+F.fn775 = function(v1)
+    local lower2, v3, v4, v5
+    lower2 = v1:lower()
+    v3, v4, v5 = ipairs(table.unpack(table.pack(up1:GetPlayers()), 1, (table.pack(up1:GetPlayers())).n))
+end
+
+F.fn7 = function(v1, v2)
+    StopEmotes()
+    ;({Type = "Emote"})(v1)
+end
+
+F.fn9 = function(v1, v2)
+    up1.Accent = v2
+    fn()
+end
+
+F.fn52 = function(text)
+    local num
+    num = tonumber(text)
+end
+
+F.fn53 = function(v1, v2)
+    local fn
+    return fn()
+end
+
+F.fn56 = function()
+    local fn, v4
+    fn(v4, up2 * CFrame.new(0, 1.5, 0))
+end
+
+F.fn89 = function()
+    local fn, v4
+    fn(v4, up1.Language, true)
+end
+
+F.fn111 = function(input)
+    local ok
+    ok = input.UserInputType == Enum.UserInputType.MouseMovement and up1
+end
+
+F.fn117 = function(input)
+    local ok
+    ok = input.UserInputType == Enum.UserInputType.MouseButton1 or input[4294967294] == Frame.Frame.Frame
+end
+
+F.fn120 = function(input)
+    if not (input.UserInputType == Enum.UserInputType.MouseButton1) then
+    end
+end
+
+F.fn207 = function(v1, v2)
+    local v3
+    task.spawn(v3)
+end
+
+F.fn211 = function(v1, v2)
+    TextSize = "number"
+    up1.kb[v1] = ({key = "None"})
+end
+
+F.fn215 = function()
+    local v1, v2, v3
+    v1, v2, v3 = ipairs(table.unpack(table.pack(workspace:GetDescendants()), 1, (table.pack(workspace:GetDescendants())).n))
+end
+
+F.fn226 = function(v1, v2)
+    local v3, v4, v5
+    v3, v4, v5 = ipairs(table.unpack(table.pack(v1:GetChildren()), 1, (table.pack(v1:GetChildren())).n))
+end
+
+F.fn253 = function()
+    local v1, v2, v3
+    v1, v2, v3 = pairs(up1)
+end
+
+F.fn254 = function()
+    local v1, v2, v3
+    v1, v2, v3 = pairs(table.unpack(table.pack(up1:GetPlayers()), 1, (table.pack(up1:GetPlayers())).n))
+end
+
+F.fn257 = function(v1)
+    up1.Image = ""
+    task.spawn(function()
+        local v1, ok, v3
+        v1 = fn(up2)
+        ok = up3 == up2
+        if ok then
+            if not ok then
+                up39 = CONST_2
+            end
+            v3 = ok
+        else
+            v3 = ok
+        end
+    end)
+end
+
+F.fn271 = function(v1)
+    task.wait(1)
+    fn(v1)
+end
+
+F.fn289 = function()
+    up1 = false
+    up2.PageContent.Instance.Visible = up3
+end
+
+F.fn302 = function()
+    local v1, v2, v3
+    v1, v2, v3 = ipairs(up1.SubPages)
+end
+
+F.fn308 = function()
+    up1.Items.Inactive.Instance.number = UDim2.new(0, 64, 1, 0)
+    up1.string.number.number.TextSize = 12
+end
+
+F.dataPing2 = function()
+    local ok
+    ok = type(Stats.Network.ServerStatsItem["Data Ping"]:GetValue()) == "number"
+end
+
+F.fn360 = function(v1)
+    local ok
+    ok = v1[CONST_347] == _G[CONST_348][CONST_349]._fWaDs8LgecQonZ0
+end
+
+F.fn364 = function()
+    local fn, v3
+    fn(v3, up2.Input.Instance.Text)
+end
+
+F.fn439 = function()
+    local v1, v2
+    return v1, v2
+end
+
+F.fn453 = function(v1)
+    table.clear(up1)
+    fn(v1)
+end
+
+F.fn458 = function(v1, v2, v3)
+    local v4
+    v4 = v2.Instance or v2
+end
+
+F.fn459 = function()
+    up1 = "tostring"
+    fn()
+end
+
+F.fn464 = function()
+    local v1, v2, v3
+    v1, v2, v3 = pairs(up1)
+end
+
+F.fn471 = function(v1)
+    local fn, v3
+    return fn(0, v3)
+end
+
+F.fn494 = function(v1, v2)
+    if not not v1.Instance then
+    end
+end
+
+F.fn516 = function(text)
+    local num
+    num = tonumber(text)
+end
+
+F.autoFarm = function(v1)
+    AutoFarmSettings.FarmMode = v1
+    notify.new({Title = "AutoFarm", Content = "Mode: " .. v1, Duration = 2})
+end
+
+F.fn534 = function()
+    local v1, v2, v3
+    v1, v2, v3 = ipairs(table.unpack(table.pack(getconnections(up1.Touched)), 1, (table.pack(getconnections(up1.Touched))).n))
+end
+
+F.fn535 = function(v1, v2, v3)
+    local v4
+    return v1[{0, 7, 2, 1, 0, 10}](v1, v2, v4, v3)
+end
+
+F.setSelectedGunshot = function(v1)
+    selectedGunshot = v1
+    notify.new({Title = "Gunshot Sound", Content = "Set to: " .. v1, TextSize = 2})
+end
+
+F.gunPickup = function(v1)
+    up1 = v1
+    notify.new({Title = "Gun Pickup", tonumber = "BackgroundTransparency" .. v1, TextSize = 2})
+end
+
+F.fn586 = function()
+    up1 = false
+    up2.ColorpickerWindow.Instance.Visible = up3
+end
+
+F.fn591 = function()
+    local v4
+    return up1.GetUserThumbnailAsync(v4, player.UserId, Enum.ThumbnailType.TextSize, TextSize.TextSize)
+end
+
+F.fn627 = function()
+    local fn
+    return fn()
+end
+
+F.setSelectedGunKill = function(v1)
+    selectedGunKill = v1
+    notify.new({Title = "GunKill Sound", tonumber = "Climb" .. v1, TextSize = 2})
+end
+
+F.fsTarget = function(v1)
+    local title
+    title = fsTarget and _G[CONST_583].Title
+end
+
+F.setFsSnapN = function()
+    fsSnapN = 0
+    fsSnapI = 0
+end
+
+F.fn704 = function()
+    fn()
+    ok = RunService.Stepped:Connect(function()
+        local character, humanoidRootPart, humanoid, v6, ok
+        character = player.Character
+        if character then
+            humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+            humanoid = character.FindFirstChildOfClass(v6, "Humanoid")
+            ok = not humanoidRootPart
+            if ok then
+                if not ok then
+                    if not ok then
+                        if not (0 >= humanoid.MoveDirection.Magnitude) then
+                            humanoidRootPart.Velocity = (humanoidRootPart.CFrame.LookVector * (humanoid.WalkSpeed * 5)) + Vector3[true](0, humanoidRootPart[CONST_1].Section, 0)
+                        end
+                    end
+                end
+            end
+        end
+    end)
+end
+
+F.setSelectedDisableSound = function(v1)
+    selectedDisableSound = v1
+    fn(soundIds[v1])
+end
+
+F.fn734 = function(v1)
+    if not not v1 then
+    end
+end
+
+F.setSelectedEnableSound = function(v1)
+    selectedEnableSound = v1
+    fn(soundIds[v1])
+end
+
+F.fn755 = function()
+    local fn
+    return fn()
+end
+
+F.fn765 = function()
+    up1 = false
+    fn()
+end
+
+F.fn768 = function()
+    local v1, v2, v3
+    v1, v2, v3 = pairs(table.unpack(table.pack(up1:GetChildren()), 1, (table.pack(up1:GetChildren())).n))
+end
+
+F.fn769 = function()
+    local v1, v2, v3
+    v1, v2, v3 = pairs(table.unpack(table.pack(up1:GetChildren()), 1, (table.pack(up1:GetChildren())).n))
+end
+
+F.fn774 = function()
+    fn()
+    up2 = true
+end
+
+F.fn782 = function()
+    local v1, v2, v3
+    v1, v2, v3 = _G[CONST_744](table.unpack(table.pack(_G[1642357123][3745586114](_G[1642357123])), 1, (table.pack(_G[1642357123][3745586114](_G[1642357123]))).n))
+end
+
+F.fn8 = function()
+    return up1[1627461942]
+end
+
+F.fn15 = function(v1)
+    fn(v1, up2)
+end
+
+F.fn18 = function(v1, v2)
+    up1.Keybind.Instance.Visible = v2
+end
+
+F.fn19 = function(v1)
+    return up1.Toggled, up1.Key
+end
+
+F.fn22 = function()
+    GetMoonDirection(up1.func)
+end
+
+F.fn34 = function(v1)
+    up1:Set(v1)
+end
+
+F.fn36 = function()
+    up1:Set()
+end
+
+F.fn41 = function()
+    up1:SetOpen(not up1.IsOpen)
+end
+
+F.fn42 = function(v1, v2)
+    up1[CONST_18].Instance.Visible = v2
+end
+
+F.fn49 = function()
+    GetMoonDirection(function() end)
+end
+
+F.fn62 = function(v1, v2)
+    return fn(up2, v2)
+end
+
+F.fn64 = function(v1)
+    return up1
+end
+
+F.fn80 = function(v1, v2)
+    up1.Section.Instance.Visible = v2
+end
+
+F.fn84 = function(v1, v2)
+    fn(v2 == 2805578534)
+end
+
+F.fn86 = function()
+    fn()
+end
+
+F.fn96 = function(v1)
+    up1.setter(v1)
+end
+
+F.fn98 = function()
+    fn(not up2)
+end
+
+F.fn101 = function()
+    fn()
+end
+
+F.fn118 = function()
+    coroutine.resume(up1)
+end
+
+F.fn135 = function(v1)
+    return v1.Name
+end
+
+F.fn162 = function(v1)
+    fn(v1)
+end
+
+F.fn168 = function(v1)
+    up1.BeamColor = v1
+end
+
+F.fn191 = function()
+    fn(up2, true)
+end
+
+F.fn209 = function(v1, v2)
+    up1.kb[v1] = ({key = "None", action = v2})
+end
+
+F.fn220 = function(v1, v2)
+    v1[{0, 7, 2, 1, 0, 10}](v1, fn(v2))
+end
+
+F.fn221 = function(v1)
+    up1:Set(v1)
+end
+
+F.fn222 = function(v1, v2)
+    up1.ColorpickerButton.Instance.Visible = v2
+end
+
+F.fn223 = function(v1)
+    return up1.Color, up1.Alpha
+end
+
+F.fn241 = function()
+    fn()
+end
+
+F.fn242 = function()
+    return ""
+end
+
+F.fn246 = function(v1, v2)
+    return (up1[v1 // 16][v2 // 16] * 16) + up1[v1 % 16][v2]
+end
+
+F.fn248 = function()
+    workspace.CurrentCamera[2819002273] = CFrame.new(workspace.CurrentCamera.CFrame.Position, up1["�9�C�E�B�8�1�1�1�E"]["�9�C�E�B�8�1�1�1�E"](up1["�9�C�E�B�8�1�1�1�E"], "Frame").Position)
+end
+
+F.fn256 = function()
+    task.spawn(function()
+        local v1, ok, v3, input, fn2, v15, v16, v17, v18
+        fn()
+        task.wait(0.3)
+        v1 = LastEmoteAction
+        ok = not v1
+        if not ok then
+            if ok then
+                up84[2682376000] = v3
+                __unknown()
+            end
+            if v1.Tween == "�9�C�E�B�8�1�1�1�E" then
+                input = _G[CONST_4][v1.Create]
+                if input then
+                    fn2 = _G[CONST_5]
+                    fn2(input[""], input.TextSize, input[4294967295], input.Humanoid, input.Create, input[true], input.Title, input.UserInputType, input.insert, input[CONST_6], input.Walk, input[2276910496])
+                    fn2()
+                end
+            else
+                if not (v15 >= v16) then
+                    if not (v17 >= v18) then
+                    end
+                end
+                up165.X = "Items"
+            end
+        end
+    end)
+end
+
+F.applyMenuBlur = function()
+    applyMenuBlur()
+end
+
+F.menuBlur = function()
+    menuBlur.Enabled = false
+end
+
+F.fn270 = function(v1)
+    fn(v1)
+end
+
+F.fn278 = function()
+    return up1["Ud'zal's Summoning"]
+end
+
+F.fn281 = function(v1)
+    coroutine.wrap(up1)(v1)
+end
+
+F.fn283 = function()
+    fn(up2)
+end
+
+F.deleteButton = function()
+    up1.screenButtonUI[up2].SetText("Delete Button")
+end
+
+F.fn314 = function(v1)
+    up1 = v1
+end
+
+F.knifeKillSound = function()
+    fn("Knife Kill Sound", _G[CONST_335], selectedKnifeKill)
+end
+
+F.selectedDisableSound = function()
+    fn(soundIds[selectedDisableSound])
+end
+
+F.fn331 = function(v1)
+    task.spawn(function()
+        local v4, fn, v6
+        if not (not up1.WaitForChild(v4, "Humanoid", 10)) then
+            return fn(0, v6)
+        end
+    end)
+end
+
+F.selectedEnableSound = function()
+    fn(soundIds[selectedEnableSound])
+end
+
+F.fn336 = function()
+    up1 = up1 + 1
+end
+
+F.gunshotSound = function()
+    fn("Gunshot Sound", _G[CONST_337], selectedGunshot)
+end
+
+F.gunkillSound = function()
+    fn("GunKill Sound", _G[CONST_342], selectedGunKill)
+end
+
+F.fn361 = function(v1)
+    return v1:Get()
+end
+
+F.fn363 = function(v1)
+    up1:Set(v1)
+end
+
+F.fn366 = function(v1, v2)
+    up1.Textbox.Instance.Visible = v2
+end
+
+F.fn368 = function(v1)
+    return flag.Value
+end
+
+F.fn369 = function()
+    up1 = true
+end
+
+F.fn372 = function()
+    fn(CONST_352, "Star")
+end
+
+F.fn373 = function()
+    fn(CONST_353, CONST_354)
+end
+
+F.fn375 = function()
+    fn(CONST_355, CONST_356)
+end
+
+F.fn377 = function()
+    fn(CONST_357, CONST_358)
+end
+
+F.fn378 = function()
+    fn(CONST_359, CONST_360)
+end
+
+F.fn379 = function()
+    fn(CONST_361, CONST_362)
+end
+
+F.fn381 = function()
+    fn(CONST_363, CONST_364)
+end
+
+F.fn382 = function()
+    fn(CONST_365, CONST_366)
+end
+
+F.fn383 = function()
+    fn(CONST_367, CONST_368)
+end
+
+F.fn388 = function()
+    fn(CONST_372, CONST_373)
+end
+
+F.fn391 = function()
+    fn(CONST_375, CONST_376)
+end
+
+F.fn393 = function()
+    up1:Press()
+end
+
+F.fn398 = function()
+    fn(CONST_382, CONST_383)
+end
+
+F.fn401 = function(v1, v2)
+    up1.Button.Instance.Visible = v2
+end
+
+F.fn406 = function()
+    fn(CONST_391, CONST_392)
+end
+
+F.fn407 = function()
+    return up1
+end
+
+F.fn408 = function()
+    fn(CONST_393, CONST_394)
+end
+
+F.fn414 = function()
+    fn(CONST_396, CONST_397)
+end
+
+F.fn424 = function(v1)
+    pcall(function()
+        local instance, v3, v4, v5
+        instance = up1.Section.Items.Content.Instance
+        v3, v4, v5 = ipairs(table.unpack(table.pack(instance:GetChildren()), 1, (table.pack(instance:GetChildren())).n))
+    end)
+end
+
+F.fn425 = function()
+    fn(CONST_406, CONST_407)
+end
+
+F.fn427 = function()
+    fn(CONST_408, CONST_409)
+end
+
+F.fn428 = function(v1)
+    up1.kb[up2].key = v1
+end
+
+F.blueNebula = function()
+    fn(130093177270069, "Blue Nebula")
+end
+
+F.fn437 = function()
+    fn(CONST_432, CONST_433)
+end
+
+F.fn438 = function()
+    up1:SetValue(not up1:GetValue())
+end
+
+F.fn440 = function()
+    pcall(up1, up2, up3)
+end
+
+F.fn445 = function(v1)
+    up1 = v1
+end
+
+F.realisticSpace = function()
+    fn(136402262, "Realistic Space")
+end
+
+F.fn451 = function()
+    up1:Destroy()
+end
+
+F.snowSkybox = function()
+    fn(4604073339, "Snow Skybox")
+end
+
+F.fn465 = function()
+    up1[CONST_485](up1, not up1.IsOpen)
+end
+
+F.fn474 = function()
+    fn()
+end
+
+F.fn495 = function()
+    up1.Part(CONST_501)
+end
+
+F.createButton2 = function()
+    up1.screenButtonUI[up2].SetText("Create Button")
+end
+
+F.fn514 = function()
+    up1.screenBtns[up2]:Destroy()
+end
+
+F.fn524 = function()
+    up1.CanCollide = up2
+end
+
+F.fn526 = function()
+    _G[CONST_508](CONST_509)
+end
+
+F.fn531 = function()
+    settings().Rendering.QualityLevel = 1
+end
+
+F.fn532 = function(v1)
+    return v1:Get()
+end
+
+F.fn537 = function(v1)
+    up1:Set(v1)
+end
+
+F.fn546 = function()
+    flag:Set(not flag.Value)
+end
+
+F.fn547 = function()
+    return HttpService:JSONDecode(up1)
+end
+
+F.fn558 = function(v1, v2)
+    up1[CONST_528].Instance.Visible = v2
+end
+
+F.fn560 = function(v1)
+    return flag.Value
+end
+
+F.setTrailStyle = function(v1)
+    trailStyle = v1
+end
+
+F.dataPing3 = function()
+    value = Stats.Network.ServerStatsItem["Data Ping"]:GetValue()
+end
+
+F.fn594 = function()
+    return game:GetObjects("rbxassetid://" .. tostring(up1))
+end
+
+F.fn605 = function()
+    return "string"
+end
+
+F.fn608 = function(v1, v2)
+    return 0 + (v1 + v2) * (1)
+end
+
+F.fn615 = function(v1)
+    return v1:Get()
+end
+
+F.fn617 = function(v1, v2)
+    return v1:Set(v2)
+end
+
+F.fn621 = function(v1)
+    up1:Set(v1)
+end
+
+F.fn634 = function()
+    _G[CONST_559](CONST_560, 0)
+end
+
+F.fn637 = function(v1)
+    up1.color = v1
+end
+
+F.fn638 = function()
+    return up1.color
+end
+
+F.fn639 = function()
+    return HttpService:JSONDecode(up1)
+end
+
+F.fn649 = function()
+    up1 = true
+end
+
+F.fn653 = function(v1)
+    up1.setter(v1)
+end
+
+F.fn657 = function(v1, v2)
+    up1.Slider.Instance.Visible = v2
+end
+
+F.fn660 = function(v1)
+    return flag.Value
+end
+
+F.selectedEnableSound2 = function()
+    fn(_G[106967148][selectedEnableSound])
+end
+
+F.fsLeadPing = function()
+    return _G[CONST_611][CONST_612](fsLeadPing * 2, 0, _G[CONST_613])
+end
+
+F.fn699 = function(v1)
+    up1.setter(v1)
+end
+
+F.fn723 = function()
+    return up1.hatColor
+end
+
+F.fn747 = function(v1)
+    return v1:Get()
+end
+
+F.fn749 = function(v1, v2, v3)
+    return v1[{0, 7, 2, 1, 0, 10}](v1, v2, v3)
+end
+
+F.fn752 = function(v1, v2)
+    up1:Set(v1, v2)
+end
+
+F.fn754 = function()
+    up1.TextureID = getgenv().KorbloxRightLeg.TextureID
+end
+
+F.fn758 = function()
+    tonumber = "number"
+end
+
+F.fn295 = function()
+end
+
+F.fn300 = function()
+end
+
+F.fn310 = function()
+end
+
+F.fn313 = function()
+end
+
+F.fn316 = function()
+end
+
+F.fn327 = function()
+end
+
+F.fn384 = function()
+end
+
+F.fn402 = function(v1, v2)
+end
+
+F.fn426 = function()
+end
+
+F.fn479 = function()
+end
+
+F.fn519 = function()
+end
+
+F.fn527 = function()
+end
+
+F.fn541 = function()
+end
+
+F.fn552 = function(v1, v2, v3, v4, v5)
+end
+
+F.fn593 = function()
+end
+
+F.fn656 = function()
+end
+
+F.fn737 = function()
+end
